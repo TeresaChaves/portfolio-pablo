@@ -1,0 +1,108 @@
+.uno-picture {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 86.676px 0px 0px 0px;
+  width: 839.028px;
+  height: 260.029px;
+  flex-shrink: 0;
+  opacity: 0;
+  transform: translateX(100%) scale(1);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  filter: grayscale(100%);
+  box-shadow: 0 0 0 transparent;
+}
+
+.uno-picture.slide-in,
+.dos-picture.slide-in,
+.tres-picture.slide-in,
+.cuatro-picture.slide-in {
+  opacity: 1;
+  transform: translateX(0) scale(1); /* Mueve a la posición final */
+}
+.uno-picture:hover,
+.dos-picture:hover,
+.tres-picture:hover,
+.cuatro-picture:hover {
+  filter: grayscale(0%);
+  color: white;
+  transform: scale(1.02); /* Imagen a color en el hover */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dos-picture {
+  border-radius: 86.676px 0px 0px 0px;
+  width: 943.039px;
+  height: 260.029px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  transform: translateX(100%) scale(1);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  filter: grayscale(100%);
+  color: transparent;
+}
+
+.tres-picture {
+  border-radius: 100px 0px 0px 0px;
+  width: 858px;
+  height: 260.029px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  transform: translateX(100%) scale(1);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  filter: grayscale(100%);
+}
+.cuatro-picture {
+  border-radius: 100px 0px 0px 0px;
+  width: 977px;
+  height: 260.029px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  transform: translateX(100%) scale(1);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  filter: grayscale(100%);
+  color: transparent;
+}
+
+.display-picture-home p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.display-picture-home p.image-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.display-picture-home:hover p.image-text {
+  opacity: 1;
+}
+
+.display-picture-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.display-picture-home p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+}
