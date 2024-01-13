@@ -1,39 +1,69 @@
-import React from "react";
-import nav from "../assets/menu.png";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./NavBar.css";
-import { isValidDateValue } from "@testing-library/user-event/dist/utils";
+import { useNavigate, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function NavBar() {
-  const [isMenuOpened, setMenuOpened] = useState(false);
+  const [isScrolled, setScrolled] = useState(false);
+  const [nombre, setNombre] = useState("PABLO CHAVES");
+  const { args } = useParams(); // Cambio aquí
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const toggleMenu = () => {
-    setMenuOpened(!isMenuOpened);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Lógica para determinar el nombre basándose en la ruta actual
+    const path = location.pathname;
+    if (path === "/cola-de-pez") {
+      setNombre("Cola de Pez");
+    } else if (path === "/elbanquete") {
+      setNombre("El Banquete");
+    } else {
+      setNombre("PABLO CHAVES");
+    }
+  }, [location.pathname]);
 
   return (
-    <nav className="menu-display">
-      <div id="menuToggle">
-        <input type="checkbox" />
-
-        <span></span>
-        <span></span>
-        <span></span>
-
-        <ul id="menu">
-          <a href="/">
-            <li>Proyectos</li>
-          </a>
-          <a href="/sobre-mi">
-            <li>Sobre mí</li>
-          </a>
-          <a href="/contacto">
-            <li>Contacto</li>
-          </a>
-        </ul>
-      </div>
+    <nav className={`menu-display ${isScrolled ? "scrolled" : ""}`}>
       <div>
-        <h1>PABLO CHAVES</h1>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/">
+              <li>Home</li>
+            </a>{" "}
+            <a href="/proyectos">
+              <li>Proyectos</li>
+            </a>
+            <a href="/coordinación">
+              <li>Coordinación/ Ayudantías</li>
+            </a>
+            <a href="/ayudantías">
+              <li>Bio</li>
+            </a>
+            <a href="/ayudantías">
+              <li>Contacto</li>
+            </a>
+          </ul>
+        </div>
+        <div className="nombre">
+          <h1>{nombre}</h1>
+          {/* <p>escenógrafo</p> */}
+        </div>
       </div>
     </nav>
   );

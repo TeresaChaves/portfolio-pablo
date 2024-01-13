@@ -1,14 +1,19 @@
-.uno-picture {
+/* .home-margin {
+  padding-top: 160px;
+} */
+
+.dos-picture {
   object-fit: cover;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  border-radius: 86.676px 0px 0px 0px;
-  width: 839.028px;
-  height: 260.029px;
+  border-radius: 86.676px 0px 0px 86.676px;
+  width: 1186.028px;
+  height: 435.029px;
+
   flex-shrink: 0;
   opacity: 0;
   transform: translateX(100%) scale(1);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
   filter: grayscale(100%);
   box-shadow: 0 0 0 transparent;
 }
@@ -18,7 +23,8 @@
 .tres-picture.slide-in,
 .cuatro-picture.slide-in {
   opacity: 1;
-  transform: translateX(0) scale(1); /* Mueve a la posición final */
+  transform: translateX(0) scale(1);
+  /* Mueve a la posición final */
 }
 .uno-picture:hover,
 .dos-picture:hover,
@@ -30,65 +36,101 @@
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.dos-picture {
-  border-radius: 86.676px 0px 0px 0px;
-  width: 943.039px;
-  height: 260.029px;
+.uno-picture {
+  border-radius: 86.676px 0px 0px 86.676px;
+  /* width: 71.2518rem;
+  height: 24.5018rem; */
+  width: 80vw;
+  height: 52vh;
+
   flex-shrink: 0;
   object-fit: cover;
   cursor: pointer;
   transform: translateX(100%) scale(1);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out,
+    filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   filter: grayscale(100%);
   color: transparent;
+}
+
+h1 {
+  margin: 0 !important;
+  font-size: 100px;
 }
 
 .tres-picture {
-  border-radius: 100px 0px 0px 0px;
+  border-radius: 86.676px 0px 0px 86.676px;
   width: 858px;
-  height: 260.029px;
+  height: 435.029px;
   flex-shrink: 0;
   object-fit: cover;
   cursor: pointer;
   transform: translateX(100%) scale(1);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out,
+    filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   filter: grayscale(100%);
 }
 .cuatro-picture {
-  border-radius: 100px 0px 0px 0px;
+  border-radius: 86.676px 0px 0px 86.676px;
   width: 977px;
-  height: 260.029px;
+  height: 435.029px;
   flex-shrink: 0;
   object-fit: cover;
   cursor: pointer;
   transform: translateX(100%) scale(1);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
   filter: grayscale(100%);
   color: transparent;
 }
 
-.display-picture-home p {
-  font-size: 20px;
-  font-weight: 200;
-  margin: 0;
-  padding: 0;
-  margin-left: 60px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+.text-teatro {
+  opacity: 1 !important;
 }
 
-.display-picture-home p.image-text {
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  margin-left: 60px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+.contenedor-principal {
+  /* Ajusta el estilo de tu contenedor principal según tus necesidades */
+  position: relative;
+  height: 100vh; /* Ajusta la altura como desees */
 }
 
-.display-picture-home:hover p.image-text {
-  opacity: 1;
+.scroll-indicator {
+  position: absolute;
+  bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+  left: 5%;
+  transform: translateX(-50%);
+  font-size: 34px; /* Ajusta el tamaño de la flecha */
+  cursor: pointer;
+  animation: tuAnimacion 1s infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s; /* Animación opcional para hacerla más llamativa */
+}
+
+.color-flecha {
+  color: #181717;
+  opacity: 0.3;
+}
+.text-teatro-light {
+  color: #181717;
+  opacity: 0.3;
+}
+
+@keyframes tuAnimacion {
+  0% {
+    /* Estilos iniciales */
+    transform: translateY(0);
+  }
+  50% {
+    /* Estilos a la mitad de la animación */
+    transform: translateY(5px);
+  }
+  100% {
+    /* Estilos finales */
+    transform: translateY(0);
+  }
+}
+.texto-foto {
+  text-align: center;
+  margin-left: 75px;
 }
 
 .display-picture-home {
@@ -100,9 +142,50 @@
   flex-wrap: wrap;
 }
 .display-picture-home p {
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 300;
   margin: 0;
-  padding: 0;
-  margin-left: 60px;
+  padding: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.animation-default {
+  opacity: 1 !important;
+  z-index: 3;
+}
+
+.image-text {
+  position: relative;
+  text-decoration: none;
+}
+
+.image-text::before {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  background-color: #272727;
+  height: 0.5px;
+  opacity: 0.5;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.image-text:hover::before,
+.image-text:focus::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.image-text:hover {
+  transform: scale(1.1); /* Puedes ajustar el valor según tus preferencias */
+  transition: transform 0.3s ease-out;
+}
+
+/* Agrega estilos para el efecto de subrayado al hacer clic */
+.image-text:active::before {
+  transform: scaleX(1);
+  transform-origin: bottom right;
 }
