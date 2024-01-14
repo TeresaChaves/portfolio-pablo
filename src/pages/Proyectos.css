@@ -33,6 +33,10 @@
   transition: opacity 1s ease-in-out, transform 1s ease-in-out,
     filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.img-top {
+  object-position: center 30%;
+}
 .article-proyectos-display .texto-proyectos-name .entrelineas span,
 .article-proyectos-display .texto-proyectos-name div span,
 .article-proyectos-display .texto-proyectos-name p {

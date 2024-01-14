@@ -29,6 +29,22 @@ function NavBar() {
       setNombre("Cola de Pez");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
+    } else if (path === "/no-estoy-de-frente") {
+      setNombre("No estoy de frente");
+    } else if (path === "/cucaracha") {
+      setNombre("Cucaracha con paisaje de fondo");
+    } else if (path === "/gaviotas") {
+      setNombre("Las Gaviotas");
+    } else if (path === "/elbanquete") {
+      setNombre("El Banquete");
+    } else if (path === "/proyectos") {
+      setNombre("PROYECTOS");
+    } else if (path === "/coordinación") {
+      setNombre("COORDINACIÓN/AYUDANTÍAS");
+    } else if (path === "/bio") {
+      setNombre("BIO");
+    } else if (path === "/contacto") {
+      setNombre("CONTACTO");
     } else {
       setNombre("PABLO CHAVES");
     }
@@ -62,7 +78,8 @@ function NavBar() {
         </div>
         <div className="nombre">
           <h1>{nombre}</h1>
-          {/* <p>escenógrafo</p> */}
+
+          {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
         </div>
       </div>
     </nav>

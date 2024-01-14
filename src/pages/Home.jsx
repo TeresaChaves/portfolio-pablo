@@ -1,11 +1,12 @@
 import NavBar from "../components/NavBar";
 import uno from "../assets/uno.jpeg";
 import dos from "../assets/dos.jpeg";
-import tres from "../assets/tres.jpeg";
+import tres from "../assets/elbanquete/0.jpg";
 import "../pages/Home.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import cuatro from "../assets/cuatro.jpeg";
+import cuatro from "../assets/cucaracha/0.jpg";
+import cinco from "../assets/gaviotas/subir3.jpg";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -52,7 +53,7 @@ function Home() {
     };
   }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [uno, dos, tres, cuatro]; // Agrega más imágenes según sea necesario
+  const images = [uno, dos, tres, cuatro, cinco]; // Agrega más imágenes según sea necesario
   const intervalDuration = 5000; // Cambia esto para ajustar la velocidad del carrusel
 
   useEffect(() => {
@@ -76,9 +77,8 @@ function Home() {
             <NavLink to="/proyectos">
               <p className="image-text">Coordinación</p>
             </NavLink>
-            <NavLink to="/proyectos">
-              <p className="image-text">Ayudantías</p>
-            </NavLink>
+            <p className="image-text">Ayudantías</p>
+            <NavLink to="/proyectos"></NavLink>
             <NavLink to="/proyectos">
               <p className="image-text">Bio</p>
             </NavLink>
