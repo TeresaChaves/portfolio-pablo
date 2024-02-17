@@ -37,14 +37,6 @@ function NavBar() {
       setNombre("Las Gaviotas");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
-    } else if (path === "/proyectos") {
-      setNombre("PROYECTOS");
-    } else if (path === "/coordinación") {
-      setNombre("COORDINACIÓN/AYUDANTÍAS");
-    } else if (path === "/bio") {
-      setNombre("BIO");
-    } else if (path === "/contacto") {
-      setNombre("CONTACTO");
     } else {
       setNombre("PABLO CHAVES");
     }
@@ -68,16 +60,16 @@ function NavBar() {
             <a href="/coordinación">
               <li>Coordinación/ Ayudantías</li>
             </a>
-            <a href="/ayudantías">
+            <a href="/biografia">
               <li>Bio</li>
             </a>
-            <a href="/ayudantías">
+            <a href="/contacto">
               <li>Contacto</li>
             </a>
           </ul>
         </div>
         <div className="nombre">
-          <h1>{nombre}</h1>
+          <h1 className="text-navbar">{nombre}</h1>
 
           {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
         </div>
