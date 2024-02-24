@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contacto.css";
 import pablo from "../assets/Pablo.jpg";
+import { useState } from "react";
 
 function Contacto() {
   return (
@@ -9,23 +10,7 @@ function Contacto() {
         <img className="img-contacto" src={pablo} alt="foto perfil" />
       </div>
       <div className="container-texto">
-        <h2 className="titulo-contacto">Bio</h2>
-        <p className="parrafo-contacto">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
-          animi quaerat! Placeat, harum repudiandae cupiditate commodi
-          aspernatur sint quo similique est ipsa, ipsum, reiciendis maiores sed
-          unde incidunt a minima. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Harum et enim accusamus, vero distinctio accusantium
-          amet. Laborum, saepe labore, hic magni repudiandae temporibus vitae
-          provident soluta quo fugit, quis ipsa.
-        </p>
-        <br />
-        <p className="parrafo-contacto">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
-          animi quaerat! Placeat, harum repudiandae cupiditate commodi
-          aspernatur sint quo similique est ipsa, ipsum, reiciendis maiores sed
-          unde incidunt a minima.
-        </p>
+        <h2 className="titulo-contacto">Contacto</h2>
       </div>
     </section>
   );

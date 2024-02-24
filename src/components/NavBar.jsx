@@ -42,6 +42,16 @@ function NavBar() {
     }
   }, [location.pathname]);
 
+  const [isTextVisible, setTextVisible] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setTextVisible(true);
+    }, 100); // Ajusta el tiempo según sea necesario
+
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   return (
     <nav className={`menu-display ${isScrolled ? "scrolled" : ""}`}>
       <div>
@@ -69,8 +79,9 @@ function NavBar() {
           </ul>
         </div>
         <div className="nombre">
-          <h1 className="text-navbar">{nombre}</h1>
-
+          <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
+            {nombre}
+          </h1>
           {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
         </div>
       </div>
