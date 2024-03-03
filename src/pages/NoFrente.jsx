@@ -1,5 +1,4 @@
 import "./ColaDePez.css";
-import coverNoFrente from "../assets/nofrente/1.jpg";
 import uno from "../assets/nofrente/1.jpg";
 import dos from "../assets/nofrente/2.jpg";
 import tres from "../assets/nofrente/3.jpg";
@@ -11,7 +10,6 @@ import ocho from "../assets/nofrente/8.jpg";
 import nueve from "../assets/nofrente/9.jpg";
 import diez from "../assets/nofrente/10.jpg";
 import React, { useState } from "react";
-import { useEffect } from "react";
 
 function NoFrente() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);

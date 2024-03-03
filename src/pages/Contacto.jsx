@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contacto.css";
 import pablo from "../assets/Pablo.jpg";
-import { useState } from "react";
 
 function Contacto() {
   return (

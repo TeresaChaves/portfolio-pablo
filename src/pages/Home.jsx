@@ -1,10 +1,8 @@
-import NavBar from "../components/NavBar";
 import uno from "../assets/uno.jpeg";
 import dos from "../assets/dos.jpeg";
 import tres from "../assets/elbanquete/0.jpg";
 import "../pages/Home.css";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import cuatro from "../assets/cucaracha/0.jpg";
 import cinco from "../assets/gaviotas/subir3.jpg";
 import { useState } from "react";

@@ -2,8 +2,6 @@ import React from "react";
 import "./Proyectos.css";
 import uno from "../assets/uno.jpeg";
 import dos from "../assets/dos.jpeg";
-import tres from "../assets/tres.jpeg";
-import cuatro from "../assets/cuatro.jpeg";
 import cinco from "../assets/cucaracha/0.jpg";
 import seis from "../assets/gaviotas/subir3.jpg";
 import siete from "../assets/elbanquete/0.jpg";
@@ -21,7 +19,11 @@ function Proyectos() {
             <p>Cola de pez</p>
           </div>
           <div>
-            <img className="img-proyectos" src={uno}></img>
+            <img
+              className="img-proyectos"
+              src={uno}
+              alt="foto de proyecto uno"
+            ></img>
           </div>
           <div className="texto-proyectos-name">
             <div className="entrelineas">
@@ -41,7 +43,11 @@ function Proyectos() {
             <p>No estoy de frente</p>
           </div>
           <div>
-            <img className="img-proyectos" src={dos}></img>
+            <img
+              className="img-proyectos"
+              src={dos}
+              alt="foto de proyecto dos"
+            ></img>
           </div>
           <div className="texto-proyectos-name">
             <div className="entrelineas">
@@ -61,7 +67,11 @@ function Proyectos() {
             <p>Cucharacha con paisaje de fondo</p>
           </div>
           <div>
-            <img className="img-proyectos" src={cinco}></img>
+            <img
+              className="img-proyectos"
+              src={cinco}
+              alt="foto de proyecto cinco"
+            ></img>
           </div>
           <div className="texto-proyectos-name">
             <div className="entrelineas">
@@ -81,7 +91,11 @@ function Proyectos() {
             <p>El banquete</p>
           </div>
           <div>
-            <img className="img-proyectos" src={siete}></img>
+            <img
+              className="img-proyectos"
+              src={siete}
+              alt="foto de proyecto siete"
+            ></img>
           </div>
           <div className="texto-proyectos-name">
             <div className="entrelineas">
@@ -101,7 +115,11 @@ function Proyectos() {
             <p>Gaviotas</p>
           </div>
           <div>
-            <img className="img-proyectos img-top" src={seis}></img>
+            <img
+              className="img-proyectos img-top"
+              src={seis}
+              alt="foto de proyecto seis"
+            ></img>
           </div>
           <div className="texto-proyectos-name">
             <div className="entrelineas">

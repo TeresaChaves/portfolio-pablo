@@ -1,5 +1,4 @@
 import "./ColaDePez.css";
-import coverColaPez from "../assets/cola-de-pez/1.png";
 import uno from "../assets/gaviotas/cover-gaviotas.jpg";
 import dos from "../assets/gaviotas/subir2.jpg";
 import tres from "../assets/gaviotas/subir3.jpg";
@@ -11,7 +10,6 @@ import ocho from "../assets/gaviotas/subir8.png";
 import nueve from "../assets/gaviotas/subir10.jpg";
 import diez from "../assets/gaviotas/uno.png";
 import React, { useState } from "react";
-import { useEffect } from "react";
 
 function Gaviotas() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);

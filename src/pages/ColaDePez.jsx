@@ -1,5 +1,4 @@
 import "./ColaDePez.css";
-import coverColaPez from "../assets/cola-de-pez/1.png";
 import uno from "../assets/cola-de-pez/1.png";
 import dos from "../assets/cola-de-pez/2.jpg";
 import tres from "../assets/cola-de-pez/3.png";
@@ -11,7 +10,6 @@ import ocho from "../assets/cola-de-pez/s.jpeg";
 import nueve from "../assets/cola-de-pez/subir2.png";
 import diez from "../assets/cola-de-pez/subir3.jpg";
 import React, { useState } from "react";
-import { useEffect } from "react";
 
 function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);

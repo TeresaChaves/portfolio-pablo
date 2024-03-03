@@ -1,5 +1,4 @@
 import "./ColaDePez.css";
-import coverColaPez from "../assets/elbanquete/0.jpg";
 import uno from "../assets/elbanquete/1.jpg";
 import dos from "../assets/elbanquete/3.jpg";
 import tres from "../assets/elbanquete/5.jpg";
@@ -11,7 +10,6 @@ import ocho from "../assets/elbanquete/s.JPG";
 import nueve from "../assets/elbanquete/subir2.JPG";
 import diez from "../assets/elbanquete/subir3.JPG";
 import React, { useState } from "react";
-import { useEffect } from "react";
 
 function ElBanquete() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);

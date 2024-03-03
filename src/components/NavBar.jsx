@@ -6,8 +6,6 @@ import { useLocation } from "react-router-dom";
 function NavBar() {
   const [isScrolled, setScrolled] = useState(false);
   const [nombre, setNombre] = useState("PABLO CHAVES");
-  const { args } = useParams(); // Cambio aquí
-  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
