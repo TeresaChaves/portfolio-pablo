@@ -10,6 +10,9 @@ function Contacto() {
       </div>
       <div className="container-texto">
         <h2 className="titulo-contacto">Contacto</h2>
+        <p className="parrafo-contacto">
+          Para contactar lo puedes hacer a traves de mi correo electrónico
+        </p>
       </div>
     </section>
   );
