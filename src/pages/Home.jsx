@@ -77,12 +77,9 @@ function Home() {
             <NavLink to="/proyectos">
               <p className="image-text">Proyectos</p>
             </NavLink>
-            <NavLink to="/proyectos">
-              <p className="image-text">Coordinación</p>
-            </NavLink>
-            <p className="image-text">Ayudantías</p>
+
             <NavLink to="/proyectos"></NavLink>
-            <NavLink to="/proyectos">
+            <NavLink to="/biografia">
               <p className="image-text">Bio</p>
             </NavLink>
             <NavLink to="/proyectos">

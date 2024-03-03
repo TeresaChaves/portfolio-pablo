@@ -64,9 +64,6 @@ function NavBar() {
             <a href="/proyectos">
               <li>Proyectos</li>
             </a>
-            <a href="/coordinación">
-              <li>Coordinación/ Ayudantías</li>
-            </a>
             <a href="/biografia">
               <li>Bio</li>
             </a>
@@ -75,12 +72,14 @@ function NavBar() {
             </a>
           </ul>
         </div>
-        <div className="nombre">
-          <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
-            {nombre}
-          </h1>
-          {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
-        </div>
+        <a href="/proyectos">
+          <div className="nombre">
+            <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
+              {nombre}
+            </h1>
+            {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
+          </div>
+        </a>
       </div>
     </nav>
   );
