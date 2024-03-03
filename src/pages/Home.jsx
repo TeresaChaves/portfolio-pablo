@@ -9,8 +9,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Home() {
-  const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
+    console.log("Efecto addSlideInClass ejecutado");
     // Función para agregar la clase después de un retraso
     const addSlideInClass = () => {
       const unoImage = document.querySelector(".uno-picture");
@@ -32,18 +32,19 @@ function Home() {
     const timeoutId = setTimeout(addSlideInClass, delay);
 
     // Limpia el timeout al desmontar el componente
-    return () => clearTimeout(timeoutId);
+    return () => {
+      console.log("Limpiando timeout");
+      clearTimeout(timeoutId);
+    };
   }, []);
 
   useEffect(() => {
+    console.log("Efecto handleMouseMove ejecutado");
     const handleMouseMove = () => {
-      setIsVisible(true);
       // Puedes ajustar el tiempo que la flecha permanece visible después de un movimiento del ratón
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 2000); // 2000 milisegundos (2 segundos) en este ejemplo
+      setTimeout(() => {}, 2000); // 2000 milisegundos (2 segundos) en este ejemplo
     };
-
+    console.log("Limpiando evento de mousemove");
     window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
@@ -55,14 +56,18 @@ function Home() {
   const intervalDuration = 5000; // Cambia esto para ajustar la velocidad del carrusel
 
   useEffect(() => {
+    console.log("Efecto carrusel ejecutado");
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
     }, intervalDuration);
 
-    return () => clearInterval(intervalId);
-  }, [currentIndex, images.length]);
+    return () => {
+      console.log("Limpiando intervalo");
+      clearInterval(intervalId);
+    };
+  }, [images.length, intervalDuration]);
 
   return (
     <div style={{ fontFamily: "Lato, sans-serif" }}>
@@ -85,7 +90,11 @@ function Home() {
             </NavLink>
           </div>
           <div className="image-display">
-            <img className="uno-picture" src={images[currentIndex]} alt="" />
+            <img
+              className="uno-picture"
+              src={images[currentIndex]}
+              alt="imagenes del banner"
+            />
           </div>
         </article>
 

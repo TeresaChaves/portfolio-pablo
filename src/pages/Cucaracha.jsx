@@ -1,5 +1,4 @@
 import "./ColaDePez.css";
-import coverColaPez from "../assets/cola-de-pez/1.png";
 import uno from "../assets/cucaracha/0.jpg";
 import dos from "../assets/cucaracha/0b.jpg";
 import tres from "../assets/cucaracha/0c.jpg";
@@ -11,7 +10,6 @@ import ocho from "../assets/cucaracha/7.jpg";
 import nueve from "../assets/cucaracha/8.jpg";
 import diez from "../assets/cucaracha/9.png";
 import React, { useState } from "react";
-import { useEffect } from "react";
 
 function Cucaracha() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
