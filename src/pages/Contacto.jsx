@@ -12,7 +12,7 @@ function Contacto() {
     window.location.href = `mailto:${destinatario}`;
   };
   return (
-    <section className="section-contacto">
+    <section className="section-contacto-contacto">
       <div className="container-foto-contacto">
         <img className="img-contacto-contacto" src={pablo} alt="foto perfil" />
       </div>
