@@ -82,7 +82,7 @@ function Home() {
             <NavLink to="/biografia">
               <p className="image-text">Bio</p>
             </NavLink>
-            <NavLink to="/proyectos">
+            <NavLink to="/contacto">
               <p className="image-text">Contacto</p>
             </NavLink>
           </div>
@@ -94,53 +94,6 @@ function Home() {
             />
           </div>
         </article>
-
-        {/* <Link to={"/el-banquete"}>
-          <article className="display-picture-home">
-            <div className="texto-foto">
-              <p className="image-text">El no se que</p>
-              <hr />
-
-              <span className="text-teatro-light">Dirección: </span>
-              <span>Teresa Chaves</span>
-              <br />
-              <span className="text-teatro-light">Teatro: </span>
-              <span>Fundación Canal</span>
-            </div>
-            <img className="dos-picture" src={tres} alt="" />
-          </article>
-        </Link>
-        <article className="display-picture-home">
-          <div className="texto-foto">
-            <p className="image-text">El no se que</p>
-            <hr />
-
-            <span className="text-teatro-light">Dirección: </span>
-            <span>Teresa Chaves</span>
-            <br />
-            <span className="text-teatro-light">Teatro: </span>
-            <span>Fundación Canal</span>
-          </div>
-          <img className="tres-picture" src={dos} alt="" />
-        </article>
-        <article className="display-picture-home">
-          <div className="texto-foto">
-            <p className="image-text">El no se que</p>
-            <hr />
-
-            <span className="text-teatro-light">Dirección: </span>
-            <span>Teresa Chaves</span>
-            <br />
-            <span className="text-teatro-light">Teatro: </span>
-            <span>Fundación Canal</span>
-          </div>
-          <img className="cuatro-picture" src={cuatro} alt="" />
-        </article> */}
-        {/* {isVisible ? (
-          <div className="scroll-indicator">
-            <span className="color-flecha">🡇</span>
-          </div>
-        ) : null} */}
       </section>
     </div>
   );
