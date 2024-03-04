@@ -45,3 +45,26 @@
   margin-bottom: 1rem;
   font-weight: 300;
 }
+
+@media only screen and (max-width: 576px) {
+  .container-foto {
+    min-width: 353px;
+    min-height: 145px;
+  }
+  .section-contacto {
+    flex-direction: column;
+  }
+  .titulo-contacto {
+    display: none;
+  }
+  .container-texto {
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    min-width: 303px !important;
+  }
+  .telefono-container {
+    margin-top: 10px;
+  }
+}

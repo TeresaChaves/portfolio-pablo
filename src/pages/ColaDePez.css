@@ -160,3 +160,9 @@
 .indicadores span.activo {
   background-color: #717171;
 }
+
+@media only screen and (max-width: 576px) {
+  .caja-container {
+    display: none;
+  }
+}
