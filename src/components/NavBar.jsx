@@ -51,7 +51,7 @@ function NavBar() {
 
   return (
     <nav className={`menu-display ${isScrolled ? "scrolled" : ""}`}>
-      <div>
+      <div className="container-nav">
         <div id="menuToggle">
           <input type="checkbox" />
           <span></span>

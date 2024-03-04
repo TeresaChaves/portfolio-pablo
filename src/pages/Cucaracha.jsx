@@ -120,22 +120,21 @@ function Cucaracha() {
         </div>
 
         <div class="caja-container">
+          <p className="text-ficha">Javier Ballesteros</p>
           <p className="text-ficha">Pablo Chaves</p>
-          <p className="text-ficha">Escenografía</p>
 
-          <p className="text-ficha">Teresa Chaves</p>
-          <p className="text-ficha">Dirección</p>
-          <p className="text-ficha">Teatros del Canal</p>
-          <p className="text-ficha">Madrid</p>
+          <p className="text-ficha">Víctor Nacarino</p>
+          <p className="text-ficha">Pablo Chaves</p>
+          <p className="text-ficha">Teatro Quique San Francisco</p>
+          <p className="text-ficha">Mujer en obras</p>
         </div>
         <div class="caja-container">
-          <p className="text-ficha2">Escenógrafo</p>
-          <p className="text-ficha2">Escenografía</p>
-
-          <p className="text-ficha2">Teresa Chaves</p>
           <p className="text-ficha2">Dirección</p>
-          <p className="text-ficha2">Teatros del Canal</p>
-          <p className="text-ficha2">Madrid</p>
+          <p className="text-ficha2">Escenografía</p>
+          <p className="text-ficha2">Ayte. dirección</p>
+          <p className="text-ficha2">Vestuario</p>
+          <p className="text-ficha2">Espacio</p>
+          <p className="text-ficha2">Producción</p>
         </div>
       </div>
       <div

@@ -129,13 +129,13 @@ function Gaviotas() {
           <p className="text-ficha">Madrid</p>
         </div>
         <div class="caja-container">
-          <p className="text-ficha2">Escenógrafo</p>
+          <p className="text-ficha2">Dirección</p>
           <p className="text-ficha2">Escenografía</p>
 
-          <p className="text-ficha2">Teresa Chaves</p>
-          <p className="text-ficha2">Dirección</p>
-          <p className="text-ficha2">Teatros del Canal</p>
-          <p className="text-ficha2">Madrid</p>
+          <p className="text-ficha2">Vestuario</p>
+          <p className="text-ficha2">Ayte. Dirección</p>
+          <p className="text-ficha2">Espacio</p>
+          <p className="text-ficha2">Producción</p>
         </div>
       </div>
       <div

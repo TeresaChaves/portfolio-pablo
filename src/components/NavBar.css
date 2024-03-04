@@ -180,3 +180,15 @@
   margin-top: -15px !important;
   margin-right: 6px !important;
 }
+@media only screen and (max-width: 576px) {
+  h1 {
+    margin: 0 !important;
+    font-size: 30px;
+  }
+  .nombre p {
+    margin-top: 0px !important;
+  }
+  .container-nav {
+    margin-top: 9px;
+  }
+}
