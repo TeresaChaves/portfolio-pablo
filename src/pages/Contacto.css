@@ -133,7 +133,6 @@
     display: none;
   }
   .container-texto {
-    flex-direction: row;
     gap: 20px;
     margin-left: 15px;
     margin-top: 10px;
