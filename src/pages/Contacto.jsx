@@ -2,6 +2,7 @@ import React from "react";
 import "./Contacto.css";
 import pablo from "../assets/Pablo.jpg";
 import telefono from "../assets/icons/telefono.png";
+import avion from "../assets/avion-de-papel.png";
 
 function Contacto() {
   const handleOpenMailClient = () => {
@@ -20,7 +21,10 @@ function Contacto() {
         <h2 className="titulo-contacto">Contacto</h2>
         <p className="parrafo-contacto"></p>
         <button className="button-correo" onClick={handleOpenMailClient}>
-          Enviar correo
+          <div className="button-content">
+            <p className="text-button">Enviar correo</p>
+            <img className="icon-avion" src={avion} alt="" />
+          </div>
         </button>
         <div className="telefono-container">
           <img src={telefono} className="tl-span"></img>
