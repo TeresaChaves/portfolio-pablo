@@ -18,19 +18,19 @@ function Contacto() {
       <div className="container-foto-contacto">
         <img className="img-contacto-contacto" src={pablo} alt="foto perfil" />
       </div>
-      <div className="container-texto">
+      <div className="container-texto-contact">
         <h2 className="titulo-contacto">Contacto</h2>
         <p className="parrafo-contacto"></p>
         <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
             <img className="icon-avion" src={avion} alt="" />
-            <p className="text-button">Enviar correo</p>
+            <p className="text-button">pablochavesmaza@gmail.com</p>
           </div>
         </a>
         <div className="telefono-container">
           <img src={phone2} className="tl-span"></img>
           <span>{""}</span>
-          <span className="num-span"> 600700231</span>
+          <span className="num-span">655932364</span>
         </div>
       </div>
     </section>
