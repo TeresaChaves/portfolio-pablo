@@ -44,6 +44,7 @@
   height: 2.5px;
   margin-bottom: 5px;
   position: relative;
+  opacity: 0.6;
   background: #4d4b4b;
   z-index: 1;
   transform-origin: 4px 0px;

@@ -6,6 +6,10 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   const [isScrolled, setScrolled] = useState(false);
   const [nombre, setNombre] = useState("PABLO CHAVES");
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  console.log("nombre", isScrolled);
+
   const location = useLocation();
 
   useEffect(() => {
@@ -50,25 +54,30 @@ function NavBar() {
     return () => clearTimeout(timeoutId);
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen); // Cambia el estado del menú (abierto/cerrado)
+  };
+
   return (
     <nav className={`menu-display ${isScrolled ? "scrolled" : ""}`}>
       <div className="container-nav">
         <div id="menuToggle">
-          <input type="checkbox" />
+          <input type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />{" "}
+          {/* Usa el estado del menú para controlar la apertura/cierre */}
           <span></span>
           <span></span>
           <span></span>
           <ul id="menu">
-            <NavLink to="/">
+            <NavLink to="/" onClick={toggleMenu}>
               <li>Home</li>
             </NavLink>{" "}
-            <NavLink to="/proyectos">
+            <NavLink to="/proyectos" onClick={toggleMenu}>
               <li>Proyectos</li>
             </NavLink>
-            <NavLink to="/biografia">
+            <NavLink to="/biografia" onClick={toggleMenu}>
               <li>Bio</li>
             </NavLink>
-            <NavLink to="/contacto">
+            <NavLink to="/contacto" onClick={toggleMenu}>
               <li>Contacto</li>
             </NavLink>
           </ul>
