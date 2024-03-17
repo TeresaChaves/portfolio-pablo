@@ -20,12 +20,12 @@ function Contacto() {
       <div className="container-texto">
         <h2 className="titulo-contacto">Contacto</h2>
         <p className="parrafo-contacto"></p>
-        <button className="button-correo" onClick={handleOpenMailClient}>
+        <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
             <p className="text-button">Enviar correo</p>
             <img className="icon-avion" src={avion} alt="" />
           </div>
-        </button>
+        </a>
         <div className="telefono-container">
           <img src={telefono} className="tl-span"></img>
           <span>{""}</span>

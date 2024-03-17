@@ -40,7 +40,7 @@
   overflow: hidden;
   background-color: #ffffff;
   color: #000;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   padding: 0px 20px; /* Ajusta el padding vertical según sea necesario */
   text-align: center;
   text-decoration: none;
@@ -52,7 +52,7 @@
   opacity: 0.7;
 }
 
-.button-correo::before {
+/* .button-correo::before {
   content: "";
   position: absolute;
   top: 0;
@@ -69,7 +69,7 @@
 
 .button-correo:hover {
   color: #ffffff;
-}
+} */
 .telefono-container {
   display: flex;
   flex-direction: row;
