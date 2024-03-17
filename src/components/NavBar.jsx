@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import { useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   const [isScrolled, setScrolled] = useState(false);
@@ -58,18 +59,18 @@ function NavBar() {
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="/">
+            <NavLink to="/">
               <li>Home</li>
-            </a>{" "}
-            <a href="/proyectos">
+            </NavLink>{" "}
+            <NavLink to="/proyectos">
               <li>Proyectos</li>
-            </a>
-            <a href="/biografia">
+            </NavLink>
+            <NavLink to="/biografia">
               <li>Bio</li>
-            </a>
-            <a href="/contacto">
+            </NavLink>
+            <NavLink to="/contacto">
               <li>Contacto</li>
-            </a>
+            </NavLink>
           </ul>
         </div>
         <a href="/proyectos">
