@@ -3,7 +3,7 @@ import "./Contacto.css";
 import pablo from "../assets/cinco.jpeg";
 import telefono from "../assets/icons/telefono.png";
 import avion from "../assets/avion-de-papel.png";
-import phone from "../assets/phone.svg";
+import phone2 from "../assets/phone2.svg";
 
 function Contacto() {
   const handleOpenMailClient = () => {
@@ -23,12 +23,12 @@ function Contacto() {
         <p className="parrafo-contacto"></p>
         <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
-            <p className="text-button">Enviar correo</p>
             <img className="icon-avion" src={avion} alt="" />
+            <p className="text-button">Enviar correo</p>
           </div>
         </a>
         <div className="telefono-container">
-          <img src={telefono} className="tl-span"></img>
+          <img src={phone2} className="tl-span"></img>
           <span>{""}</span>
           <span className="num-span"> 600700231</span>
         </div>
