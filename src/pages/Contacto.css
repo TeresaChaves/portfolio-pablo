@@ -73,7 +73,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 10px;
   gap: 7px;
 }
 .tl-span {
@@ -157,11 +157,23 @@
   .telefono-container {
     margin-top: 0px;
     align-items: center;
+    margin-bottom: 5px;
   }
   .img-contacto-contacto {
     width: 100%;
   }
   .num-span {
     font-size: 1rem;
+  }
+  .flex-mobile-phone-insta {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-avion {
+    width: 15px;
+    height: 15px;
+  }
+  .tl-span {
+    width: 22px;
   }
 }

@@ -4,6 +4,7 @@ import pablo from "../assets/cinco.jpeg";
 import telefono from "../assets/icons/telefono.png";
 import avion from "../assets/avion-de-papel.png";
 import phone2 from "../assets/phone2.svg";
+import insta from "../assets/instagram.svg";
 
 function Contacto() {
   const handleOpenMailClient = () => {
@@ -23,14 +24,22 @@ function Contacto() {
         <p className="parrafo-contacto"></p>
         <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
-            <img className="icon-avion" src={avion} alt="" />
+            <img className="icon-avion" src={avion} alt="icono" />
             <p className="text-button">pablochavesmaza@gmail.com</p>
           </div>
+          <hr className="hr-contacto" />
         </a>
-        <div className="telefono-container">
-          <img src={phone2} className="tl-span"></img>
-          <span>{""}</span>
-          <span className="num-span">655932364</span>
+        <div>
+          <div className="telefono-container">
+            <img src={phone2} className="tl-span"></img>
+            <span>{""}</span>
+            <span className="num-span">655932364</span>
+          </div>{" "}
+          <div className="telefono-container">
+            <img src={insta} className="tl-span"></img>
+            <span>{""}</span>
+            <span className="num-span">@pablochavesmaza</span>
+          </div>
         </div>
       </div>
     </section>
