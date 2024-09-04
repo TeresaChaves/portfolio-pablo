@@ -80,7 +80,7 @@ function Home() {
 
             <NavLink to="/proyectos"></NavLink>
             <NavLink to="/biografia">
-              <p className="image-text">Bio</p>
+              <p className="image-text">Biografía</p>
             </NavLink>
             <NavLink to="/contacto">
               <p className="image-text">Contacto</p>
