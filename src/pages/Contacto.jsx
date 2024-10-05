@@ -29,7 +29,7 @@ function Contacto() {
           </div>
           <hr className="hr-contacto" />
         </a>
-        <div>
+        <div className="flex-mobile-phone-insta">
           <div className="telefono-container">
             <img src={phone2} className="tl-span"></img>
             <span>{""}</span>

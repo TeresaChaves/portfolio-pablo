@@ -39,6 +39,10 @@ function NavBar() {
       setNombre("Las Gaviotas");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
+
+    }
+    else if (path === "/marcela") {
+      setNombre("Marcela:Una canción de Cervantes");
     } else {
       setNombre("PABLO CHAVES");
     }

@@ -10,6 +10,7 @@ import NoFrente from "../pages/NoFrente";
 import Gaviotas from "../pages/Gaviotas";
 
 import Cucaracha from "../pages/Cucaracha";
+import Marcela from "../pages/Marcela";
 function AppRoutes() {
   return (
     <Routes>
@@ -22,6 +23,7 @@ function AppRoutes() {
       <Route path="/no-estoy-de-frente" element={<NoFrente />} />
       <Route path="/cucaracha" element={<Cucaracha />} />
       <Route path="/gaviotas" element={<Gaviotas />} />
+      <Route path="/marcela" element={<Marcela />} />
     </Routes>
   );
 }

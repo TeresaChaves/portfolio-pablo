@@ -5,6 +5,7 @@ import dos from "../assets/dos.jpeg";
 import cinco from "../assets/cucaracha/0.jpg";
 import seis from "../assets/gaviotas/subir3.jpg";
 import siete from "../assets/elbanquete/0.jpg";
+import ocho from "../assets/prueba/A marcela.jpg";
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {
@@ -129,6 +130,30 @@ function Proyectos() {
             <div>
               <span className="text-teatro-light">En: </span>
               <span>Umbral del la Primavera</span>
+            </div>
+          </div>
+        </article>
+      </NavLink>
+      <NavLink to="/marcela">
+        <article className="article-proyectos-display">
+          <div className="texto-proyectos-name">
+            <p>Marcela: Una canción de Cervantes</p>
+          </div>
+          <div>
+            <img
+              className="img-proyectos img-top"
+              src={ocho}
+              alt="foto de proyecto seis"
+            ></img>
+          </div>
+          <div className="texto-proyectos-name">
+            <div className="entrelineas">
+              <span className="text-teatro-light">Dirección: </span>
+              <span>Leticia Dolera</span>
+            </div>
+            <div>
+              <span className="text-teatro-light">En: </span>
+              <span>Sala Cervantina</span>
             </div>
           </div>
         </article>

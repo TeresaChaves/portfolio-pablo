@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import pablo from "../assets/Pablo.jpg";
+import pablo from "../assets/FOTO BIO.jpg";
 
 function About() {
   return (
@@ -11,34 +11,43 @@ function About() {
       <div className="container-texto">
         <h2 className="titulo-contacto">Bio</h2>
         <p className="parrafo-contacto">
-          Pablo Chaves, nacido en Sevilla, ha dedicado su vida a fusionar sus
-          dos grandes pasiones: la arquitectura y el arte dramático. Después de
-          completar sus estudios en la prestigiosa Escuela de Arquitectura de
-          Sevilla, decidió explorar el mundo del arte escénico y se embarcó en
-          una emocionante travesía en la RESAD (Real Escuela Superior de Arte
-          Dramático). La convergencia de la estructura arquitectónica y la
-          expresividad dramática encendió la chispa de la creatividad en Pablo.
-          Fascinado por la magia detrás de los escenarios, decidió
-          especializarse en escenografía, uniendo sus conocimientos
-          arquitectónicos con la narrativa teatral. En este viaje, tuvo la
-          fortuna de ser guiado por la reconocida escenógrafa Marta Pazos, quien
-          le abrió las puertas al fascinante mundo de la escenografía a nivel
-          nacional.
+          Tras finalizar la carrera de arquitectura en la ETSA de Sevilla y
+          especializarse en escenografía por La Sapienza en Roma, se traslada a
+          Madrid para licenciarse en la RESAD en interpretación textual. Trabaja
+          6 años como arquitecto en un estudio en Madrid hasta que se pasa a la
+          escenografía definitivamente. Sus primeros pasos en la escenografía
+          los da como ayudante y más tarde coordinador de proyectos de Marta
+          Pazos en piezas como “Safo” de María Folguera estrenada en Mérida,
+          Teatre Romea y Teatros del Canal, “Othello” de Voadora, estrenada en
+          la Abadía y “Hoax Hamlet” en la Ciudad de la Cultura. Además también
+          realiza la arquitectura de otros proyectos de Marta Pazos para museos
+          (’’Conversatorio’’ para ARCO, ’’Contemplación’’ para el CGAC,
+          ’’Matria’’ en la PQ23, ’’Campo de figos’’ en la Ciudad de la Cultura).
+          También trabaja para otros escenógrafos como Max Glaenzel, Blanca
+          Agnon y José Novoa entre otros.
         </p>
-        <p className="parrafo-contacto">
+        {/* <p className="parrafo-contacto">
           Su destacado trabajo llegó a su punto álgido con la obra "Cucaracha
           con Paisaje de Fondo", dirigida por Javier Ballesteros. Esta
           producción le valió una nominación a los prestigiosos Premios Max en
           2022, donde fue reconocido como uno de los candidatos a Mejor
           Escenógrafo del año.
-        </p>
+        </p> */}
         <p className="parrafo-contacto">
-          Con su mente inquieta y su habilidad para crear mundos escénicos
-          cautivadores, Pablo Chaves sigue explorando nuevas formas de contar
-          historias a través de la escenografía. Su visión única y su
-          contribución al mundo del teatro le han consolidado como un talentoso
-          escenógrafo, dejando una huella duradera en la escena teatral
-          española.
+          Su primer diseño de escenografía (y vestuario) lo realiza para la obra
+          ’’Cucaracha con paisaje de fondo’’ de Javier Ballesteros para la
+          compañía Mujer en Obras en el Teatro Español y es nominado al Max por
+          mejor diseño de espacio escénico. Entre sus últimos proyectos destacan
+          trabajos como la escenografía y vestuario de ‘‘La Fortaleza’’ de Lucía
+          Carballal para La Compañía Nacional de Teatro Clásico, el espacio
+          escénico de’’Pequeño cúmulo de abismos’’ de Cris Blanco en el Teatro
+          María Guerrero, ’’Psicosis 4.48” dirigida por Luz Arcas en el Teatro
+          Español, la escenografía y vestuario de “El Banquete “ de la Ferviente
+          Compañía y de “Gaviotas” para Gritadero Teatro. Es colaborador en
+          Radio Nacional España en el programa ‘‘La sala’’ con Daniel Galindo,
+          en el que presenta una sección sobre los diferentes escenógrafos de la
+          vanguardia española. Actualmente combina su carrera como actor con la
+          de escenógrafo.
         </p>
       </div>
     </section>
