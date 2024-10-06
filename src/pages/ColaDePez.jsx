@@ -38,7 +38,6 @@ function ColaDePez() {
   ];
 
   const cambiarImagen = (direction) => {
-    console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
     console.log("Nuevo índice de imagen:", newIndex);
