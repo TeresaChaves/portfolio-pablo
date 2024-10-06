@@ -99,7 +99,6 @@ function Proyectos() {
                     <span>{proyecto.direccion}</span>
                   </div>
                   <div>
-                    <span className="text-teatro-light">En: </span>
                     <span>{proyecto.lugar}</span>
                   </div>
                   </div>
@@ -124,7 +123,6 @@ function Proyectos() {
                     <span>{proyecto.direccion}</span>
                   </div>
                   <div>
-                    <span className="text-teatro-light">En: </span>
                     <span>{proyecto.lugar}</span>
                   </div>
                 </div>
