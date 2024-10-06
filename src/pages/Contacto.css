@@ -102,7 +102,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0px 131px 131px 0px;
-  object-position: 70% 40%;
+  object-position: 70% 10%;
 }
 
 .titulo-contacto {
@@ -115,6 +115,7 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 300;
+  text-align: end;
 }
 
 .container-texto-contact {

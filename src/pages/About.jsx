@@ -5,8 +5,8 @@ import pablo from "../assets/FOTO BIO.jpg";
 function About() {
   return (
     <section className="section-contacto">
-      <div className="container-foto">
-        <img className="img-contacto" src={pablo} alt="foto perfil" />
+      <div className="container-foto-contacto">
+        <img className="img-contacto-contacto" src={pablo} alt="foto perfil" />
       </div>
       <div className="container-texto">
         <h2 className="titulo-contacto">Bio</h2>
