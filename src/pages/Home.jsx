@@ -86,6 +86,8 @@ function Home() {
               <p className="image-text">Contacto</p>
             </NavLink>
           </div>
+          <NavLink to="/proyectos">
+            
           <div className="image-display">
             <img
               className="uno-picture"
@@ -93,6 +95,8 @@ function Home() {
               alt="imagenes del banner"
             />
           </div>
+        </NavLink>
+
         </article>
       </section>
     </div>

@@ -137,7 +137,7 @@
 
 #menu li {
   padding: 3px 0;
-  font-size: 16px;
+  font-size: 22px;
   margin: 10px;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .nombre p {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 300;
   margin: 0 !important;
   margin-left: 20px;
@@ -203,5 +203,6 @@
   }
   #menuToggle{
    top:22px;
+   left:12px;
   }
 }

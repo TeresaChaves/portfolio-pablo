@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contacto.css";
-import pablo from "../assets/cinco.jpeg";
+import pablo from "../assets/elbanquete/IMG_1069.JPG";
 import telefono from "../assets/icons/telefono.png";
 import avion from "../assets/avion-de-papel.png";
 import phone2 from "../assets/phone2.svg";
@@ -21,7 +21,6 @@ function Contacto() {
       </div>
       <div className="container-texto-contact">
         <h2 className="titulo-contacto">Contacto</h2>
-        <p className="parrafo-contacto"></p>
         <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
             <img className="icon-avion" src={avion} alt="icono" />

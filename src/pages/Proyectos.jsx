@@ -99,7 +99,7 @@ function Proyectos() {
                     <span>{proyecto.direccion}</span>
                   </div>
                   <div>
-                    <span>{proyecto.lugar}</span>
+                    {/* <span>{proyecto.lugar}</span> */}
                   </div>
                   </div>
                 </div>

@@ -36,7 +36,7 @@ function NavBar() {
     } else if (path === "/cucaracha") {
       setNombre("Cucaracha con paisaje de fondo");
     } else if (path === "/gaviotas") {
-      setNombre("Las Gaviotas");
+      setNombre("Gaviotas");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
 
@@ -86,7 +86,7 @@ function NavBar() {
             </NavLink>
           </ul>
         </div>
-        <a href="/proyectos">
+        <a href="/">
           <div className="nombre">
             <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
               {nombre}

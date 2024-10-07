@@ -13,7 +13,8 @@
   max-width: 715px;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding-right: 34px;
+  margin-right: 60px;
+    margin-left: 60px;
 }
 
 .button-content {
@@ -87,35 +88,38 @@
 }
 
 .container-foto-contacto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  min-width: 675px;
-  min-height: 265px;
-  max-width: 202px;
-  height: 50px;
+display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    min-width: 875px;
+    min-height: 365px;
+    max-width: 202px;
+    height: 50px;
+    margin-top: 75px;
 }
 
 .img-contacto-contacto {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 0px 131px 131px 0px;
-  object-position: 70% 10%;
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px 500px 500px 0px;
+    object-position: 70% 10%;
 }
 
 .titulo-contacto {
   font-size: 1.6rem;
   margin-bottom: 1rem;
   font-weight: 200;
+  margin-left: 30px;
 }
 
 .parrafo-contacto {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
   font-weight: 300;
-  text-align: end;
+  text-align: start;
+  margin-left: 30px;
 }
 
 .container-texto-contact {
