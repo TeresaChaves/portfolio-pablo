@@ -208,7 +208,7 @@ display: flex;
     justify-content: center;
     min-width: auto;
     max-width: auto;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding-right: 34px;
             margin-left: 30px;
