@@ -111,7 +111,6 @@ display: flex;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   font-weight: 200;
-  margin-left: 30px;
 }
 
 .parrafo-contacto {
@@ -133,52 +132,105 @@ display: flex;
   padding-right: 34px;
 }
 
-@media only screen and (max-width: 576px) {
-  .container-foto-contacto {
-    min-width: 353px;
-    min-height: 145px;
-  }
-  .section-contacto-contacto {
-    flex-direction: column;
-  }
-  .titulo-contacto {
-    display: none;
+
+@media only screen and (max-width: 1696px) {
+  .container-texto {
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .container-texto-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-width: 719px;
-    /* max-width: 604px; */
-    /* min-width: 100px; */
-    align-items: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* gap: 20px; */
-    margin-left: 15px;
-    /* margin-top: 10px; */
-    min-width: 303px !important;
+    padding-right: 0px;
   }
-  .telefono-container {
-    margin-top: 0px;
+}
+@media only screen and (max-width: 1688px) {
+  .container-texto {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container-texto-contact {
+        min-width: 750px;
+  }
+  .container-foto-contacto {
+   
+    min-width: 775px;
+    
+}
+}
+@media only screen and (max-width: 1578px) {
+  .container-texto {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container-texto-contact {
+        min-width: 750px;
+  }
+.container-foto-contacto {
+        min-width: 685px;
+    }
+}
+@media only screen and (max-width: 1470px) {
+  .container-texto {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container-texto-contact {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: auto;
+    max-width: auto;
     align-items: center;
-    margin-bottom: 5px;
+    flex-wrap: wrap;
+    padding-right: 34px;
   }
-  .img-contacto-contacto {
-    width: 100%;
-  }
-  .num-span {
-    font-size: 1rem;
-  }
-  .flex-mobile-phone-insta {
+.container-foto-contacto {
+        min-width: 685px;
+    }
+
+    .section-contacto-contacto {
+   
+    
     display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    position: relative;
+    gap: 60px;
+}
+}
+@media only screen and (max-width: 1470px) {
+  .container-texto {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container-texto-contact {
+      display: flex;
     flex-direction: column;
+    justify-content: center;
+    min-width: auto;
+    max-width: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 34px;
+            margin-left: 30px;
   }
-  .icon-avion {
-    width: 15px;
-    height: 15px;
-  }
-  .tl-span {
-    width: 22px;
-  }
+.container-foto-contacto {
+        min-width: 685px;
+    }
+
+    .section-contacto-contacto {
+   
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+}
+
+@media only screen and (max-width: 720px) {
+    .container-foto-contacto {
+        min-width: 550px;
+    }
 }
