@@ -1,17 +1,21 @@
 import "./ColaDePez.css";
-import uno from "../assets/cucaracha/0.jpg";
-import dos from "../assets/cucaracha/0b.jpg";
-import tres from "../assets/cucaracha/0c.jpg";
-import cuatro from "../assets/cucaracha/0d.jpg";
-import cinco from "../assets/cucaracha/1.jpg";
-import seis from "../assets/cucaracha/3.jpg";
-import siete from "../assets/cucaracha/6.jpg";
-import ocho from "../assets/cucaracha/7.jpg";
-import nueve from "../assets/cucaracha/8.jpg";
-import diez from "../assets/cucaracha/9.png";
+import uno from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
+import dos from "../assets/psicosis/B PSICOSIS 4.48.jpeg";
+import tres from "../assets/psicosis/C PSICOSIS 4.48.jpg";
+import cuatro from "../assets/psicosis/D PSICOSIS 4.48.jpeg";
+import cinco from "../assets/psicosis/E PSICOSIS 4.48.jpeg";
+import seis from "../assets/psicosis/F PSICOSIS 4.48.jpeg";
+import siete from "../assets/psicosis/G PSICOSIS 4.48.jpg";
+import ocho from "../assets/psicosis/H PSICOSIS 4.48.jpg";
+import nueve from "../assets/psicosis/I PSICOSIS 4.48.jpg";
+import diez from "../assets/psicosis/J PSICOSIS 4.48.jpg";
+import once from "../assets/psicosis/K PSICOSIS 4.48.jpg";
+import doce from "../assets/psicosis/L PSICOSIS 4.48.jpg";
+
+
 import React, { useState } from "react";
 
-function Cucaracha() {
+function Psicosis() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
@@ -35,10 +39,12 @@ function Cucaracha() {
     ocho,
     nueve,
     diez,
+    once,
+    doce,
+  
   ];
 
   const cambiarImagen = (direction) => {
-    console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
     console.log("Nuevo índice de imagen:", newIndex);
@@ -85,43 +91,41 @@ function Cucaracha() {
             ❯
           </button>
         </div>
-        <div className="container-ficha-centrada">
-          <i className="name-ficha">
-            {" "}
-            <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
-          </i>
-          <i>
-            Dramaturgia y dirección: <span>Javier Ballesteros </span>
-          </i>
-          <i>
-            Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Reparto:
-            <span>
-              Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
-              Matilde Gimeno, María Jáimez y June Velayos{" "}
-            </span>{" "}
-          </i>{" "}
-          <i>
-            Ayte. dirección <span>Víctor Nacarino </span> /Música:
-            <span>Isabel Arranz </span>
-          </i>{" "}
-          <i>
-            Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
-            producción: <span>Juan Seade </span>
-          </i>
-          <i>
-            Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
-            Producción: <span>Mujer en obras 
-            </span>
-          </i>
-        </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div class="container">
+        <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en el Teatro Español</i>
+          <div className="container-ficha-centrada">
+            <i>
+              Dirección: <span>Luz Arcas - La Phármaco</span> Con{" "}
+              <span>Natalia Huarte</span>
+            </i>
+            <i>
+              Diseño de escenografía: <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Diseño de escenografía: <span>Jorge Colomer / </span> Diseño de
+              vestuario: <span>Luz Arcas / </span> Composición música original:{" "}
+              <span>Adrián Foulkes</span>
+            </i>
+            <i>
+              Diseño de espacio sonoro: <span>Pablo Contreras / </span>{" "}
+              Asistencia artística:
+              <span>Victoria Aime</span>
+            </i>{" "}
+            <i>
+              Colaboración artística: <span>Sebastián Vogler </span>/ Mirada
+              externa: <span>Teresa Casas</span>
+            </i>
+            <i>
+              Ayudante de dirección: <span>Javier L. Patiño </span> / Residente
+              de ayudantía de dirección<span>Cristina Hermida</span>
+            </i>
+      
+            <i>Una coproducción del Teatro Español y La Phármaco</i>
+          </div>
+        </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
@@ -150,6 +154,12 @@ function Cucaracha() {
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
             <img src={diez} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(9)}>
+            <img src={once} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(10)}>
+            <img src={doce} alt="Imagen 3" />
           </div>
         </div>
       </div>
@@ -184,5 +194,4 @@ function Cucaracha() {
     </section>
   );
 }
-
-export default Cucaracha;
+export default Psicosis;

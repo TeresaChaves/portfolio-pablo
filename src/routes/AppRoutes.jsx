@@ -12,6 +12,13 @@ import Gaviotas from "../pages/Gaviotas";
 import Cucaracha from "../pages/Cucaracha";
 import Marcela from "../pages/Marcela";
 import Fortaleza from "../pages/Fortaleza";
+import Tablao from "../pages/Tablao";
+import Psicosis from "../pages/Psicosis";
+import Guerra from "../pages/Guerra";
+
+
+
+
 function AppRoutes() {
   return (
     <Routes>
@@ -26,6 +33,9 @@ function AppRoutes() {
       <Route path="/gaviotas" element={<Gaviotas />} />
       <Route path="/marcela" element={<Marcela />} />
       <Route path="/fortaleza" element={<Fortaleza />} />
+      <Route path="/tablao" element={<Tablao />} />
+      <Route path="/psicosis" element={<Psicosis />} />
+      <Route path="/somos-la-guerra" element={<Guerra/>} />
     </Routes>
   );
 }

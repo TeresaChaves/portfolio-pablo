@@ -7,6 +7,12 @@ import seis from "../assets/gaviotas/subir3.jpg";
 import siete from "../assets/elbanquete/0.jpg";
 import ocho from "../assets/prueba/A marcela.jpg";
 import nueve from "../assets/la-fortaleza/F LA FORTALEZA.jpg";
+import diez from "../assets/tablao/A Tablao.jpg";
+import once from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
+import doce from "../assets/guerra/A SOMOS LA GUERRA.jpg";
+
+
+
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {
@@ -74,6 +80,27 @@ function Proyectos() {
       direccion: "Lucía Carballal",
       lugar: "Teatro de la Comedia",
       link: "/fortaleza",
+    },
+    {
+      title: "Tablao",
+      imgSrc: diez,
+      direccion: "Ernesto Artillo",
+      lugar: "Ca2m y Condeduque",
+      link: "/tablao",
+    },
+    {
+      title: "Psiocosis 4.48",
+      imgSrc: once,
+      direccion: "Luz Arcas",
+      lugar: " Teatro Español",
+      link: "/psicosis",
+    },
+    {
+      title: "Somos la guerra",
+      imgSrc: doce,
+      direccion: "Luz Arcas",
+      lugar: " Teatro Español",
+      link: "/somos-la-guerra",
     },
   ];
 

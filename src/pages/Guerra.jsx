@@ -1,17 +1,21 @@
 import "./ColaDePez.css";
-import uno from "../assets/cucaracha/0.jpg";
-import dos from "../assets/cucaracha/0b.jpg";
-import tres from "../assets/cucaracha/0c.jpg";
-import cuatro from "../assets/cucaracha/0d.jpg";
-import cinco from "../assets/cucaracha/1.jpg";
-import seis from "../assets/cucaracha/3.jpg";
-import siete from "../assets/cucaracha/6.jpg";
-import ocho from "../assets/cucaracha/7.jpg";
-import nueve from "../assets/cucaracha/8.jpg";
-import diez from "../assets/cucaracha/9.png";
+import uno from "../assets/guerra/A SOMOS LA GUERRA.jpg";
+import dos from "../assets/guerra/B SOMOS LA GUERRA.jpg";
+import tres from "../assets/guerra/C SOMOS LA GUERRA.jpg";
+import cuatro from "../assets/guerra/D SOMOS LA GUERRA.jpg";
+
+import cinco from "../assets/guerra/E SOMOS LA GUERRA.jpg";
+import seis from "../assets/guerra/F SOMOS LA GUERRA.jpg";
+import siete from "../assets/guerra/G SOMOS LA GUERRA.jpg";
+import ocho from "../assets/guerra/H SOMOS LA GUERRA.jpg";
+import nueve from "../assets/guerra/I SOMOS LA GUERRA.jpg";
+import diez from "../assets/guerra/J SOMOS LA GUERRA.jpg";
+import once from "../assets/guerra/K SOMOS LA GUERRA.jpg";
+
+
 import React, { useState } from "react";
 
-function Cucaracha() {
+function Guerra() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
@@ -35,10 +39,11 @@ function Cucaracha() {
     ocho,
     nueve,
     diez,
+    once,
+ 
   ];
 
   const cambiarImagen = (direction) => {
-    console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
     console.log("Nuevo índice de imagen:", newIndex);
@@ -85,43 +90,40 @@ function Cucaracha() {
             ❯
           </button>
         </div>
-        <div className="container-ficha-centrada">
-          <i className="name-ficha">
-            {" "}
-            <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
-          </i>
-          <i>
-            Dramaturgia y dirección: <span>Javier Ballesteros </span>
-          </i>
-          <i>
-            Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Reparto:
-            <span>
-              Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
-              Matilde Gimeno, María Jáimez y June Velayos{" "}
-            </span>{" "}
-          </i>{" "}
-          <i>
-            Ayte. dirección <span>Víctor Nacarino </span> /Música:
-            <span>Isabel Arranz </span>
-          </i>{" "}
-          <i>
-            Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
-            producción: <span>Juan Seade </span>
-          </i>
-          <i>
-            Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
-            Producción: <span>Mujer en obras 
-            </span>
-          </i>
-        </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div class="container">
+        <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en el Teatro de la Comedia.</i>
+          <div className="container-ficha-centrada">
+            <i>
+              Texto y dirección: <span>Lucía Carballal</span> Escenografía y
+              vestuario: <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Iluminación: <span>Pilar Valdelvira / </span>
+            </i>
+            <i>
+              Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
+              <span>Elvira Ruiz Zurita / </span>
+            </i>{" "}
+            <i>
+              texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
+              dirección
+              <span>Aitana Sar</span>
+            </i>{" "}
+            <i>
+              Agradecimientos:{" "}
+              <span>
+                Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
+                Retes, Aurelia González Y Sergio Adillo
+              </span>{" "}
+           
+            </i>
+         
+            <i>Producción: Compañía Nacional de Teatro Clásico </i>
+          </div>
+        </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
@@ -151,6 +153,10 @@ function Cucaracha() {
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
             <img src={diez} alt="Imagen 3" />
           </div>
+          <div className="grid-item" onClick={() => handleImagenClick(9)}>
+            <img src={once} alt="Imagen 3" />
+          </div>
+       
         </div>
       </div>
       <div
@@ -184,5 +190,4 @@ function Cucaracha() {
     </section>
   );
 }
-
-export default Cucaracha;
+export default Guerra;

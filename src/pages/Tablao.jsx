@@ -1,17 +1,25 @@
 import "./ColaDePez.css";
-import uno from "../assets/cucaracha/0.jpg";
-import dos from "../assets/cucaracha/0b.jpg";
-import tres from "../assets/cucaracha/0c.jpg";
-import cuatro from "../assets/cucaracha/0d.jpg";
-import cinco from "../assets/cucaracha/1.jpg";
-import seis from "../assets/cucaracha/3.jpg";
-import siete from "../assets/cucaracha/6.jpg";
-import ocho from "../assets/cucaracha/7.jpg";
-import nueve from "../assets/cucaracha/8.jpg";
-import diez from "../assets/cucaracha/9.png";
+import uno from "../assets/tablao/A Tablao.jpg";
+import dos from "../assets/tablao/B Tablao.jpg";
+import tres from "../assets/tablao/C Tablao.jpg";
+import cuatro from "../assets/tablao/D Tablao.jpg";
+import cinco from "../assets/tablao/E Tablao.png";
+import seis from "../assets/tablao/F Tablao.png";
+import siete from "../assets/tablao/G Tablao.png";
+import ocho from "../assets/tablao/H Tablao.jpg";
+import nueve from "../assets/tablao/I Tablao.jpg";
+import diez from "../assets/tablao/J Tablao.jpg";
+import once from "../assets/tablao/K Tablao.jpg";
+import doce from "../assets/tablao/L Tablao.jpg";
+import trece from "../assets/tablao/M Tablao.jpg";
+import catorce from "../assets/tablao/N Tablao.jpg";
+import quince from "../assets/tablao/O Tablao.png";
+import dieciseis from "../assets/tablao/P Tablao.png";
+
+
 import React, { useState } from "react";
 
-function Cucaracha() {
+function Tablao() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
@@ -35,10 +43,15 @@ function Cucaracha() {
     ocho,
     nueve,
     diez,
+    once,
+    doce,
+    trece,
+    catorce,
+    quince,
+    dieciseis,
   ];
 
   const cambiarImagen = (direction) => {
-    console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
     console.log("Nuevo índice de imagen:", newIndex);
@@ -85,43 +98,44 @@ function Cucaracha() {
             ❯
           </button>
         </div>
-        <div className="container-ficha-centrada">
-          <i className="name-ficha">
-            {" "}
-            <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
-          </i>
-          <i>
-            Dramaturgia y dirección: <span>Javier Ballesteros </span>
-          </i>
-          <i>
-            Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Reparto:
-            <span>
-              Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
-              Matilde Gimeno, María Jáimez y June Velayos{" "}
-            </span>{" "}
-          </i>{" "}
-          <i>
-            Ayte. dirección <span>Víctor Nacarino </span> /Música:
-            <span>Isabel Arranz </span>
-          </i>{" "}
-          <i>
-            Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
-            producción: <span>Juan Seade </span>
-          </i>
-          <i>
-            Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
-            Producción: <span>Mujer en obras 
-            </span>
-          </i>
-        </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div class="container">
+        <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en Ca2m y Condeduque.</i>
+          <div className="container-ficha-centrada">
+            <i>
+              Creado por <span>Ernesto Artillo </span> Arquitecto del proyecto{" "}
+              <span>Pablo Chaves</span>/Asesoría científica{" "}
+              <span>Alicia Navarro</span>
+            </i>
+            <i>
+              Formación:- Guitarra <span>Yerai Cortés </span> - Cante{" "}
+              <span>Niño de Elche </span>- Baile{" "}
+              <span>Andrés Marín y Rocío Molina</span>
+            </i>{" "}
+            <i>
+              Distribución y coordinación de producción{" "}
+              <span>Cal Producciones</span> Ayudante de dirección
+              <span>Aitana Sar</span>
+            </i>{" "}
+            <i>
+              Coordinación técnica <span>Txisco Velasco /</span> Diseño
+              iluminación <span>Antonio Valiente AAI</span>
+            </i>
+            <i>
+              Sonido <span>Víctor Tomé / </span> Maquinaria{" "}
+              <span>Jorge Limosnita </span> Asistencia en iluminación{" "}
+              <span>Suh- Güein</span>
+            </i>
+            <i>
+              Una producción <span>del Museo Ca2m</span>{" "}
+            </i>
+            <i>
+              Con el apoyo de <span>Corral de La Morería</span>
+            </i>
+          </div>
+        </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
@@ -150,6 +164,18 @@ function Cucaracha() {
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
             <img src={diez} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(9)}>
+            <img src={once} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(10)}>
+            <img src={doce} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(11)}>
+            <img src={trece} alt="Imagen 3" />
+          </div>
+          <div className="grid-item" onClick={() => handleImagenClick(12)}>
+            <img src={catorce} alt="Imagen 3" />
           </div>
         </div>
       </div>
@@ -184,5 +210,4 @@ function Cucaracha() {
     </section>
   );
 }
-
-export default Cucaracha;
+export default Tablao;

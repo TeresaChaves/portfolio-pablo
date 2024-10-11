@@ -39,13 +39,19 @@ function NavBar() {
       setNombre("Gaviotas");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
+    } else if (path === "/marcela") {
+      setNombre("Marcela:Una canción de Cervantes");
+    } else if (path === "/fortaleza") {
+      setNombre("La Fortaleza");
+    } else if (path === "/tablao") {
+      setNombre("Tablao");
 
     }
-    else if (path === "/marcela") {
-      setNombre("Marcela:Una canción de Cervantes");
+    else if (path === "/psicosis") {
+      setNombre("Psicosis 4.48");
     }
-    else if (path === "/fortaleza") {
-      setNombre("La Fortaleza");
+    else if (path === "/somos-la-guerra") {
+      setNombre("Somos la guerra");
     }
     else {
       setNombre("PABLO CHAVES");

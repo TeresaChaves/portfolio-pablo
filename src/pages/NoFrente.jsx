@@ -88,35 +88,25 @@ function NoFrente() {
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div className="container-ficha-centrada">
-        <i>
-          Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
-          <span>Pablo Chaves</span>
-        </i>
-        <i>
-          Intérprete: <span>Egoitz Sánchez</span>
-        </i>
-        <i>
-          Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
-          iluminación: <span>Elena Alejandre</span>
-        </i>{" "}
-        <i>
-          Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
-          <span>Pablo Martínez</span>
-        </i>{" "}
-        <i>
-          Directora de producción: <span>Milena Suárez</span> / Ayudante de
-          producción: <span>Paula Pina</span>
-        </i>
-        <i>
-          Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
-          Edición de visuales: <span>Ana Caro</span>
-        </i>
-        <i>
-          Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
-          <span>Celia Freijeiro</span>
-        </i>
-        <i>Una producción de la Sociedad Cervantina</i>
-        <i>con el apoyo de INAEM y Fundación La Caixa</i>
+        <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
+        <div className="container-ficha-centrada">
+          <i>
+            Dirección: <span>Chiqui Carabante y Paco León </span> /
+            Escenografía: <span>Pablo Chaves</span>
+          </i>
+          <i>
+            Autoría: <span>MariPaz Sayago y Chiqui Carabante</span>
+          </i>
+          <i>
+            Intérprete: <span>MariPaz Sayago </span> / Música:{" "}
+            <span>Depipio</span>
+          </i>{" "}
+          <i>
+            Iluminación: <span>Irene Cantero</span> / Fotografía:
+            <span>María Artiaga y Concha de la Rosa / </span>
+          </i>{" "}
+         
+        </div>
       </div>
       <div class="container">
         <div class="grid-container">
