@@ -87,28 +87,28 @@ function NoFrente() {
         </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
-      <div className="container-ficha-centrada">
-        <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
-        <div className="container-ficha-centrada">
-          <i>
-            Dirección: <span>Chiqui Carabante y Paco León </span> /
-            Escenografía: <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Autoría: <span>MariPaz Sayago y Chiqui Carabante</span>
-          </i>
-          <i>
-            Intérprete: <span>MariPaz Sayago </span> / Música:{" "}
-            <span>Depipio</span>
-          </i>{" "}
-          <i>
-            Iluminación: <span>Irene Cantero</span> / Fotografía:
-            <span>María Artiaga y Concha de la Rosa / </span>
-          </i>{" "}
-         
-        </div>
-      </div>
+
       <div class="container">
+        <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
+          <div className="container-ficha-centrada">
+            <i>
+              Dirección: <span>Chiqui Carabante y Paco León </span> /
+              Escenografía: <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Autoría: <span>MariPaz Sayago y Chiqui Carabante</span>
+            </i>
+            <i>
+              Intérprete: <span>MariPaz Sayago </span> / Música:{" "}
+              <span>Depipio</span>
+            </i>{" "}
+            <i>
+              Iluminación: <span>Irene Cantero</span> / Fotografía:
+              <span>María Artiaga y Concha de la Rosa / </span>
+            </i>{" "}
+          </div>
+        </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />

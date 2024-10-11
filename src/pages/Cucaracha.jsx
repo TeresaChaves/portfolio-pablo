@@ -85,6 +85,10 @@ function Cucaracha() {
             ❯
           </button>
         </div>
+
+        <Indicadores total={imagenes.length} actual={imagenIndex} />
+      </div>
+      <div class="container">
         <div className="container-ficha-centrada">
           <i className="name-ficha">
             {" "}
@@ -115,13 +119,9 @@ function Cucaracha() {
             Cartelería: <span>Alejandra Sánchez-Mateos</span>
           </i>
           <i>
-            Producción: <span>Mujer en obras 
-            </span>
+            Producción: <span>Mujer en obras</span>
           </i>
         </div>
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
-      </div>
-      <div class="container">
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
@@ -153,6 +153,7 @@ function Cucaracha() {
           </div>
         </div>
       </div>
+
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
         onClick={cerrarImagenAmpliada}

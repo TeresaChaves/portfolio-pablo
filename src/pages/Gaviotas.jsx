@@ -85,6 +85,10 @@ function Gaviotas() {
             ❯
           </button>
         </div>
+
+        <Indicadores total={imagenes.length} actual={imagenIndex} />
+      </div>
+      <div class="container">
         <div className="container-ficha-centrada">
           <i>
             Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
@@ -116,9 +120,6 @@ function Gaviotas() {
           <i>Una producción de la Sociedad Cervantina</i>
           <i>con el apoyo de INAEM y Fundación La Caixa</i>
         </div>
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
-      </div>
-      <div class="container">
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
