@@ -4,13 +4,13 @@ import pablo from "../assets/FOTO BIO.jpg";
 
 function About() {
   return (
-    <section className="section-contacto">
-      <div className="container-foto-contacto">
-        <img className="img-contacto-contacto" src={pablo} alt="foto perfil" />
+    <section className="section-contacto-about">
+      <div className="container-foto-about">
+        <img className="img-contacto-about" src={pablo} alt="foto perfil" />
       </div>
-      <div className="container-texto">
-        <h2 className="titulo-contacto">Bio</h2>
-        <p className="parrafo-contacto">
+      <div className="container-texto-about">
+        <h2 className="titulo-contacto-about">Bio</h2>
+        <p className="parrafo-contacto-about">
           Tras finalizar la carrera de arquitectura en la ETSA de Sevilla y
           especializarse en escenografía por La Sapienza en Roma, se traslada a
           Madrid para licenciarse en la RESAD en interpretación textual. Trabaja
@@ -26,14 +26,8 @@ function About() {
           También trabaja para otros escenógrafos como Max Glaenzel, Blanca
           Agnon y José Novoa entre otros.
         </p>
-        {/* <p className="parrafo-contacto">
-          Su destacado trabajo llegó a su punto álgido con la obra "Cucaracha
-          con Paisaje de Fondo", dirigida por Javier Ballesteros. Esta
-          producción le valió una nominación a los prestigiosos Premios Max en
-          2022, donde fue reconocido como uno de los candidatos a Mejor
-          Escenógrafo del año.
-        </p> */}
-        <p className="parrafo-contacto">
+   
+        <p className="parrafo-contacto-about">
           Su primer diseño de escenografía (y vestuario) lo realiza para la obra
           ’’Cucaracha con paisaje de fondo’’ de Javier Ballesteros para la
           compañía Mujer en Obras en el Teatro Español y es nominado al Max por
