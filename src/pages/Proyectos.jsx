@@ -6,6 +6,7 @@ import cinco from "../assets/cucaracha/0.jpg";
 import seis from "../assets/gaviotas/subir3.jpg";
 import siete from "../assets/elbanquete/0.jpg";
 import ocho from "../assets/prueba/A marcela.jpg";
+import nueve from "../assets/la-fortaleza/F LA FORTALEZA.jpg";
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {
@@ -66,6 +67,13 @@ function Proyectos() {
       direccion: "Leticia Dolera",
       lugar: "Sala Cervantina",
       link: "/marcela",
+    },
+    {
+      title: "La Fortaleza",
+      imgSrc: nueve,
+      direccion: "Lucía Carballal",
+      lugar: "Teatro de la Comedia",
+      link: "/fortaleza",
     },
   ];
 

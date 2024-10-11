@@ -85,6 +85,37 @@ function Cucaracha() {
             ❯
           </button>
         </div>
+        <div className="container-ficha-centrada">
+          <i>
+            Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
+            <span>Pablo Chaves</span>
+          </i>
+          <i>
+            Intérprete: <span>Egoitz Sánchez</span>
+          </i>
+          <i>
+            Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
+            iluminación: <span>Elena Alejandre</span>
+          </i>{" "}
+          <i>
+            Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
+            <span>Pablo Martínez</span>
+          </i>{" "}
+          <i>
+            Directora de producción: <span>Milena Suárez</span> / Ayudante de
+            producción: <span>Paula Pina</span>
+          </i>
+          <i>
+            Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
+            Edición de visuales: <span>Ana Caro</span>
+          </i>
+          <i>
+            Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
+            <span>Celia Freijeiro</span>
+          </i>
+          <i>Una producción de la Sociedad Cervantina</i>
+          <i>con el apoyo de INAEM y Fundación La Caixa</i>
+        </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div class="container">
@@ -117,24 +148,6 @@ function Cucaracha() {
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
             <img src={diez} alt="Imagen 3" />
           </div>
-        </div>
-
-        <div class="caja-container">
-          <p className="text-ficha">Javier Ballesteros</p>
-          <p className="text-ficha">Pablo Chaves</p>
-
-          <p className="text-ficha">Víctor Nacarino</p>
-          <p className="text-ficha">Pablo Chaves</p>
-          <p className="text-ficha">Teatro Quique San Francisco</p>
-          <p className="text-ficha">Mujer en obras</p>
-        </div>
-        <div class="caja-container">
-          <p className="text-ficha2">Dirección</p>
-          <p className="text-ficha2">Escenografía</p>
-          <p className="text-ficha2">Ayte. dirección</p>
-          <p className="text-ficha2">Vestuario</p>
-          <p className="text-ficha2">Espacio</p>
-          <p className="text-ficha2">Producción</p>
         </div>
       </div>
       <div

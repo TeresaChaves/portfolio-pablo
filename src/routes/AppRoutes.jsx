@@ -11,6 +11,7 @@ import Gaviotas from "../pages/Gaviotas";
 
 import Cucaracha from "../pages/Cucaracha";
 import Marcela from "../pages/Marcela";
+import Fortaleza from "../pages/Fortaleza";
 function AppRoutes() {
   return (
     <Routes>
@@ -24,6 +25,7 @@ function AppRoutes() {
       <Route path="/cucaracha" element={<Cucaracha />} />
       <Route path="/gaviotas" element={<Gaviotas />} />
       <Route path="/marcela" element={<Marcela />} />
+      <Route path="/fortaleza" element={<Fortaleza />} />
     </Routes>
   );
 }

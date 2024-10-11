@@ -87,6 +87,37 @@ function NoFrente() {
         </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
+      <div className="container-ficha-centrada">
+        <i>
+          Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
+          <span>Pablo Chaves</span>
+        </i>
+        <i>
+          Intérprete: <span>Egoitz Sánchez</span>
+        </i>
+        <i>
+          Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
+          iluminación: <span>Elena Alejandre</span>
+        </i>{" "}
+        <i>
+          Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
+          <span>Pablo Martínez</span>
+        </i>{" "}
+        <i>
+          Directora de producción: <span>Milena Suárez</span> / Ayudante de
+          producción: <span>Paula Pina</span>
+        </i>
+        <i>
+          Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
+          Edición de visuales: <span>Ana Caro</span>
+        </i>
+        <i>
+          Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
+          <span>Celia Freijeiro</span>
+        </i>
+        <i>Una producción de la Sociedad Cervantina</i>
+        <i>con el apoyo de INAEM y Fundación La Caixa</i>
+      </div>
       <div class="container">
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
@@ -117,60 +148,6 @@ function NoFrente() {
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
             <img src={diez} alt="Imagen 3" />
           </div>
-        </div>
-
-        <div class="caja-container">
-          <p className="text-ficha">Paco León</p>
-          <p className="text-ficha">Pablo Chaves</p>
-
-          <p className="text-ficha">Pablo Chaves</p>
-          <p className="text-ficha">Mari Paz Sayago</p>
-          <p className="text-ficha">Teatros del Canal</p>
-          <p className="text-ficha">MariPaz Sayago Producciones</p>
-        </div>
-        <div class="caja-container">
-          <p className="text-ficha2">Dirección</p>
-          <p className="text-ficha2">Escenografía</p>
-
-          <p className="text-ficha2">Vestuario</p>
-          <p className="text-ficha2">Autor</p>
-          <p className="text-ficha2">Espacio</p>
-          <p className="text-ficha2">Producción</p>
-        </div>
-      </div>
-
-      <div className="container-ficha-centrada">
-        <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
-        <div className="container-ficha-centrada">
-          <i>
-            Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
-            <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Intérprete: <span>Egoitz Sánchez</span>
-          </i>
-          <i>
-            Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
-            iluminación: <span>Elena Alejandre</span>
-          </i>{" "}
-          <i>
-            Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
-            <span>Pablo Martínez</span>
-          </i>{" "}
-          <i>
-            Directora de producción: <span>Milena Suárez</span> / Ayudante de
-            producción: <span>Paula Pina</span>
-          </i>
-          <i>
-            Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
-            Edición de visuales: <span>Ana Caro</span>
-          </i>
-          <i>
-            Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
-            <span>Celia Freijeiro</span>
-          </i>
-          <i>Una producción de la Sociedad Cervantina</i>
-          <i>con el apoyo de INAEM y Fundación La Caixa</i>
         </div>
       </div>
 

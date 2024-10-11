@@ -43,7 +43,11 @@ function NavBar() {
     }
     else if (path === "/marcela") {
       setNombre("Marcela:Una canción de Cervantes");
-    } else {
+    }
+    else if (path === "/fortaleza") {
+      setNombre("La Fortaleza");
+    }
+    else {
       setNombre("PABLO CHAVES");
     }
   }, [location.pathname]);
