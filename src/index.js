@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'typeface-lato';
 import { BrowserRouter as Router } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-        <Router>
+  <Router>
+      <ScrollToTop />
           <App />
         </Router>
 );
