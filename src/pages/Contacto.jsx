@@ -37,7 +37,12 @@ function Contacto() {
           <div className="telefono-container">
             <img src={insta} className="tl-span"></img>
             <span>{""}</span>
-            <span className="num-span">@pablochavesmaza</span>
+            <a
+              href="https://www.instagram.com/pablochavesmaza/?hl=es
+            "
+            >
+              <span className="num-span">@pablochavesmaza</span>
+            </a>
           </div>
         </div>
       </div>
