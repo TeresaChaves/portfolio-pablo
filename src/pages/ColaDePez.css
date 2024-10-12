@@ -1,20 +1,24 @@
 .cover_colaPez {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10px;
+  object-fit: cover;
+  background-image: url("../assets/cola-de-pez/1.png");
+  background-size: cover; /* Cambiado de 250% a cover */
+  background-attachment: fixed;
+  background-position: center; /* Centra la imagen de fondo */
+}
+.cover_cucaracha {
+  position: relative;
   width: 100%;
   height: 100vh;
   object-fit: cover;
   margin-top: 10px;
-}
-
-.container {
-display: flex;
-    width: 100%;
-    position: relative;
-    /* margin-top: 67px; */
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    gap: 30px;
+  background-image: url("../assets/cucaracha/0.jpg"); /* Puedes poner cualquier imagen aquí */
+ background-size: cover; /* Cambiado de 250% a cover */
+  background-attachment: fixed;
+  background-position: center;  /* Centra la imagen de fondo */
 }
 
 
