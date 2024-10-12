@@ -90,35 +90,33 @@ function ElBanquete() {
       </div>
       <div class="container">
         <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
           <i>
-            Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
-            <span>Pablo Chaves</span>
+            Dirección: <span>Adrián Pulido</span>
           </i>
           <i>
-            Intérprete: <span>Egoitz Sánchez</span>
+            Escenografía y vestuario <span>Pablo Chaves</span>
           </i>
           <i>
-            Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
-            iluminación: <span>Elena Alejandre</span>
+            Texto: <span>Tony Galán</span>
+          </i>
+          <i>
+            Mundo sonoro: :
+            <span>Adrián Pulido, Pablo Sánchez y Juan Sánchez </span>
           </i>{" "}
           <i>
-            Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
-            <span>Pablo Martínez</span>
+            Dirección de movimiento: <span>Juando Martínez Montiel / </span>
+            Diseño de Luces
+            <span>Alvaro Guisado Garavito</span>
           </i>{" "}
           <i>
-            Directora de producción: <span>Milena Suárez</span> / Ayudante de
-            producción: <span>Paula Pina</span>
+            Ayudantía de dirección: <span>: Iñaki Danta </span> /Fotografía y
+            cartel: <span>Xose Roi Martínez</span>
           </i>
           <i>
-            Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
-            Edición de visuales: <span>Ana Caro</span>
+            Comunicación y prensa: <span>de Amanda H C - Proyecto Duas</span> 
           </i>
-          <i>
-            Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
-            <span>Celia Freijeiro</span>
-          </i>
-          <i>Una producción de la Sociedad Cervantina</i>
-          <i>con el apoyo de INAEM y Fundación La Caixa</i>
+      
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>

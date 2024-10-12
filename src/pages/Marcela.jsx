@@ -90,14 +90,12 @@ function Marcela() {
 
       <div class="container">
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
           <div className="container-ficha-centrada">
+            <i className="name-ficha">Estrenada en la Sala Cervantina.</i>
             <i>
-              Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
+              Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
+              <span>María Folguera</span>/ Diseño espacio escénico{" "}
               <span>Pablo Chaves</span>
-            </i>
-            <i>
-              Intérprete: <span>Egoitz Sánchez</span>
             </i>
             <i>
               Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de

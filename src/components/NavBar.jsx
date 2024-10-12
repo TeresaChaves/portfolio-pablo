@@ -53,6 +53,12 @@ function NavBar() {
     else if (path === "/somos-la-guerra") {
       setNombre("Somos la guerra");
     }
+    else if (path === "/buena-obra") {
+      setNombre("Buena obra");
+    }
+    else if (path === "/domesticacion") {
+      setNombre("Domesticación");
+    }
     else {
       setNombre("PABLO CHAVES");
     }

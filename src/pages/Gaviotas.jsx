@@ -90,35 +90,28 @@ function Gaviotas() {
       </div>
       <div class="container">
         <div className="container-ficha-centrada">
-          <i>
-            Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
-            <span>Pablo Chaves</span>
+          <i className="name-ficha">
+            {" "}
+            <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
           </i>
           <i>
-            Intérprete: <span>Egoitz Sánchez</span>
+            Dirección: <span>Amanda Recacha y Rodolfo Sacristán / </span> /
+            Escenografía y vestuario: <span>Pablo Chaves Maza</span>
           </i>
           <i>
-            Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
-            iluminación: <span>Elena Alejandre</span>
+            Autoría: <span>Adaptación libre por Gritadero Teatro / </span>
+            Producción:<span>Gritadero Teatro </span>
+          </i>
+          <i>
+            Iluminación: <span>Antonio Colomo Gragera</span>
           </i>{" "}
           <i>
-            Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
-            <span>Pablo Martínez</span>
+            Diseño de cartel: <span>Emiliano Cano / </span> Fotografía
+            <span>Luz Soria</span>
           </i>{" "}
           <i>
-            Directora de producción: <span>Milena Suárez</span> / Ayudante de
-            producción: <span>Paula Pina</span>
-          </i>
-          <i>
-            Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
-            Edición de visuales: <span>Ana Caro</span>
-          </i>
-          <i>
-            Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
-            <span>Celia Freijeiro</span>
-          </i>
-          <i>Una producción de la Sociedad Cervantina</i>
-          <i>con el apoyo de INAEM y Fundación La Caixa</i>
+            Prensa: <span>María Díaz</span>
+          </i>{" "}
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>

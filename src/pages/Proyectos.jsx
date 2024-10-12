@@ -6,10 +6,12 @@ import cinco from "../assets/cucaracha/0.jpg";
 import seis from "../assets/gaviotas/subir3.jpg";
 import siete from "../assets/elbanquete/0.jpg";
 import ocho from "../assets/prueba/A marcela.jpg";
-import nueve from "../assets/la-fortaleza/F LA FORTALEZA.jpg";
+import nueve from "../assets/la-fortaleza/C LA FORTALEZA.jpeg";
 import diez from "../assets/tablao/A Tablao.jpg";
 import once from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
 import doce from "../assets/guerra/A SOMOS LA GUERRA.jpg";
+import trece from "../assets/BuenaObra/A BUENA OBRA.jpg";
+import catorce from "../assets/Domesticacion/A LA DOMEST.jpg";
 
 
 
@@ -101,6 +103,20 @@ function Proyectos() {
       direccion: "Luz Arcas",
       lugar: " Teatro Español",
       link: "/somos-la-guerra",
+    },
+    {
+      title: "La Domesticación",
+      imgSrc: catorce,
+      direccion: "Luz Arcas",
+      lugar: " Teatro de Canal",
+      link: "/domesticacion",
+    },
+    {
+      title: "La Buena Obra",
+      imgSrc: trece,
+      direccion: "Luz Arcas",
+      lugar: " Teatro de Canal",
+      link: "/buena-obra",
     },
   ];
 

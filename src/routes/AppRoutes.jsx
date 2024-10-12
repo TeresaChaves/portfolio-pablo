@@ -15,6 +15,8 @@ import Fortaleza from "../pages/Fortaleza";
 import Tablao from "../pages/Tablao";
 import Psicosis from "../pages/Psicosis";
 import Guerra from "../pages/Guerra";
+import BuenaObra from "../pages/BuenaObra";
+import Domesticacion from "../pages/Domesticacion";
 
 
 
@@ -35,7 +37,9 @@ function AppRoutes() {
       <Route path="/fortaleza" element={<Fortaleza />} />
       <Route path="/tablao" element={<Tablao />} />
       <Route path="/psicosis" element={<Psicosis />} />
-      <Route path="/somos-la-guerra" element={<Guerra/>} />
+      <Route path="/somos-la-guerra" element={<Guerra />} />
+      <Route path="/buena-obra" element={<BuenaObra />} />
+      <Route path="/domesticacion" element={<Domesticacion />} />
     </Routes>
   );
 }
