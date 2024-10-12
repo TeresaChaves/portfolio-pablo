@@ -72,8 +72,7 @@ width: 157px;
 }
 
 .grid-item img {
-  max-width: 100%; /* Asegúrate de que la imagen no exceda el tamaño del contenedor */
-    max-height: 100%; /* Asegúrate de que la imagen no exceda el tamaño del contenedor */
+    max-height: 120%; /* Asegúrate de que la imagen no exceda el tamaño del contenedor */
     object-fit: cover; /* Mantiene la proporción de la imagen y llena el contenedor */
     position: absolute; /* Posiciona la imagen de manera absoluta */
     top: 50%; /* Centra la imagen verticalmente */
