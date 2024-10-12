@@ -13,12 +13,11 @@ import doce from "../assets/guerra/A SOMOS LA GUERRA.jpg";
 import trece from "../assets/BuenaObra/A BUENA OBRA.jpg";
 import catorce from "../assets/Domesticacion/A LA DOMEST.jpg";
 
-
-
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -126,34 +125,32 @@ function Proyectos() {
         <p>proyectos</p>
       </header>
 
-      {proyectos.map((proyecto) => (
+      {proyectos.map((proyecto, index) => (
         <NavLink to={proyecto.link} key={proyecto.title}>
-
           <article className="article-proyectos-display">
             {/* Condicional para la disposición de texto e imagen */}
             {isMobile ? (
               <>
                 <div className="container-img-proyectos">
                   <img
-                    className="img-proyectos"
                     src={proyecto.imgSrc}
                     alt={`foto de proyecto ${proyecto.title}`}
+                    className={`img-proyectos ${imageLoaded ? "loaded" : ""}`}
+                    onLoad={() => setImageLoaded(true)}
+                    style={{ transitionDelay: `${index * 100}ms` }} // Corregido aquí
                   />
-                <div class="responsive-align-project-name">
-                <div className="texto-proyectos-name">
-                  <p>{proyecto.title}</p>
-                </div>
+                  <div className="responsive-align-project-name">
+                    <div className="texto-proyectos-name">
+                      <p>{proyecto.title}</p>
+                    </div>
 
-                  <div className="texto-proyectos-name">
-                  <div className="entrelineas">
-                    <span className="text-teatro-light">Dirección: </span>
-                    <span>{proyecto.direccion}</span>
+                    <div className="texto-proyectos-name">
+                      <div className="entrelineas">
+                        <span className="text-teatro-light">Dirección: </span>
+                        <span>{proyecto.direccion}</span>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    {/* <span>{proyecto.lugar}</span> */}
-                  </div>
-                  </div>
-                </div>
                 </div>
               </>
             ) : (
@@ -163,9 +160,11 @@ function Proyectos() {
                 </div>
                 <div className="container-img-proyectos">
                   <img
-                    className="img-proyectos"
+                    className={`img-proyectos ${imageLoaded ? "loaded" : ""}`}
                     src={proyecto.imgSrc}
                     alt={`foto de proyecto ${proyecto.title}`}
+                    onLoad={() => setImageLoaded(true)}
+                    style={{ transitionDelay: `${index * 100}ms` }} // Corregido aquí
                   />
                 </div>
                 <div className="texto-proyectos-name">
