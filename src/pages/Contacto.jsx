@@ -32,7 +32,12 @@ function Contacto() {
           <div className="telefono-container">
             <img src={phone2} className="tl-span"></img>
             <span>{""}</span>
-            <span className="num-span">655932364</span>
+            <span
+              className="num-span"
+              oncontextmenu="return false;"
+            >
+              655932364
+            </span>
           </div>{" "}
           <div className="telefono-container">
             <img src={insta} className="tl-span"></img>

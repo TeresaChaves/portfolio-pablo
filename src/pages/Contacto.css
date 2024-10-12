@@ -67,6 +67,10 @@
   font-size: 1.1rem;
   font-weight: 500;
   opacity: 0.5;
+   user-select: none; /* Para la mayoría de los navegadores modernos */
+  -moz-user-select: none; /* Para Firefox */
+  -webkit-user-select: none; /* Para Chrome y Safari */
+  -ms-user-select: none; /* Para Internet Explorer y Edge */
 }
 
 .container-foto-contacto {
