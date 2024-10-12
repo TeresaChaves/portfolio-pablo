@@ -97,32 +97,42 @@ function BuenaObra() {
       </div>
       <div class="container">
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en el Teatro de la Comedia.</i>
+          <i className="name-ficha">Estrenada en los Teatros del Canal</i>
           <div className="container-ficha-centrada">
             <i>
-              Texto y dirección: <span>Lucía Carballal</span> Escenografía y
-              vestuario: <span>Pablo Chaves</span>
+              Dirección artística, coreografía, dramaturgia, espacio escénico:
+              <span>Luz Arcas</span> Espacio escénico:{" "}
+              <span>: Luz Arcas y Pablo Chaves</span>
             </i>
             <i>
-              Iluminación: <span>Pilar Valdelvira / </span>
+              Acompañamiento artístico y dramatúrgico{" "}
+              <span>Victoria Aimé y Rafael SM Paniagua </span>
             </i>
             <i>
-              Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
-              <span>Elvira Ruiz Zurita / </span>
+              Música: <span>Le Parody / </span> Iluminación:{" "}
+              <span>Jorge Colomer / </span>Espacio sonoro:{" "}
+              <span>Pablo Contreras</span>
             </i>{" "}
             <i>
-              texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
-              dirección
-              <span>Aitana Sar</span>
-            </i>{" "}
-            <i>
-              Agradecimientos:{" "}
+              Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
               <span>
-                Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
-                Retes, Aurelia González Y Sergio Adillo
-              </span>{" "}
+                Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
+              </span>
+            </i>{" "}
+            <i>
+              Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
+              gráfico: <span>María Peinado</span>
             </i>
-            <i>Producción: Compañía Nacional de Teatro Clásico </i>
+            <i>
+              Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
+            </i>
+            <i>
+              Diseño y coordinación de producción:{" "}
+              <span>Alex Foulkes y Alberto Núñez</span>
+            </i>
+            <i>
+              Producción ejecutiva: <span>Fernando Jariego</span>{" "}
+            </i>
           </div>
         </div>
         <div class="grid-container">
@@ -160,7 +170,6 @@ function BuenaObra() {
           <div className="grid-item" onClick={() => handleImagenClick(10)}>
             <img src={doce} alt="Imagen 3" />
           </div>
-       
         </div>
       </div>
       <div

@@ -61,7 +61,9 @@ width: 157px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 80px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
+
 .grid-item img {
   max-width: 100%;
   max-height: 100%;

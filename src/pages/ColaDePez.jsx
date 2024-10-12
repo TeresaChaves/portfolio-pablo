@@ -14,6 +14,7 @@ import React, { useState } from "react";
 function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
+  
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
