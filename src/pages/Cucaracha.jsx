@@ -60,9 +60,10 @@ function Cucaracha() {
           <h1>Cola de pez</h1>
         </header> */}
         <div>
-          <div
-            className="cover_cucaracha"
-            style={{ backgroundImage: `url(${imagenes[imagenIndex]})` }}
+          <img
+            className="cover_colaPez"
+            src={imagenes[imagenIndex]}
+            alt={`Imagen ${imagenIndex + 1}`}
           />
           <button
             className="button-izquierda-cover"
