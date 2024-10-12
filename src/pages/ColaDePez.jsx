@@ -1,5 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/cola-de-pez/1.png"; // Imágenes para el slider
+import uno from "../assets/cola-de-pez/1.png";
 import dos from "../assets/cola-de-pez/2.jpg";
 import tres from "../assets/cola-de-pez/3.png";
 import cuatro from "../assets/cola-de-pez/6.jpg";
@@ -15,6 +15,7 @@ function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
   
+
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
     setImagenIndex(index);
@@ -37,13 +38,15 @@ function ColaDePez() {
     diez,
   ];
 
+  
+
   const cambiarImagen = (direction) => {
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
+    console.log("Nuevo índice de imagen:", newIndex);
     setImagenAmpliada(imagenes[newIndex]);
     setImagenIndex(newIndex);
   };
-
   function Indicadores({ total, actual }) {
     const puntos = Array.from({ length: total }, (_, index) => (
       <span key={index} className={index === actual ? "activo" : ""} />
@@ -55,27 +58,38 @@ function ColaDePez() {
   return (
     <section>
       <div>
-        {/* Aquí, se elimina la etiqueta <img> y se usa un div con fondo */}
-        <div className="cover_colaPez" style={{ backgroundImage: `url(${imagenes[imagenIndex]})` }} />
-        <button
-          className="button-izquierda-cover"
-          onClick={() => 
-            setImagenIndex((prevIndex) => (prevIndex - 1 + imagenes.length) % imagenes.length)
-          }
-        >
-          ❮
-        </button>
-        <button
-          className="button-derecha-cover"
-          onClick={() => 
-            setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-          }
-        >
-          ❯
-        </button>
+        {/* <header>
+          <h1>Cola de pez</h1>
+        </header> */}
+        <div>
+          <img
+            className="cover_colaPez"
+            src={imagenes[imagenIndex]}
+            alt={`Imagen ${imagenIndex + 1}`}
+          />
+          <button
+            className="button-izquierda-cover"
+            onClick={() =>
+              setImagenIndex(
+                (prevIndex) =>
+                  (prevIndex - 1 + imagenes.length) % imagenes.length
+              )
+            }
+          >
+            ❮
+          </button>
+          <button
+            className="button-derecha-cover"
+            onClick={() =>
+              setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
+            }
+          >
+            ❯
+          </button>
+        </div>
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
-      <div className="container">
+      <div class="container">
         <div className="container-ficha-centrada">
           <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
           <div className="container-ficha-centrada">
@@ -111,7 +125,7 @@ function ColaDePez() {
             <i>con el apoyo de INAEM y Fundación La Caixa</i>
           </div>
         </div>
-        <div className="grid-container">
+        <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <img src={uno} alt="Imagen 3" />
           </div>
@@ -130,6 +144,7 @@ function ColaDePez() {
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
             <img src={seis} alt="Imagen 3" />
           </div>
+
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
             <img src={ocho} alt="Imagen 3" />
           </div>
