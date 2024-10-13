@@ -10,6 +10,9 @@ import ocho from "../assets/cola-de-pez/s.jpeg";
 import nueve from "../assets/cola-de-pez/subir2.png";
 import diez from "../assets/cola-de-pez/subir3.jpg";
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 
 function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -43,7 +46,6 @@ function ColaDePez() {
   const cambiarImagen = (direction) => {
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
-    console.log("Nuevo índice de imagen:", newIndex);
     setImagenAmpliada(imagenes[newIndex]);
     setImagenIndex(newIndex);
   };
@@ -62,10 +64,11 @@ function ColaDePez() {
           <h1>Cola de pez</h1>
         </header> */}
         <div>
-          <img
+          <LazyLoadImage
             className="cover_colaPez"
             src={imagenes[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
+            effect="opacity" // Esto añadirá el efecto de desenfoque mientras la imagen carga
           />
           <button
             className="button-izquierda-cover"
@@ -127,32 +130,31 @@ function ColaDePez() {
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen 3" />
+            <LazyLoadImage src={uno} alt="Imagen 1" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen 3" />
+            <LazyLoadImage src={dos} alt="Imagen 2" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen 3" />
+            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen 3" />
+            <LazyLoadImage src={cuatro} alt="Imagen 4" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen 3" />
+            <LazyLoadImage src={cinco} alt="Imagen 5" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen 3" />
+            <LazyLoadImage src={seis} alt="Imagen 6" effect="blur" />
           </div>
-
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen 3" />
+            <LazyLoadImage src={ocho} alt="Imagen 7" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <img src={nueve} alt="Imagen 3" />
+            <LazyLoadImage src={nueve} alt="Imagen 8" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen 3" />
+            <LazyLoadImage src={diez} alt="Imagen 9" effect="blur" />
           </div>
         </div>
       </div>
