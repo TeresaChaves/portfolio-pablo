@@ -24,7 +24,7 @@ function Contacto() {
         <a className="button-correo" onClick={handleOpenMailClient}>
           <div className="button-content">
             <img className="icon-avion" src={avion} alt="icono" />
-            <p className="text-button">pablochavesmaza@gmail.com</p>
+            <p className="text-button">pablochavesmaza@hotmail.com</p>
           </div>
           <hr className="hr-contacto" />
         </a>
