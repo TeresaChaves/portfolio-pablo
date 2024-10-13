@@ -97,7 +97,9 @@ function Cucaracha() {
         <div className="container-ficha-centrada">
           <i className="name-ficha">
             {" "}
-            <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
+            <i className="name-ficha">
+              Estrenada en Teatro Español y Quique San Francisco
+            </i>
           </i>
           <i>
             Dramaturgia y dirección: <span>Javier Ballesteros </span>
