@@ -10,20 +10,14 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
-    console.log("Efecto addSlideInClass ejecutado");
     // Función para agregar la clase después de un retraso
     const addSlideInClass = () => {
       const unoImage = document.querySelector(".uno-picture");
-      // const dosImage = document.querySelector(".dos-picture");
-      // const tresImage = document.querySelector(".tres-picture");
-      // const cuatroImage = document.querySelector(".cuatro-picture");
-
+    
       // Verifica si las imágenes existen antes de agregar la clase
       if (unoImage) {
         setTimeout(() => unoImage.classList.add("slide-in"), 0);
-        // setTimeout(() => dosImage.classList.add("slide-in"), 500);
-        // setTimeout(() => tresImage.classList.add("slide-in"), 700);
-        // setTimeout(() => cuatroImage.classList.add("slide-in"), 700);
+ 
       }
     };
 
@@ -33,18 +27,15 @@ function Home() {
 
     // Limpia el timeout al desmontar el componente
     return () => {
-      console.log("Limpiando timeout");
       clearTimeout(timeoutId);
     };
   }, []);
 
   useEffect(() => {
-    console.log("Efecto handleMouseMove ejecutado");
     const handleMouseMove = () => {
       // Puedes ajustar el tiempo que la flecha permanece visible después de un movimiento del ratón
       setTimeout(() => {}, 2000); // 2000 milisegundos (2 segundos) en este ejemplo
     };
-    console.log("Limpiando evento de mousemove");
     window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
@@ -92,7 +83,7 @@ function Home() {
             <img
               className="uno-picture"
               src={images[currentIndex]}
-              alt="imagenes del banner"
+              alt="proyectos Pablo Chaves"
             />
           </div>
         </NavLink>

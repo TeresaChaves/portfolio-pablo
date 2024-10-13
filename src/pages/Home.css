@@ -189,6 +189,37 @@ font-size: 20px;
   transform-origin: bottom right;
 }
 
+
+
+
+@media only screen and (max-width: 1060px) {
+
+  .uno-picture {
+    width: 70vw;
+    height: 52vh;
+  }
+ 
+}
+@media only screen and (max-width: 705px) {
+
+  .display-picture-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    margin-left: 10px;
+  }
+  .uno-picture {
+    width: 98vw;
+  }
+  .texto-foto {
+    display: flex;
+    margin-top: 30px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .display-picture-home {
     display: flex;
@@ -208,3 +239,6 @@ font-size: 20px;
     margin-top: 30px;
   }
 }
+
+
+
