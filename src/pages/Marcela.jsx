@@ -13,10 +13,25 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import { useEffect } from "react";
 
 function Marcela() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 1200);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
+
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
@@ -96,34 +111,71 @@ function Marcela() {
         <div className="container-ficha-centrada">
           <div className="container-ficha-centrada">
             <i className="name-ficha">Estrenada en la Sala Cervantina.</i>
-            <i>
-              Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
-              <span>María Folguera</span>/ Diseño espacio escénico{" "}
-              <span>Pablo Chaves</span>
-            </i>
-            <i>
-              Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
-              iluminación: <span>Elena Alejandre</span>
-            </i>{" "}
-            <i>
-              Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
-              sonido:
-              <span>Pablo Martínez</span>
-            </i>{" "}
-            <i>
-              Directora de producción: <span>Milena Suárez</span> / Ayudante de
-              producción: <span>Paula Pina</span>
-            </i>
-            <i>
-              Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
-              Edición de visuales: <span>Ana Caro</span>
-            </i>
-            <i>
-              Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
-              <span>Celia Freijeiro</span>
-            </i>
-            <i>Una producción de la Sociedad Cervantina</i>
-            <i>con el apoyo de INAEM y Fundación La Caixa</i>
+            {isMobile ? (
+              <>
+                <i>
+                  Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
+                  <span>María Folguera</span>
+                </i>
+                <i>
+                Diseño espacio escénico <span>Pablo Chaves</span>
+                </i>
+                <i>
+                  Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
+                  iluminación: <span>Elena Alejandre</span>
+                </i>{" "}
+                <i>
+                  Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
+                  sonido:
+                  <span>Pablo Martínez</span>
+                </i>{" "}
+                <i>
+                  Directora de producción: <span>Milena Suárez</span> / Ayudante
+                  de producción: <span>Paula Pina</span>
+                </i>
+                <i>
+                  Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span>{" "}
+                  / Edición de visuales: <span>Ana Caro</span>
+                </i>
+                <i>
+                  Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
+                  <span>Celia Freijeiro</span>
+                </i>
+                <i>Una producción de la Sociedad Cervantina</i>
+                <i>con el apoyo de INAEM y Fundación La Caixa</i>
+              </>
+            ) : (
+              <>
+                <i>
+                  Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
+                  <span>María Folguera</span>/ Diseño espacio escénico{" "}
+                  <span>Pablo Chaves</span>
+                </i>
+                <i>
+                  Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
+                  iluminación: <span>Elena Alejandre</span>
+                </i>{" "}
+                <i>
+                  Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
+                  sonido:
+                  <span>Pablo Martínez</span>
+                </i>{" "}
+                <i>
+                  Directora de producción: <span>Milena Suárez</span> / Ayudante
+                  de producción: <span>Paula Pina</span>
+                </i>
+                <i>
+                  Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span>{" "}
+                  / Edición de visuales: <span>Ana Caro</span>
+                </i>
+                <i>
+                  Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
+                  <span>Celia Freijeiro</span>
+                </i>
+                <i>Una producción de la Sociedad Cervantina</i>
+                <i>con el apoyo de INAEM y Fundación La Caixa</i>
+              </>
+            )}
           </div>
         </div>
         <div class="grid-container">

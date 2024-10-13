@@ -141,7 +141,7 @@ function Proyectos() {
                     src={proyecto.imgSrc}
                     alt={`foto de proyecto ${proyecto.title}`}
                     className="img-proyectos"
-                    effect="blur"
+                    effect="opacity"
                   />
                   <div className="responsive-align-project-name">
                     <div className="texto-proyectos-name">
