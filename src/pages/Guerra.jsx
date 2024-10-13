@@ -11,6 +11,9 @@ import ocho from "../assets/guerra/H SOMOS LA GUERRA.jpg";
 import nueve from "../assets/guerra/I SOMOS LA GUERRA.jpg";
 import diez from "../assets/guerra/J SOMOS LA GUERRA.jpg";
 import once from "../assets/guerra/K SOMOS LA GUERRA.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 
 import React, { useState } from "react";
@@ -65,10 +68,11 @@ function Guerra() {
           <h1>Cola de pez</h1>
         </header> */}
         <div>
-          <img
+          <LazyLoadImage
             className="cover_colaPez"
             src={imagenes[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
+            effect="opacity"
           />
           <button
             className="button-izquierda-cover"
@@ -134,35 +138,35 @@ function Guerra() {
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen 3" />
+            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen 3" />
+            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen 3" />
+            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen 3" />
+            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen 3" />
+            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen 3" />
+            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
           </div>
 
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen 3" />
+            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <img src={nueve} alt="Imagen 3" />
+            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen 3" />
+            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(9)}>
-            <img src={once} alt="Imagen 3" />
+            <LazyLoadImage src={once} alt="Imagen 3" effect="blur" />
           </div>
         </div>
       </div>
@@ -181,7 +185,7 @@ function Guerra() {
             >
               ❮
             </button>
-            <img src={imagenAmpliada} alt="Imagen Ampliada" />
+            <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
             <button
               className="button-derecha"
               onClick={(e) => {

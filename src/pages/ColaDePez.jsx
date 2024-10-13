@@ -12,6 +12,8 @@ import diez from "../assets/cola-de-pez/subir3.jpg";
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+
 
 
 function ColaDePez() {

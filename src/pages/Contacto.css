@@ -85,15 +85,16 @@ display: flex;
 }
 
 .img-contacto-contacto {
-     width: 50%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 0px 500px 500px 0px;
-    object-position: 80% 10%;
-    position: absolute;
-    left: 0;
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px 500px 500px 0px;
+  object-position: 80% 10%;
+  position: absolute;
+  left: 0;
+  animation: slideIn 1s ease forwards; /* Aplica la animación */
+  /* La duración es de 1 segundo, pero puedes ajustarla según lo desees */
 }
-
 .titulo-contacto {
   font-size: 1.6rem;
   margin-bottom: 1rem;
@@ -178,4 +179,15 @@ display: flex;
  
     margin-top: 35px;
 }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%); /* Comienza desde la izquierda fuera de la pantalla */
+    opacity: 0; /* Comienza invisible */
+  }
+  to {
+    transform: translateX(0); /* Termina en su posición original */
+    opacity: 1; /* Termina visible */
+  }
 }

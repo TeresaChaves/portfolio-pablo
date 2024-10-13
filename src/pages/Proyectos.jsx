@@ -12,6 +12,11 @@ import once from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
 import doce from "../assets/guerra/A SOMOS LA GUERRA.jpg";
 import trece from "../assets/BuenaObra/A BUENA OBRA.jpg";
 import catorce from "../assets/Domesticacion/A LA DOMEST.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+
+
 
 import { NavLink } from "react-router-dom";
 
@@ -133,12 +138,11 @@ function Proyectos() {
             {isMobile ? (
               <>
                 <div className="container-img-proyectos">
-                  <img
+                  <LazyLoadImage
                     src={proyecto.imgSrc}
                     alt={`foto de proyecto ${proyecto.title}`}
-                    className={`img-proyectos ${imageLoaded ? "loaded" : ""}`}
-                    onLoad={() => setImageLoaded(true)}
-                    style={{ transitionDelay: `${index * 100}ms` }} // Corregido aquí
+                    className="img-proyectos"
+                    effect="blur"
                   />
                   <div className="responsive-align-project-name">
                     <div className="texto-proyectos-name">
@@ -160,12 +164,11 @@ function Proyectos() {
                   <p>{proyecto.title}</p>
                 </div>
                 <div className="container-img-proyectos">
-                  <img
-                    className={`img-proyectos ${imageLoaded ? "loaded" : ""}`}
+                  <LazyLoadImage
                     src={proyecto.imgSrc}
                     alt={`foto de proyecto ${proyecto.title}`}
-                    onLoad={() => setImageLoaded(true)}
-                    style={{ transitionDelay: `${index * 100}ms` }} // Corregido aquí
+                    className="img-proyectos"
+                    effect="opacity"
                   />
                 </div>
                 <div className="texto-proyectos-name">

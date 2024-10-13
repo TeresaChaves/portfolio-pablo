@@ -10,6 +10,9 @@ import ocho from "../assets/prueba/H Marcela.jpg";
 import nueve from "../assets/prueba/I Marcela.jpg";
 import diez from "../assets/prueba/J Marcela.jpg";
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 function Marcela() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -60,10 +63,11 @@ function Marcela() {
           <h1>Cola de pez</h1>
         </header> */}
         <div>
-          <img
+          <LazyLoadImage
             className="cover_colaPez"
             src={imagenes[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
+            effect="blur"
           />
           <button
             className="button-izquierda-cover"
@@ -124,32 +128,32 @@ function Marcela() {
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen 3" />
+            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen 3" />
+            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen 3" />
+            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen 3" />
+            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen 3" />
+            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen 3" />
+            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
           </div>
 
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen 3" />
+            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <img src={nueve} alt="Imagen 3" />
+            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen 3" />
+            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
           </div>
         </div>
       </div>
@@ -168,7 +172,7 @@ function Marcela() {
             >
               ❮
             </button>
-            <img src={imagenAmpliada} alt="Imagen Ampliada" />
+            <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
             <button
               className="button-derecha"
               onClick={(e) => {

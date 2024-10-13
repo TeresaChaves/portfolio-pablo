@@ -5,6 +5,7 @@
     margin-top: 10px;
     background-color: black;
 }
+
 .lazy-load-image-background {
   display: flex !important; /* Sobrescribe el display inline-block */
 }
@@ -37,7 +38,10 @@ display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
-
+.lazy-load-image-background.blur.lazy-load-image-loaded > img {
+    opacity: 1;
+    transition: opacity .3s, transform 0.5s ease, filter 0.5s ease !important; /* Agrega todas las transiciones aquí */
+}
 
 .name-ficha{
   margin-bottom: 10px;
@@ -78,7 +82,6 @@ width: 157px;
     top: 50%; /* Centra la imagen verticalmente */
     left: 50%; /* Centra la imagen horizontalmente */
     transform: translate(-50%, -50%) scale(1); /* Centrando y escalando */
-    transition: transform 0.5s ease, filter 0.5s ease; 
   
   
 }
@@ -279,3 +282,5 @@ width: 157px;
   text-align: center;
   }
 }
+
+

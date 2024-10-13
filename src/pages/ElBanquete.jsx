@@ -10,6 +10,10 @@ import ocho from "../assets/elbanquete/s.JPG";
 import nueve from "../assets/elbanquete/subir2.JPG";
 import diez from "../assets/elbanquete/subir3.JPG";
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+
 
 function ElBanquete() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -60,10 +64,11 @@ function ElBanquete() {
           <h1>Cola de pez</h1>
         </header> */}
         <div>
-          <img
+          <LazyLoadImage
             className="cover_colaPez"
             src={imagenes[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
+            effect="opacity"
           />
           <button
             className="button-izquierda-cover"
@@ -114,38 +119,37 @@ function ElBanquete() {
             cartel: <span>Xose Roi Martínez</span>
           </i>
           <i>
-            Comunicación y prensa: <span>de Amanda H C - Proyecto Duas</span> 
+            Comunicación y prensa: <span>de Amanda H C - Proyecto Duas</span>
           </i>
-      
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen 3" />
+            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen 3" />
+            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen 3" />
+            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen 3" />
+            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen 3" />
+            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen 3" />
+            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
           </div>
 
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen 3" />
+            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <img src={nueve} alt="Imagen 3" />
+            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen 3" />
+            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
           </div>
         </div>
       </div>
@@ -171,6 +175,7 @@ function ElBanquete() {
                 e.stopPropagation();
                 cambiarImagen(1);
               }}
+
             >
               ❯
             </button>
