@@ -13,11 +13,26 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import { useEffect } from "react";
 
 
 function Cucaracha() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
+
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 1200);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
@@ -94,41 +109,79 @@ function Cucaracha() {
         <Indicadores total={imagenes.length} actual={imagenIndex} />
       </div>
       <div class="container">
-        <div className="container-ficha-centrada">
-          <i className="name-ficha">
-            {" "}
+        {isMobile ? (
+          <div className="container-ficha-centrada">
             <i className="name-ficha">
               Estrenada en Teatro Español y Quique San Francisco
             </i>
-          </i>
-          <i>
-            Dramaturgia y dirección: <span>Javier Ballesteros </span>
-          </i>
-          <i>
-            Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
-            Reparto:
-            <span>
-              Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
-              Matilde Gimeno, María Jáimez y June Velayos{" "}
-            </span>{" "}
-          </i>{" "}
-          <i>
-            Ayte. dirección <span>Víctor Nacarino </span> /Música:
-            <span>Isabel Arranz </span>
-          </i>{" "}
-          <i>
-            Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
-            producción: <span>Juan Seade </span>
-          </i>
-          <i>
-            Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
-            Producción: <span>Mujer en obras</span>
-          </i>
-        </div>
+            <i>
+              Dramaturgia y dirección: <span>Javier Ballesteros </span>
+            </i>
+            <i>
+              Escenografía y vestuario: <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Reparto:
+              <span>
+                Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
+                Matilde Gimeno, María Jáimez y June Velayos{" "}
+              </span>{" "}
+            </i>{" "}
+            <i>
+              Ayte. dirección <span>Víctor Nacarino </span>
+            </i>
+            <i>
+              /Música:
+              <span>Isabel Arranz </span>
+            </i>{" "}
+            <i>
+              Coor. producción: <span>Raúl de la Torre</span>
+            </i>
+            <i>
+            Ayudante de producción: <span>Juan Seade </span>
+            </i>
+            <i>
+              Cartelería: <span>Alejandra Sánchez-Mateos</span>
+            </i>
+            <i>
+              Producción: <span>Mujer en obras</span>
+            </i>
+          </div>
+        ) : (
+          <div className="container-ficha-centrada">
+            <i className="name-ficha">
+              Estrenada en Teatro Español y Quique San Francisco
+            </i>
+            <i>
+              Dramaturgia y dirección: <span>Javier Ballesteros </span>
+            </i>
+            <i>
+              Escenografía y vestuario: <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Reparto:
+              <span>
+                Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
+                Matilde Gimeno, María Jáimez y June Velayos{" "}
+              </span>{" "}
+            </i>{" "}
+            <i>
+              Ayte. dirección <span>Víctor Nacarino </span> /Música:
+              <span>Isabel Arranz </span>
+            </i>{" "}
+            <i>
+              Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
+              producción: <span>Juan Seade </span>
+            </i>
+            <i>
+              Cartelería: <span>Alejandra Sánchez-Mateos</span>
+            </i>
+            <i>
+              Producción: <span>Mujer en obras</span>
+            </i>
+          </div>
+        )}
+
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
             <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
