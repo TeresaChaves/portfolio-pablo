@@ -17,7 +17,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 
 
-
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {

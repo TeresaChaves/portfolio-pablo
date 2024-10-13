@@ -22,12 +22,26 @@ import diecinueve from "../assets/la-fortaleza/R LA FORTALEZA.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import { useEffect } from "react";
 
 import React, { useState } from "react";
 
 function Fortaleza() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 1200);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
@@ -113,32 +127,63 @@ function Fortaleza() {
       <div class="container">
         <div className="container-ficha-centrada">
           <i className="name-ficha">Estrenada en el Teatro de la Comedia.</i>
-          <div className="container-ficha-centrada">
-            <i>
-              Texto y dirección: <span>Lucía Carballal</span> Escenografía y
-              vestuario: <span>Pablo Chaves</span>
-            </i>
-            <i>
-              Iluminación: <span>Pilar Valdelvira / </span>
-            </i>
-            <i>
-              Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
-              <span>Elvira Ruiz Zurita / </span>
-            </i>{" "}
-            <i>
-              texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
-              dirección
-              <span>Aitana Sar</span>
-            </i>{" "}
-            <i>
-              Agradecimientos:{" "}
-              <span>
-                Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
-                Retes, Aurelia González Y Sergio Adillo
-              </span>{" "}
-            </i>
-            <i>Producción: Compañía Nacional de Teatro Clásico </i>
-          </div>
+          {isMobile ? (
+            <div className="container-ficha-centrada">
+              <i>
+                Texto y dirección: <span>Lucía Carballal</span>
+              </i>
+              <i>
+                Escenografía y vestuario: <span>Pablo Chaves</span>
+              </i>
+              <i>
+                Iluminación: <span>Pilar Valdelvira / </span>
+              </i>
+              <i>
+                Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
+                <span>Elvira Ruiz Zurita / </span>
+              </i>{" "}
+              <i>
+                texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
+                dirección
+                <span>Aitana Sar</span>
+              </i>{" "}
+              <i>
+                Agradecimientos:{" "}
+                <span>
+                  Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
+                  Retes, Aurelia González Y Sergio Adillo
+                </span>{" "}
+              </i>
+              <i>Producción: Compañía Nacional de Teatro Clásico </i>
+            </div>
+          ) : (
+            <div className="container-ficha-centrada">
+              <i>
+                Texto y dirección: <span>Lucía Carballal</span> Escenografía y
+                vestuario: <span>Pablo Chaves</span>
+              </i>
+              <i>
+                Iluminación: <span>Pilar Valdelvira / </span>
+              </i>
+              <i>
+                Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
+                <span>Elvira Ruiz Zurita / </span>
+              </i>{" "}
+              <i>
+                texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
+                dirección
+                <span>Aitana Sar</span>
+              </i>{" "}
+              <i>
+                Agradecimientos:{" "}
+                <span>
+                  Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
+                  Retes, Aurelia González Y Sergio Adillo
+                </span>{" "}
+              </i>
+              <i>Producción: Compañía Nacional de Teatro Clásico </i>
+            </div>
+          )}
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
