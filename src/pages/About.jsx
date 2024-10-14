@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
-import pablo from "../assets/FOTO BIO.jpg";
+import pablo from "../assets/Pablo Chaves.jpg";
 
 function About() {
   return (
     <section className="section-contacto-about">
       <div className="container-foto-about">
-        <img className="img-contacto-about" src={pablo} alt="foto perfil" />
+        <img className="img-contacto-about" src={pablo} alt="Pablo Chaves" />
       </div>
       <div className="container-texto-about">
         <h2 className="titulo-contacto-about">Bio</h2>
@@ -26,7 +26,7 @@ function About() {
           También trabaja para otros escenógrafos como Max Glaenzel, Blanca
           Agnon y José Novoa entre otros.
         </p>
-   
+
         <p className="parrafo-contacto-about">
           Su primer diseño de escenografía (y vestuario) lo realiza para la obra
           ’’Cucaracha con paisaje de fondo’’ de Javier Ballesteros para la

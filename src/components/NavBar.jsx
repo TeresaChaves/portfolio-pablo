@@ -8,7 +8,6 @@ function NavBar() {
   const [nombre, setNombre] = useState("PABLO CHAVES");
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-  console.log("nombre", isScrolled);
 
   const location = useLocation();
 
