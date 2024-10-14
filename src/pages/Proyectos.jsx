@@ -63,21 +63,21 @@ function Proyectos() {
       title: "La trilogía: Somos la guerra",
       imgSrc: doce,
       direccion: "Luz Arcas",
-      lugar: "Teatro de Canal",
+      lugar: "Teatro del Canal",
       link: "/somos-la-guerra",
     },
     {
       title: " La trilogía: La Domesticación",
       imgSrc: catorce,
       direccion: "Luz Arcas",
-      lugar: "Teatro de Canal",
+      lugar: "Teatro del Canal",
       link: "/domesticacion",
     },
     {
       title: "La trilogía: La Buena Obra",
       imgSrc: trece,
       direccion: "Luz Arcas",
-      lugar: "Teatro de Canal",
+      lugar: "Teatro del Canal",
       link: "/buena-obra",
     },
     {
@@ -88,7 +88,7 @@ function Proyectos() {
       link: "/tablao",
     },
     {
-      title: "Psiocosis 4.48",
+      title: "Psicosis 4.48",
       imgSrc: once,
       direccion: "Luz Arcas",
       lugar: " Teatro Español",
