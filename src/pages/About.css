@@ -69,6 +69,11 @@ display: flex;
   margin-bottom: 1rem;
   font-weight: 200;
 }
+.titulo-proyecto-about {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
 
 .parrafo-contacto-about {
   font-size: 1.2rem;
@@ -190,4 +195,52 @@ display: flex;
         margin-right: 20px;
     }
 }
+.año-desplegable {
+  width: 100%;
+  margin-bottom: 1rem;
+}
 
+.year-title {
+  cursor: pointer;
+  color: #9b9b9b;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between; /* Separa el año y la flecha */
+  align-items: center;
+  transition: color 0.3s ease;
+  padding-right: 1rem; /* Espacio adicional al final */
+  position: relative;
+}
+
+/* Ocultar el contenido inicialmente */
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+/* Mostrar el contenido al pasar el ratón sobre el año */
+.año-desplegable:hover .content {
+  max-height: 500px; /* Ajusta esto según la cantidad de contenido */
+}
+
+/* Agrega un pequeño estilo al título cuando se expande */
+.año-desplegable:hover .year-title {
+  color: #9c9c9c; /* Cambia el color del título al pasar el ratón */
+}
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #9c9c9c;
+  width: 100%;
+}
+.year-title::after {
+  content: "▼"; /* Puedes cambiar el símbolo a otro carácter */
+  font-size: 1rem;
+  color: #797979;
+  transition: transform 0.3s ease;
+}
+.año-desplegable:hover .year-title::after {
+  transform: rotate(180deg);
+}

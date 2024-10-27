@@ -21,7 +21,6 @@ import { NavLink } from "react-router-dom";
 
 function Proyectos() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
-  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
