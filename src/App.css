@@ -39,7 +39,7 @@ body{
 html {
   scroll-behavior: smooth;
 }
-section.home-margin {
+/* section.home-margin {
     padding-top: calc(120px + 1rem);
 }
 .home-margin-home{
@@ -86,7 +86,7 @@ section.home-margin {
   padding-top: calc(120px + 1rem);
 }
 
-}
+} */
 
 
 
