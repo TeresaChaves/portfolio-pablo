@@ -73,7 +73,7 @@ function Cucaracha() {
   }
 
   return (
-    <section>
+    <section className="home-margin">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
@@ -138,7 +138,7 @@ function Cucaracha() {
               Coor. producción: <span>Raúl de la Torre</span>
             </i>
             <i>
-            Ayudante de producción: <span>Juan Seade </span>
+              Ayudante de producción: <span>Juan Seade </span>
             </i>
             <i>
               Cartelería: <span>Alejandra Sánchez-Mateos</span>

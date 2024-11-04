@@ -58,7 +58,7 @@ function ElBanquete() {
   }
 
   return (
-    <section>
+    <section className="home-margin">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
@@ -175,7 +175,6 @@ function ElBanquete() {
                 e.stopPropagation();
                 cambiarImagen(1);
               }}
-
             >
               ❯
             </button>

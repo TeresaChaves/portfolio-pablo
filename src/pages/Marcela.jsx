@@ -72,7 +72,7 @@ function Marcela() {
   }
 
   return (
-    <section>
+    <section className="home-margin">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
@@ -118,7 +118,7 @@ function Marcela() {
                   <span>María Folguera</span>
                 </i>
                 <i>
-                Diseño espacio escénico <span>Pablo Chaves</span>
+                  Diseño espacio escénico <span>Pablo Chaves</span>
                 </i>
                 <i>
                   Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de

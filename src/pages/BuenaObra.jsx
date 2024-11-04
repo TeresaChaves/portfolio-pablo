@@ -62,7 +62,7 @@ function BuenaObra() {
   }
 
   return (
-    <section>
+    <section className="home-margin">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>

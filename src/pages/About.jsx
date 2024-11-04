@@ -45,8 +45,8 @@ function About() {
             diferentes escenógrafos de la vanguardia española. Actualmente
             combina su carrera como actor con la de escenógrafo.
           </p>
-          <h2 className="titulo-proyecto-about">Proyectos Profesionales</h2>
-          <h2 className="titulo-proyecto-about">ESCENOGRAFÍA Y VESTUARIO</h2>
+          <h2 className="titulo-proyecto-about">Proyectos</h2>
+          <h2 className="titulo-proyecto-charge">ESCENOGRAFÍA Y VESTUARIO</h2>
           <div className="año-desplegable">
             <h3 className="year-title">2024</h3>
             <div className="content">
@@ -125,7 +125,133 @@ function About() {
               </p>
             </div>
           </div>
+          <h2 className="titulo-proyecto-charge">ARQUITECTURA EFÍMERA</h2>
+          <div className="año-desplegable">
+            <h3 className="year-title">2024</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Conversatorio</b>Arquitectura y coordinación de proyecto .
+                Expuesto en ARCO. Artista: Marta Pazos. Comisaria: Alicia
+                Ventura. Espacio ‘‘sin prisa’’ para Premio cervezas Alhambra
+              </p>
+              <p className="parrafo-contacto-about">
+                <b>Tablao.</b>Arquitectura y coordinación de proyecto . Expuesto
+                en Ca2m y Condeduque. Artista: Ernesto Artillo. Para el cuadro:
+                Yerai Cortés, Niño de Elche, Andrés Marín y Rocío Molina.
+                Comisaria: Alicia Navarro
+              </p>
+            </div>
+          </div>
           <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2023</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Matria</b> Arquitectura de proyecto . Para la Quadriennal de
+                Praga Expuesto en la Galería Nacional de Praga. Artista: Marta
+                Pazos. Comisaria: Klarà Zieglerová
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2022</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Contemplación.</b>Arquitectura de proyecto . Expuesto en
+                Centro Gallego de Arte Contemporáneo. Artista: Marta Pazos.
+                Comisario Iñaki Martínez.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2021</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Campo de Figos.</b>Arquitectura y coordinación de proyecto .
+                Expuesto en Museo do Gaias- Cidade da Cultura. Artista: Marta
+                Pazos. Comisarios: Miguel Ángel Cajigal y Deborah Garcia Bello.
+              </p>
+            </div>
+          </div>
+          <h2 className="titulo-proyecto-charge">COORDINACIÓN DE PROYECTOS</h2>
+          <div className="año-desplegable">
+            <h3 className="year-title">2022</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Safo</b>Desarrollo y coordinación de escenografía. Diseño:
+                Marta Pazos. Dirigido por Marta Pazos. Estrenado en Teatro
+                Romano de Mérida. Teatre Romea de Barcelona. Teatros del Canal
+                sala Roja.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2021</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Hoax Hamlet</b>Desarrollo y coordinación de escenografía.
+                Diseñada por Marta Pazos. Dir. Hugo Torres. Ciudad de la
+                Cultura. Santiago
+              </p>
+            </div>
+          </div>
+          <h2 className="titulo-proyecto-charge">AYUDANTÍAS</h2>
+          <div className="año-desplegable">
+            <h3 className="year-title">2024</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Primera Sangre.</b>Ayudantía de escenografía para Blanca Añón
+                en CDN Teatro Valle Inclán. Sala Francisco Nieva. Dirigido por
+                María Velasco
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2023</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Funfamentalmente Fantasías para la resistencia.</b>.
+                Ayudantía de escenografía para Blanca Añón. Direccción: Alfredo
+                Sanzol . CDN Teatro Valle Inclán.
+              </p>
+              <p className="parrafo-contacto-about">
+                <b>As oito da tarde cando morren as nais</b>Ayudantía de
+                escenografía para Blanca Añón. Dirigido por Marta Pazos.
+                Estrenado en el Salón Teatro del CDGA
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2022</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Lo Fingido verdadero.</b>o. Ayudantía de escenografía para
+                Jose Novoa. Dirigido por Lluís Omar. Estrenado en el Teatro de
+                la Comedia y el Teatre Romea.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="año-desplegable">
+            <h3 className="year-title">2021</h3>
+            <div className="content">
+              <p className="parrafo-contacto-about">
+                <b>Comedia sin título</b>Ayudantía de escenografía para Max
+                Glaenzel. Dirigido por Marta Pazos. Estrenado en el Teatro María
+                Guerrero
+              </p>
+              <p className="parrafo-contacto-about">
+                <b>Othello.</b>. Ayudantía y coordinación de escenografía.
+                Diseñada por Marta Pazos. Dirigida por Marta Pazos. Estrenada en
+                el Teatro de la Abadía
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

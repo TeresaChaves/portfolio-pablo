@@ -39,3 +39,23 @@ body{
 html {
   scroll-behavior: smooth;
 }
+section.home-margin {
+    padding-top: calc(120px + 1rem);
+}
+.home-margin-home{
+  padding-top: calc(120px + 1rem);
+}
+/* 
+@media only screen and (max-width: 576px) {
+  section.home-margin {
+    margin-top: 90px;
+}
+
+}
+@media only screen and (max-width: 720px) {
+  section.home-margin {
+    margin-top: 90px;
+}
+
+} */
+

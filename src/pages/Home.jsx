@@ -62,7 +62,7 @@ function Home() {
 
   return (
     <div style={{ fontFamily: "Lato, sans-serif" }}>
-      <section className="home-margin">
+      <section className="home-margin-home">
         <article className="display-picture-home">
           <div className="texto-foto">
             <NavLink to="/proyectos">

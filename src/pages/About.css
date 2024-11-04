@@ -43,6 +43,7 @@ display: flex;
     position: absolute;
     left: 0;
     animation: slideIn 1s ease forwards; 
+    position: fixed;
 }
 
 /* .container-foto {
@@ -74,12 +75,21 @@ display: flex;
   margin-bottom: 1rem;
   font-weight: 200;
 }
+.titulo-proyecto-charge {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
 
 .parrafo-contacto-about {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: 300;
       margin-top: 0px;
+}
+hr{
+  opacity: 0.3;
 }
 
 @media only screen and (max-width: 576px) {
@@ -130,6 +140,7 @@ display: flex;
       object-position: 50% 10%;
       position: absolute;
       left: 0;
+      position: fixed;
   }
   .container-texto-about {
     display: flex;
@@ -214,8 +225,8 @@ display: flex;
 
 /* Ocultar el contenido inicialmente */
 .content {
-  max-height: 0;
-  overflow: hidden;
+  /* max-height: 0;
+  overflow: hidden; */
   transition: max-height 0.5s ease;
 }
 
@@ -236,7 +247,7 @@ hr{
   width: 100%;
 }
 .year-title::after {
-  content: "▼"; /* Puedes cambiar el símbolo a otro carácter */
+  content: ""; 
   font-size: 1rem;
   color: #797979;
   transition: transform 0.3s ease;
