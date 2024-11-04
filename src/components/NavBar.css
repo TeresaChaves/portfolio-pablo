@@ -155,8 +155,12 @@
   top: 10px;
   z-index: 1000;
   width: 100%;
-      /* position: fixed; */
+    top: 0;
+ 
 }
+
+
+
 .div-align-menu {
   display: flex;
   flex-direction: row;
@@ -207,4 +211,16 @@
    top:22px;
    left:12px;
   }
+}
+.menu-display {
+    transition: opacity 0.3s ease; /* Transición suave de opacidad */
+}
+
+.menu-display {
+    opacity: 1; /* Opacidad inicial */
+    transition: opacity 0.3s ease; /* Transición suave de opacidad */
+}
+
+.menu-display.hidden {
+    opacity: 0; /* Opacidad cero cuando se oculta */
 }

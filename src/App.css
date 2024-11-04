@@ -38,16 +38,24 @@ body{
 }
 html {
   scroll-behavior: smooth;
+
 }
-/* section.home-margin {
+
+
+ /* section.home-margin {
     padding-top: calc(120px + 1rem);
-}
+} 
 .home-margin-home{
   padding-top: calc(120px + 1rem);
 }
 .home-margin-marcela{
   padding-top: calc(120px + 1rem);
 }
+
+
+
+
+
 
 @media only screen and (max-width: 576px) {
 section.home-margin {
@@ -63,10 +71,10 @@ section.home-margin {
 }
 @media only screen and (max-width: 720px) {
 section.home-margin {
-    padding-top: calc(90px + 1rem);
+    padding-top: calc(60px + 1rem);
 }
 .home-margin-home{
-  padding-top: calc(90px + 1rem);
+  padding-top: calc(60px + 1rem);
 }
 .home-margin-marcela{
   padding-top: calc(120px + 1rem);
@@ -86,7 +94,7 @@ section.home-margin {
   padding-top: calc(120px + 1rem);
 }
 
-} */
+}  */
 
 
 

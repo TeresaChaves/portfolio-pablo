@@ -8,20 +8,42 @@ function NavBar() {
   const [nombre, setNombre] = useState("PABLO CHAVES");
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-
   const location = useLocation();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+  // Manejo del scroll
+  const handleScroll = () => {
+    const textNavbar = document.querySelector(".menu-display");
+    const scrollY = window.scrollY;
 
-    window.addEventListener("scroll", handleScroll);
+    if (textNavbar) {
+      if (scrollY > 50) {
+        textNavbar.classList.add("hidden"); // Agrega la clase para ocultar
+      } else {
+        textNavbar.classList.remove("hidden"); // Remueve la clase para mostrar
+      }
+    }
+  };
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  // Agregar el listener de scroll al cargar el componente
+  window.addEventListener("scroll", handleScroll);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollY = window.scrollY;
+  //     // Cambia el estado solo si es diferente al estado actual
+  //     if (scrollY > 50 && !isScrolled) {
+  //       setScrolled(true);
+  //     } else if (scrollY <= 50 && isScrolled) {
+  //       setScrolled(false);
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [isScrolled]);
 
   useEffect(() => {
     // Lógica para determinar el nombre basándose en la ruta actual
@@ -44,21 +66,15 @@ function NavBar() {
       setNombre("La Fortaleza");
     } else if (path === "/tablao") {
       setNombre("Tablao");
-
-    }
-    else if (path === "/psicosis") {
+    } else if (path === "/psicosis") {
       setNombre("Psicosis 4.48");
-    }
-    else if (path === "/somos-la-guerra") {
+    } else if (path === "/somos-la-guerra") {
       setNombre("Somos la guerra");
-    }
-    else if (path === "/buena-obra") {
+    } else if (path === "/buena-obra") {
       setNombre("Buena obra");
-    }
-    else if (path === "/domesticacion") {
+    } else if (path === "/domesticacion") {
       setNombre("Domesticación");
-    }
-    else {
+    } else {
       setNombre("PABLO CHAVES");
     }
   }, [location.pathname]);
