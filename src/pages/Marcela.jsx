@@ -72,7 +72,7 @@ function Marcela() {
   }
 
   return (
-    <section className="home-margin">
+    <section className="home-margin-marcela">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>

@@ -45,17 +45,49 @@ section.home-margin {
 .home-margin-home{
   padding-top: calc(120px + 1rem);
 }
-/* 
+.home-margin-marcela{
+  padding-top: calc(120px + 1rem);
+}
+
 @media only screen and (max-width: 576px) {
-  section.home-margin {
-    margin-top: 90px;
+section.home-margin {
+    padding-top: calc(30px + 1rem);
+}
+.home-margin-home{
+  padding-top: calc(60px + 1rem);
+}
+.home-margin-marcela{
+  padding-top: calc(120px + 1rem);
 }
 
 }
 @media only screen and (max-width: 720px) {
-  section.home-margin {
-    margin-top: 90px;
+section.home-margin {
+    padding-top: calc(90px + 1rem);
+}
+.home-margin-home{
+  padding-top: calc(90px + 1rem);
+}
+.home-margin-marcela{
+  padding-top: calc(120px + 1rem);
 }
 
-} */
+}
+@media only screen and (max-width: 1520px) {
+
+.home-margin-marcela{
+  padding-top: calc(220px + 1rem);
+}
+
+}
+@media only screen and (max-width: 720px) {
+
+.home-margin-marcela{
+  padding-top: calc(120px + 1rem);
+}
+
+}
+
+
+
 
