@@ -12,7 +12,7 @@ function NavBar() {
 
   // Manejo del scroll
   const handleScroll = () => {
-    const textNavbar = document.querySelector(".menu-display");
+    const textNavbar = document.querySelector(".nombre");
     const scrollY = window.scrollY;
 
     if (textNavbar) {
@@ -24,26 +24,10 @@ function NavBar() {
     }
   };
 
-  // Agregar el listener de scroll al cargar el componente
+ 
   window.addEventListener("scroll", handleScroll);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollY = window.scrollY;
-  //     // Cambia el estado solo si es diferente al estado actual
-  //     if (scrollY > 50 && !isScrolled) {
-  //       setScrolled(true);
-  //     } else if (scrollY <= 50 && isScrolled) {
-  //       setScrolled(false);
-  //     }
-  //   };
 
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [isScrolled]);
 
   useEffect(() => {
     // Lógica para determinar el nombre basándose en la ruta actual
@@ -94,11 +78,10 @@ function NavBar() {
   };
 
   return (
-    <nav className={`menu-display ${isScrolled ? "scrolled" : ""}`}>
+    <nav className="menu-display">
       <div className="container-nav">
         <div id="menuToggle">
           <input type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />{" "}
-          {/* Usa el estado del menú para controlar la apertura/cierre */}
           <span></span>
           <span></span>
           <span></span>
