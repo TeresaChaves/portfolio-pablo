@@ -80,7 +80,7 @@ function Home() {
       <section className="home-margin-home">
         <article className="display-picture-home">
           <div className="texto-foto">
-            <NavLink to="/proyectos">
+            <NavLink to="/proyectos-pablo-chaves">
               <p className="image-text">Proyectos</p>
             </NavLink>
 
