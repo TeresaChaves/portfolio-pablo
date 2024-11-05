@@ -47,7 +47,6 @@ function Home() {
   const intervalDuration = 5000; // Cambia esto para ajustar la velocidad del carrusel
 
   useEffect(() => {
-    console.log("Efecto carrusel ejecutado");
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
@@ -55,7 +54,6 @@ function Home() {
     }, intervalDuration);
 
     return () => {
-      console.log("Limpiando intervalo");
       clearInterval(intervalId);
     };
   }, [images.length, intervalDuration]);
