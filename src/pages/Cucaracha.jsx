@@ -14,25 +14,25 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { useEffect } from "react";
-
+import { Helmet } from "react-helmet";
 
 function Cucaracha() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
 
-    useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth < 1200);
-      };
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1200);
+    };
 
-      window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
 
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }, []);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
@@ -78,6 +78,13 @@ function Cucaracha() {
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
+        <Helmet>
+          <title>Cucaracha con paisaje de fondo</title>
+          <meta
+            name="description"
+            content="Proyecto Cucaracha con paisaje de fondo de Pablo Chaves en Teatro Español y Quique San Francisco."
+          />
+        </Helmet>
         <div>
           <LazyLoadImage
             className="cover_colaPez"
@@ -92,16 +99,14 @@ function Cucaracha() {
                 (prevIndex) =>
                   (prevIndex - 1 + imagenes.length) % imagenes.length
               )
-            }
-          >
+            }>
             ❮
           </button>
           <button
             className="button-derecha-cover"
             onClick={() =>
               setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-            }
-          >
+            }>
             ❯
           </button>
         </div>
@@ -216,8 +221,7 @@ function Cucaracha() {
 
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
-        onClick={cerrarImagenAmpliada}
-      >
+        onClick={cerrarImagenAmpliada}>
         {imagenAmpliada && (
           <>
             <button
@@ -225,8 +229,7 @@ function Cucaracha() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(-1);
-              }}
-            >
+              }}>
               ❮
             </button>
             <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
@@ -235,8 +238,7 @@ function Cucaracha() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(1);
-              }}
-            >
+              }}>
               ❯
             </button>
           </>

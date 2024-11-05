@@ -13,13 +13,11 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
-
-
+import { Helmet } from "react-helmet";
 
 function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
-  
 
   const handleImagenClick = (index) => {
     setImagenAmpliada(imagenes[index]);
@@ -43,8 +41,6 @@ function ColaDePez() {
     diez,
   ];
 
-  
-
   const cambiarImagen = (direction) => {
     const newIndex =
       (imagenIndex + direction + imagenes.length) % imagenes.length;
@@ -65,6 +61,13 @@ function ColaDePez() {
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
+        <Helmet>
+          <title>Cola de Pez - Pablo Chaves</title>
+          <meta
+            name="description"
+            content="Proyecto Cola de Pez de Pablo Chaves en Bastero Kulturgunea."
+          />
+        </Helmet>
         <div>
           <LazyLoadImage
             className="cover_colaPez"
@@ -79,16 +82,14 @@ function ColaDePez() {
                 (prevIndex) =>
                   (prevIndex - 1 + imagenes.length) % imagenes.length
               )
-            }
-          >
+            }>
             ❮
           </button>
           <button
             className="button-derecha-cover"
             onClick={() =>
               setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-            }
-          >
+            }>
             ❯
           </button>
         </div>
@@ -162,8 +163,7 @@ function ColaDePez() {
       </div>
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
-        onClick={cerrarImagenAmpliada}
-      >
+        onClick={cerrarImagenAmpliada}>
         {imagenAmpliada && (
           <>
             <button
@@ -171,8 +171,7 @@ function ColaDePez() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(-1);
-              }}
-            >
+              }}>
               ❮
             </button>
             <img src={imagenAmpliada} alt="Imagen Ampliada" />
@@ -181,8 +180,7 @@ function ColaDePez() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(1);
-              }}
-            >
+              }}>
               ❯
             </button>
           </>
