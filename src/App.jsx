@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{ fontFamily: "Lato, sans-serif" }}>
       <Helmet>
-        <title>Pablo Chaves - Escenógrafo | Diseño y Espacios Escénicos</title>
+        <title>Pablo Chaves - Escenógrafo</title>
         <meta
           name="description"
           content="Pablo Chaves Maza es un escenógrafo con formación en arquitectura y escenografía. Con experiencia en los principales teatros de España, ha trabajado en producciones destacadas, aportando su visión innovadora y técnica al diseño escénico."

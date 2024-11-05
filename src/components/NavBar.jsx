@@ -24,10 +24,7 @@ function NavBar() {
     }
   };
 
- 
   window.addEventListener("scroll", handleScroll);
-
-
 
   useEffect(() => {
     // Lógica para determinar el nombre basándose en la ruta actual
@@ -89,13 +86,13 @@ function NavBar() {
             <NavLink to="/" onClick={toggleMenu}>
               <li>Home</li>
             </NavLink>{" "}
-            <NavLink to="/proyectos" onClick={toggleMenu}>
+            <NavLink to="/proyectos-pablo-chaves" onClick={toggleMenu}>
               <li>Proyectos</li>
             </NavLink>
-            <NavLink to="/biografia" onClick={toggleMenu}>
+            <NavLink to="/biografia-pablo-chaves" onClick={toggleMenu}>
               <li>Bio</li>
             </NavLink>
-            <NavLink to="/contacto" onClick={toggleMenu}>
+            <NavLink to="/contacto-pablo-chaves" onClick={toggleMenu}>
               <li>Contacto</li>
             </NavLink>
           </ul>

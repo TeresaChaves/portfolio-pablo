@@ -67,6 +67,16 @@ function Home() {
           content="Pablo Chaves Maza es un escenógrafo con formación en arquitectura y escenografía. Con experiencia en los principales teatros de España, ha trabajado en producciones destacadas, aportando su visión innovadora y técnica al diseño escénico."
         />
       </Helmet>
+      <h1
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          width: "1px",
+          height: "1px",
+          overflow: "hidden",
+        }}>
+        Pablo Chaves
+      </h1>
       <section className="home-margin-home">
         <article className="display-picture-home">
           <div className="texto-foto">
@@ -75,10 +85,10 @@ function Home() {
             </NavLink>
 
             <NavLink to="/proyectos"></NavLink>
-            <NavLink to="/biografia">
+            <NavLink to="biografia-pablo-chaves">
               <p className="image-text">Biografía</p>
             </NavLink>
-            <NavLink to="/contacto">
+            <NavLink to="/contacto-pablo-chaves">
               <p className="image-text">Contacto</p>
             </NavLink>
           </div>

@@ -18,17 +18,14 @@ import Guerra from "../pages/Guerra";
 import BuenaObra from "../pages/BuenaObra";
 import Domesticacion from "../pages/Domesticacion";
 
-
-
-
 function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/biografia" element={<About />} />
-      <Route path="/contacto" element={<Contacto />} />
+      <Route path="/biografia-pablo-chaves" element={<About />} />
+      <Route path="/contacto-pablo-chaves" element={<Contacto />} />
       <Route path="/elbanquete" element={<ElBanquete />} />
-      <Route path="/proyectos" element={<Proyectos />} />
+      <Route path="/proyectos-pablo-chaves" element={<Proyectos />} />
       <Route path="/cola-de-pez" element={<ColaDePez />} />
       <Route path="/no-estoy-de-frente" element={<NoFrente />} />
       <Route path="/cucaracha" element={<Cucaracha />} />
