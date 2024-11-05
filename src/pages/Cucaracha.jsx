@@ -73,16 +73,18 @@ function Cucaracha() {
   }
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
         <Helmet>
-          <title>Cucaracha con paisaje de fondo</title>
+          <title>Cucaracha con paisaje de fondo || Pablo Chaves</title>
           <meta
             name="description"
-            content="Proyecto Cucaracha con paisaje de fondo de Pablo Chaves en Teatro Español y Quique San Francisco."
+            content="Proyecto Cucaracha con paisaje de fondo escenografía de Pablo Chaves en Teatro Español y Quique San Francisco."
           />
         </Helmet>
         <div>
@@ -189,32 +191,68 @@ function Cucaracha() {
 
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={uno}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={dos}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={tres}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={cuatro}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={cinco}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={seis}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
 
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={ocho}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={nueve}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={diez}
+              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
+              effect="blur"
+            />
           </div>
         </div>
       </div>
@@ -232,7 +270,10 @@ function Cucaracha() {
               }}>
               ❮
             </button>
-            <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
+            <LazyLoadImage
+              src={imagenAmpliada}
+              alt="Imagen Full Screnn proyecto Pablo Chaves"
+            />
             <button
               className="button-derecha"
               onClick={(e) => {

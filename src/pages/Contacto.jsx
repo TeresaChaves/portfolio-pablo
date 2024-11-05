@@ -14,17 +14,20 @@ function Contacto() {
     window.location.href = `mailto:${destinatario}`;
   };
   return (
-    <section className="home-margin ">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <section className="section-contacto-contacto">
         <div className="container-foto-contacto">
           <img
             className="img-contacto-contacto"
             src={pablo}
-            alt="foto perfil"
+            alt="Pablo Chaves escenógrafo en España, contacto"
           />
         </div>
         <div className="container-texto-contact">
           <h2 className="titulo-contacto">Contacto</h2>
+
           <button className="button-correo" onClick={handleOpenMailClient}>
             <div className="button-content">
               <img
@@ -41,8 +44,7 @@ function Contacto() {
               <img
                 src={phone2}
                 className="tl-span"
-                alt="icono teléfono pablo chaves maza escenógrafo"
-              ></img>
+                alt="icono teléfono pablo chaves maza escenógrafo"></img>
               <span>{""}</span>
               <span className="num-span" oncontextmenu="return false;">
                 655932364
@@ -52,17 +54,19 @@ function Contacto() {
               <img
                 src={insta}
                 alt="icono instagram pablo chaves maza escenógrafo"
-                className="tl-span"
-              ></img>
+                className="tl-span"></img>
               <span>{""}</span>
               <a
                 href="https://www.instagram.com/pablochavesmaza/?hl=es
-            "
-              >
+            ">
                 <span className="num-span">@pablochavesmaza</span>
               </a>
             </div>
           </div>
+          <p className="hidden-seo-text">
+            Pablo Chaves Maza es un escenógrafo profesional en España
+            especializado en el diseño de escenografías teatrales.
+          </p>
         </div>
       </section>
     </section>

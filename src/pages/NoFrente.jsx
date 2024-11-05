@@ -57,11 +57,20 @@ function NoFrente() {
   }
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
+        <Helmet>
+          <title>No estoy de frente || Pablo Chaves</title>
+          <meta
+            name="description"
+            content="Proyecto No estoy de frente escenografía de Pablo Chaves"
+          />
+        </Helmet>
         <div>
           <LazyLoadImage
             className="cover_colaPez"
@@ -76,16 +85,14 @@ function NoFrente() {
                 (prevIndex) =>
                   (prevIndex - 1 + imagenes.length) % imagenes.length
               )
-            }
-          >
+            }>
             ❮
           </button>
           <button
             className="button-derecha-cover"
             onClick={() =>
               setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-            }
-          >
+            }>
             ❯
           </button>
         </div>
@@ -147,8 +154,7 @@ function NoFrente() {
 
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
-        onClick={cerrarImagenAmpliada}
-      >
+        onClick={cerrarImagenAmpliada}>
         {imagenAmpliada && (
           <>
             <button
@@ -156,18 +162,19 @@ function NoFrente() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(-1);
-              }}
-            >
+              }}>
               ❮
             </button>
-            <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
+            <LazyLoadImage
+              src={imagenAmpliada}
+              alt="Imagen Full Screnn proyecto Pablo Chaves"
+            />
             <button
               className="button-derecha"
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(1);
-              }}
-            >
+              }}>
               ❯
             </button>
           </>

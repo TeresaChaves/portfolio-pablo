@@ -7,17 +7,17 @@ import cuatro from "../assets/cucaracha/0.jpg";
 import cinco from "../assets/gaviotas/subir3.jpg";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Home() {
   useEffect(() => {
     // Función para agregar la clase después de un retraso
     const addSlideInClass = () => {
       const unoImage = document.querySelector(".uno-picture");
-    
+
       // Verifica si las imágenes existen antes de agregar la clase
       if (unoImage) {
         setTimeout(() => unoImage.classList.add("slide-in"), 0);
- 
       }
     };
 
@@ -62,6 +62,13 @@ function Home() {
 
   return (
     <div style={{ fontFamily: "Lato, sans-serif" }}>
+      <Helmet>
+        <title>Pablo Chaves - Escenógrafo</title>
+        <meta
+          name="description"
+          content="Pablo Chaves Maza es un escenógrafo con formación en arquitectura y escenografía. Con experiencia en los principales teatros de España, ha trabajado en producciones destacadas, aportando su visión innovadora y técnica al diseño escénico."
+        />
+      </Helmet>
       <section className="home-margin-home">
         <article className="display-picture-home">
           <div className="texto-foto">
@@ -78,16 +85,14 @@ function Home() {
             </NavLink>
           </div>
           <NavLink to="/proyectos">
-            
-          <div className="image-display">
-            <img
-              className="uno-picture"
-              src={images[currentIndex]}
-              alt="proyectos Pablo Chaves"
-            />
-          </div>
-        </NavLink>
-
+            <div className="image-display">
+              <img
+                className="uno-picture"
+                src={images[currentIndex]}
+                alt="proyectos Pablo Chaves"
+              />
+            </div>
+          </NavLink>
         </article>
       </section>
     </div>

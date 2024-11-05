@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import pablo from "../assets/Pablo Chaves.jpg";
+import { Helmet } from "react-helmet";
 
 function About() {
   const scrollToTop = () => {
@@ -8,7 +9,16 @@ function About() {
   };
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
+      <Helmet>
+        <title>Pablo Chaves - Escenógrafo</title>
+        <meta
+          name="description"
+          content="Pablo Chaves Maza es un escenógrafo con formación en arquitectura y escenografía. Con experiencia en los principales teatros de España, ha trabajado en producciones destacadas, aportando su visión innovadora y técnica al diseño escénico."
+        />
+      </Helmet>
       <div className="section-contacto-about">
         <div className="container-foto-about">
           <img className="img-contacto-about" src={pablo} alt="Pablo Chaves" />

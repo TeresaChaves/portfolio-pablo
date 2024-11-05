@@ -16,7 +16,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 
-
 import { NavLink } from "react-router-dom";
 
 function Proyectos() {
@@ -124,7 +123,9 @@ function Proyectos() {
   ];
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <header className="header-display">
         <p>proyectos</p>
       </header>

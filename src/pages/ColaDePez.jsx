@@ -56,13 +56,15 @@ function ColaDePez() {
   }
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
         <Helmet>
-          <title>Cola de Pez - Pablo Chaves</title>
+          <title>Cola de Pez || Pablo Chaves</title>
           <meta
             name="description"
             content="Proyecto Cola de Pez de Pablo Chaves en Bastero Kulturgunea."
@@ -133,31 +135,67 @@ function ColaDePez() {
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <LazyLoadImage src={uno} alt="Imagen 1" effect="blur" />
+            <LazyLoadImage
+              src={uno}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <LazyLoadImage src={dos} alt="Imagen 2" effect="blur" />
+            <LazyLoadImage
+              src={dos}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
+            <LazyLoadImage
+              src={tres}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <LazyLoadImage src={cuatro} alt="Imagen 4" effect="blur" />
+            <LazyLoadImage
+              src={cuatro}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <LazyLoadImage src={cinco} alt="Imagen 5" effect="blur" />
+            <LazyLoadImage
+              src={cinco}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <LazyLoadImage src={seis} alt="Imagen 6" effect="blur" />
+            <LazyLoadImage
+              src={seis}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <LazyLoadImage src={ocho} alt="Imagen 7" effect="blur" />
+            <LazyLoadImage
+              src={ocho}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <LazyLoadImage src={nueve} alt="Imagen 8" effect="blur" />
+            <LazyLoadImage
+              src={nueve}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <LazyLoadImage src={diez} alt="Imagen 9" effect="blur" />
+            <LazyLoadImage
+              src={diez}
+              alt="Imagen Cola de pez de Pablo Chaves"
+              effect="blur"
+            />
           </div>
         </div>
       </div>
@@ -174,7 +212,10 @@ function ColaDePez() {
               }}>
               ❮
             </button>
-            <img src={imagenAmpliada} alt="Imagen Ampliada" />
+            <img
+              src={imagenAmpliada}
+              alt="Imagen Full Screnn proyecto Pablo Chaves"
+            />
             <button
               className="button-derecha"
               onClick={(e) => {

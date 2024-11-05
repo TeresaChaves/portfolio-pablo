@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import { Helmet } from "react-helmet";
 
 function Gaviotas() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -57,11 +58,20 @@ function Gaviotas() {
   }
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
+        <Helmet>
+          <title>Gaviotas || Pablo Chaves</title>
+          <meta
+            name="description"
+            content="Proyecto Gaviotas escenografía de Pablo Chaves<"
+          />
+        </Helmet>
         <div>
           <LazyLoadImage
             className="cover_colaPez"
@@ -76,16 +86,14 @@ function Gaviotas() {
                 (prevIndex) =>
                   (prevIndex - 1 + imagenes.length) % imagenes.length
               )
-            }
-          >
+            }>
             ❮
           </button>
           <button
             className="button-derecha-cover"
             onClick={() =>
               setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-            }
-          >
+            }>
             ❯
           </button>
         </div>
@@ -150,8 +158,7 @@ function Gaviotas() {
       </div>
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
-        onClick={cerrarImagenAmpliada}
-      >
+        onClick={cerrarImagenAmpliada}>
         {imagenAmpliada && (
           <>
             <button
@@ -159,18 +166,19 @@ function Gaviotas() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(-1);
-              }}
-            >
+              }}>
               ❮
             </button>
-            <LazyLoadImage src={imagenAmpliada} alt="Imagen Ampliada" />
+            <LazyLoadImage
+              src={imagenAmpliada}
+              alt="Imagen Full Screnn proyecto Pablo Chaves"
+            />
             <button
               className="button-derecha"
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(1);
-              }}
-            >
+              }}>
               ❯
             </button>
           </>

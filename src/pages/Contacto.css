@@ -15,7 +15,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   margin-right: 60px;
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .button-content {
@@ -49,9 +49,8 @@
   border-radius: 5px;
   transition: color 0.4s;
   opacity: 0.7;
-  border:none
+  border: none;
 }
-
 
 .telefono-container {
   display: flex;
@@ -69,21 +68,21 @@
   font-size: 1.1rem;
   font-weight: 500;
   opacity: 0.5;
-   user-select: none; /* Para la mayoría de los navegadores modernos */
+  user-select: none; /* Para la mayoría de los navegadores modernos */
   -moz-user-select: none; /* Para Firefox */
   -webkit-user-select: none; /* Para Chrome y Safari */
   -ms-user-select: none; /* Para Internet Explorer y Edge */
 }
 
 .container-foto-contacto {
-display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    flex-wrap: wrap;
-  
-        height: 400px;
-    width: 50%;
-    margin-top: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+  height: 400px;
+  width: 50%;
+  margin-top: 75px;
 }
 
 .img-contacto-contacto {
@@ -122,16 +121,13 @@ display: flex;
   padding-right: 34px;
 }
 
-
-
-
 @media only screen and (max-width: 1562px) {
   .container-texto {
     margin-right: 0px;
     margin-left: 0px;
   }
   .container-texto-contact {
-      display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: auto;
@@ -139,65 +135,54 @@ display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     padding-right: 34px;
-            margin-left: 30px;
+    margin-left: 30px;
   }
 
-
-    .section-contacto-contacto {
-   
-    
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    position: relative;
-     /* margin-top: 120px; */
-
-}
-.img-contacto-contacto {
-    width: 60%;
-   
-}
-}
-
-@media only screen and (max-width: 1204px) {
-
-       .img-contacto-contacto {
-        width: 90%;
-        height: 50%;
-        object-position: 80% 20%;
-    }
-        .section-contacto-contacto {
-     
-        flex-direction: column;
-    }
-    .titulo-contacto {
-  display: none;
-}
-.container-foto-contacto {
-
-    height: 220px;
-    
-}
-.container-foto-contacto {
- 
-    /* margin-top: 35px; */
-}
-
-    .section-contacto-contacto {
-   
-    
+  .section-contacto-contacto {
     display: flex;
     justify-content: center;
     margin-top: 0px;
     position: relative;
     /* margin-top: 120px; */
-
+  }
+  .img-contacto-contacto {
+    width: 60%;
+  }
 }
+
+@media only screen and (max-width: 1204px) {
+  .img-contacto-contacto {
+    width: 90%;
+    height: 50%;
+    object-position: 80% 20%;
+  }
+  .section-contacto-contacto {
+    flex-direction: column;
+  }
+  .titulo-contacto {
+    display: none;
+  }
+  .container-foto-contacto {
+    height: 220px;
+  }
+  .container-foto-contacto {
+    /* margin-top: 35px; */
+  }
+
+  .section-contacto-contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    position: relative;
+    /* margin-top: 120px; */
+  }
 }
 
 @keyframes slideIn {
   from {
-    transform: translateX(-100%); /* Comienza desde la izquierda fuera de la pantalla */
+    transform: translateX(
+      -100%
+    ); /* Comienza desde la izquierda fuera de la pantalla */
     opacity: 0; /* Comienza invisible */
   }
   to {
@@ -207,12 +192,16 @@ display: flex;
 }
 
 @media only screen and (max-width: 525px) {
-   .section-contacto-contacto {
-   
+  .section-contacto-contacto {
     /* margin-top: 70px; */
-
-
+  }
 }
 
-
+.hidden-seo-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); /* Hace el elemento invisible en pantalla */
+  white-space: nowrap;
 }

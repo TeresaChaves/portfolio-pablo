@@ -11,9 +11,7 @@ import nueve from "../assets/BuenaObra/I BUENA OBRA.jpg";
 import diez from "../assets/BuenaObra/J BUENA OBRA.jpg";
 import once from "../assets/BuenaObra/K BUENA OBRA.jpg";
 import doce from "../assets/BuenaObra/L BUENA OBRA.jpg";
-
-
-
+import { Helmet } from "react-helmet";
 
 import React, { useState } from "react";
 
@@ -43,7 +41,6 @@ function BuenaObra() {
     diez,
     once,
     doce,
-  
   ];
 
   const cambiarImagen = (direction) => {
@@ -62,11 +59,20 @@ function BuenaObra() {
   }
 
   return (
-    <section className="home-margin">
+    <section
+      className="home-margin"
+      aria-label="Pablo Chaves Maza, escenógrafo en España especializado en diseño de escenografías teatrales">
       <div>
         {/* <header>
           <h1>Cola de pez</h1>
         </header> */}
+        <Helmet>
+          <title>La Buena Obra || Pablo Chaves</title>
+          <meta
+            name="description"
+            content="Proyecto Domesticación de Pablo Chaves estrenada en los Teatros del Canal"
+          />
+        </Helmet>
         <div>
           <img
             className="cover_colaPez"
@@ -80,16 +86,14 @@ function BuenaObra() {
                 (prevIndex) =>
                   (prevIndex - 1 + imagenes.length) % imagenes.length
               )
-            }
-          >
+            }>
             ❮
           </button>
           <button
             className="button-derecha-cover"
             onClick={() =>
               setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
-            }
-          >
+            }>
             ❯
           </button>
         </div>
@@ -137,45 +141,44 @@ function BuenaObra() {
         </div>
         <div class="grid-container">
           <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen 3" />
+            <img src={uno} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen 3" />
+            <img src={dos} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen 3" />
+            <img src={tres} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen 3" />
+            <img src={cuatro} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen 3" />
+            <img src={cinco} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen 3" />
+            <img src={seis} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
 
           <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen 3" />
+            <img src={ocho} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(7)}>
             <img src={nueve} alt="Imagen 3" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen 3" />
+            <img src={diez} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(9)}>
-            <img src={once} alt="Imagen 3" />
+            <img src={once} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
           <div className="grid-item" onClick={() => handleImagenClick(10)}>
-            <img src={doce} alt="Imagen 3" />
+            <img src={doce} alt="Imagen La buena obra de Pablo Chaves" />
           </div>
         </div>
       </div>
       <div
         className={`imagen-ampliada ${imagenAmpliada ? "visible" : ""}`}
-        onClick={cerrarImagenAmpliada}
-      >
+        onClick={cerrarImagenAmpliada}>
         {imagenAmpliada && (
           <>
             <button
@@ -183,18 +186,19 @@ function BuenaObra() {
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(-1);
-              }}
-            >
+              }}>
               ❮
             </button>
-            <img src={imagenAmpliada} alt="Imagen Ampliada" />
+            <img
+              src={imagenAmpliada}
+              alt="Imagen Full Screnn proyecto Pablo Chaves"
+            />
             <button
               className="button-derecha"
               onClick={(e) => {
                 e.stopPropagation();
                 cambiarImagen(1);
-              }}
-            >
+              }}>
               ❯
             </button>
           </>
