@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import { Helmet } from "react-helmet";
 
 function NoFrente() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
