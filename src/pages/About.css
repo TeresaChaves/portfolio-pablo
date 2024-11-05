@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  
 }
 .section-contacto-about {
   display: flex;
@@ -10,39 +9,37 @@
   position: relative;
 }
 
-
-
 .container-texto-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-width: 719px;
-    max-width: 715px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding-right: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 719px;
+  max-width: 715px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-right: 34px;
 }
 
 .container-foto-about {
-display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    flex-wrap: wrap;
-  
-        height: 400px;
-    width: 50%;
-    margin-top: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+  height: 400px;
+  width: 50%;
+  margin-top: 75px;
 }
 .img-contacto-about {
-     width: 50%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 0px 500px 500px 0px;
-    object-position: 80% 10%;
-    position: absolute;
-    left: 0;
-    animation: slideIn 1s ease forwards; 
-    position: fixed;
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px 500px 500px 0px;
+  object-position: 80% 10%;
+  position: absolute;
+  left: 0;
+  animation: slideIn 1s ease forwards;
+  position: fixed;
 }
 
 /* .container-foto {
@@ -80,14 +77,13 @@ display: flex;
   font-weight: 300;
 }
 
-
 .parrafo-contacto-about {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: 300;
-      margin-top: 0px;
+  margin-top: 0px;
 }
-hr{
+hr {
   opacity: 0.3;
 }
 
@@ -114,7 +110,7 @@ hr{
   }
 }
 
-@media only screen and (max-width: 1314px){
+@media only screen and (max-width: 1314px) {
   .img-contacto-about {
     width: 40%;
     height: 500px;
@@ -123,23 +119,19 @@ hr{
     object-position: 60% 10%;
     position: absolute;
     left: 0;
+  }
 }
 
-
-
-} 
-
-@media only screen and (max-width: 1524px){
-
+@media only screen and (max-width: 1524px) {
   .img-contacto-about {
-      width: 50%;
-      height: 630px;
-      object-fit: cover;
-      border-radius: 0px 500px 500px 0px;
-      object-position: 50% 10%;
-      position: absolute;
-      left: 0;
-      position: fixed;
+    width: 50%;
+    height: 630px;
+    object-fit: cover;
+    border-radius: 0px 500px 500px 0px;
+    object-position: 50% 10%;
+    position: absolute;
+    left: 0;
+    position: fixed;
   }
   .container-texto-about {
     display: flex;
@@ -150,20 +142,19 @@ hr{
     align-items: flex-start;
     flex-wrap: wrap;
     padding-right: 34px;
-}
+  }
 }
 
-@media only screen and (max-width: 990px){
-
-    .img-contacto-about {
-        width: 95%;
-        height: 330px;
-        object-fit: cover;
-        border-radius: 0px 500px 500px 0px;
-        object-position: 50% 10%;
-        position: absolute;
-        left: 0;
-    }
+@media only screen and (max-width: 990px) {
+  .img-contacto-about {
+    width: 95%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 0px 500px 500px 0px;
+    object-position: 50% 10%;
+    position: absolute;
+    left: 0;
+  }
   .container-texto-about {
     display: flex;
     flex-direction: column;
@@ -173,8 +164,8 @@ hr{
     align-items: flex-start;
     flex-wrap: wrap;
     padding-right: 34px;
-}
-.section-contacto-about {
+  }
+  .section-contacto-about {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -182,27 +173,26 @@ hr{
     flex-wrap: wrap;
     align-items: flex-start;
     /* margin-left: 20px; */
-}
-.container-foto-about {
-   
+  }
+  .container-foto-about {
     margin-top: 25px;
     height: 330px;
-}
-.container-texto-about {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        min-width: 90%;
-        max-width: 90%;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        padding-right: 34px;
-        width: fit-content;
-        /* flex: 1; */
-        /* width: auto; */
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  }
+  .container-texto-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 90%;
+    max-width: 90%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-right: 34px;
+    width: fit-content;
+    /* flex: 1; */
+    /* width: auto; */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 .año-desplegable {
   width: 100%;
@@ -237,7 +227,7 @@ hr{
 .año-desplegable:hover .year-title {
   color: #9c9c9c; /* Cambia el color del título al pasar el ratón */
 }
-hr{
+hr {
   margin-top: 0px;
   margin-bottom: 0px;
   border: 0;
@@ -245,7 +235,7 @@ hr{
   width: 100%;
 }
 .year-title::after {
-  content: ""; 
+  content: "";
   font-size: 1rem;
   color: #797979;
   transition: transform 0.3s ease;
@@ -254,9 +244,31 @@ hr{
   transform: rotate(180deg);
 }
 .category-professional {
-    border: 1px solid #b0a8a8;
-    padding: 15px;
-    border-radius: 30px;
-    margin-bottom: 30px;
-    /* opacity: 0.5; */
+  border: 1px solid #b0a8a8;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  /* opacity: 0.5; */
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0.5;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
 }
