@@ -244,11 +244,12 @@ hr {
   transform: rotate(180deg);
 }
 .category-professional {
-  border: 1px solid #b0a8a8;
+  border: 1px solid #e2dfdf;
   padding: 15px;
   border-radius: 30px;
   margin-bottom: 30px;
   /* opacity: 0.5; */
+  width: 95%;
 }
 
 .scroll-to-top {
