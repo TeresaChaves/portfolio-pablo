@@ -46,6 +46,8 @@ function About() {
             combina su carrera como actor con la de escenógrafo.
           </p>
           <h2 className="titulo-proyecto-about">Proyectos</h2>
+          <div className="category-professional">
+
           <h2 className="titulo-proyecto-charge">ESCENOGRAFÍA Y VESTUARIO</h2>
           <div className="año-desplegable">
             <h3 className="year-title">2024</h3>
@@ -70,7 +72,7 @@ function About() {
               </p>
             </div>
           </div>
-          <hr class />
+          <hr  />
           <div className="año-desplegable">
             <h3 className="year-title">2023</h3>
             <div className="content">
@@ -125,6 +127,8 @@ function About() {
               </p>
             </div>
           </div>
+          </div>
+          <div className="category-professional">
           <h2 className="titulo-proyecto-charge">ARQUITECTURA EFÍMERA</h2>
           <div className="año-desplegable">
             <h3 className="year-title">2024</h3>
@@ -175,6 +179,9 @@ function About() {
               </p>
             </div>
           </div>
+            
+         </div>
+
           <h2 className="titulo-proyecto-charge">COORDINACIÓN DE PROYECTOS</h2>
           <div className="año-desplegable">
             <h3 className="year-title">2022</h3>

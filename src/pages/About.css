@@ -253,3 +253,10 @@ hr{
 .año-desplegable:hover .year-title::after {
   transform: rotate(180deg);
 }
+.category-professional {
+    border: 1px solid #b0a8a8;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    /* opacity: 0.5; */
+}
