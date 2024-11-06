@@ -188,7 +188,7 @@ function About() {
               <h3 className="year-title">2021</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
-                  <b>Campo de Figos.</b>Arquitectura y coordinación de proyecto
+                  <b>Campo de Figos. </b>Arquitectura y coordinación de proyecto
                   . Expuesto en Museo do Gaias- Cidade da Cultura. Artista:
                   Marta Pazos. Comisarios: Miguel Ángel Cajigal y Deborah Garcia
                   Bello.
@@ -229,7 +229,7 @@ function About() {
               <h3 className="year-title">2024</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
-                  <b>Primera Sangre.</b>Ayudantía de escenografía para Blanca
+                  <b>Primera Sangre. </b>Ayudantía de escenografía para Blanca
                   Añón en CDN Teatro Valle Inclán. Sala Francisco Nieva.
                   Dirigido por María Velasco
                 </p>
@@ -272,7 +272,7 @@ function About() {
                   María Guerrero
                 </p>
                 <p className="parrafo-contacto-about">
-                  <b>Othello.</b>Ayudantía y coordinación de escenografía.
+                  <b>Othello. </b>Ayudantía y coordinación de escenografía.
                   Diseñada por Marta Pazos. Dirigida por Marta Pazos. Estrenada
                   en el Teatro de la Abadía
                 </p>
@@ -303,7 +303,7 @@ function About() {
               <h3 className="year-title">2019</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
-                  <b>Brand.</b>Interiorismo de oficinas para talleres en Griñón
+                  <b>Brand. </b>Interiorismo de oficinas para talleres en Griñón
                 </p>
                 <p className="parrafo-contacto-about">
                   <b>Logista. </b>Creación, diseño y desarrollo de nuevo modelo
@@ -633,11 +633,11 @@ function About() {
               <h3 className="year-title">2017</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
-                  <b>Beta </b>
+                  <b>Beta. </b>
                   Cortometraje. Dirección: Jan Zemelka
                 </p>
                 <p className="parrafo-contacto-about">
-                  <b>Selfie.</b>
+                  <b>Selfie. </b>
                   Largometraje. (Pequeñaparte). Dirección: Víctor García León.
                   Productora: Gonita/ II Acto/ ApacheFilms.
                 </p>
@@ -652,7 +652,7 @@ function About() {
                   Cortometraje. Dirección: Jan Zemelka
                 </p>
                 <p className="parrafo-contacto-about">
-                  <b>Selfie.</b>
+                  <b>Selfie. </b>
                   Serie Web. Dirección: Fernando Delgado.
                 </p>
               </div>
