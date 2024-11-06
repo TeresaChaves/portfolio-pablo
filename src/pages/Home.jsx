@@ -1,4 +1,4 @@
-import uno from "../assets/uno.jpeg";
+import uno from "../assets/A marcela.jpg";
 import dos from "../assets/dos.jpeg";
 import tres from "../assets/elbanquete/0.jpg";
 import "../pages/Home.css";
@@ -33,7 +33,6 @@ function Home() {
 
   useEffect(() => {
     const handleMouseMove = () => {
-      // Puedes ajustar el tiempo que la flecha permanece visible después de un movimiento del ratón
       setTimeout(() => {}, 2000); // 2000 milisegundos (2 segundos) en este ejemplo
     };
     window.addEventListener("mousemove", handleMouseMove);

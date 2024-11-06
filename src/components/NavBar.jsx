@@ -4,7 +4,6 @@ import { useLocation } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  const [isScrolled, setScrolled] = useState(false);
   const [nombre, setNombre] = useState("PABLO CHAVES");
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -74,8 +73,14 @@ function NavBar() {
     setMenuOpen(!isMenuOpen); // Cambia el estado del menú (abierto/cerrado)
   };
 
+  // Definir la clase adicional para /biografia-pablo-chaves
+  const navClass =
+    location.pathname === "/biografia-pablo-chaves"
+      ? "menu-display_special-class" // Clase especial para esta ruta
+      : "menu-display"; // Clase por defecto
+
   return (
-    <nav className="menu-display">
+    <nav className={navClass}>
       <div className="container-nav">
         <div id="menuToggle">
           <input type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />{" "}
