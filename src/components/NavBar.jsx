@@ -11,7 +11,7 @@ function NavBar() {
 
   // Manejo del scroll
   const handleScroll = () => {
-    const textNavbar = document.querySelector(".nombre");
+    const textNavbar = document.querySelector(".nombre, .nombre_special-class");
     const scrollY = window.scrollY;
 
     if (textNavbar) {
@@ -79,6 +79,15 @@ function NavBar() {
       ? "menu-display_special-class" // Clase especial para esta ruta
       : "menu-display"; // Clase por defecto
 
+  const navClassNombre =
+    location.pathname === "/biografia-pablo-chaves"
+      ? "nombre_special-class" // Clase especial para esta ruta
+      : "nombre"; // Clase por defecto
+  const containerNav =
+    location.pathname === "/biografia-pablo-chaves"
+      ? "container-nav_special-class" // Clase especial para esta ruta
+      : "container-nav"; // Clase por defecto
+
   return (
     <nav className={navClass}>
       <div className="container-nav">
@@ -102,14 +111,14 @@ function NavBar() {
             </NavLink>
           </ul>
         </div>
-        <a href="/">
-          <div className="nombre">
+        <div className="nombre">
+          <a href="/">
             <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
               {nombre}
             </h1>
             {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </nav>
   );

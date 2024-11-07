@@ -82,13 +82,9 @@
 }
 
 .text-navbar.visible {
-  /* Estilos cuando es visible */
   opacity: 1;
 }
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(48deg) translate(-1px, -1px);
@@ -192,12 +188,107 @@
   margin-top: -15px !important;
   letter-spacing: 7px;
 }
+.nombre_special-class {
+  margin-right: 60px;
+  font-family: "Lato", sans-serif;
+}
+
+.nombre_special-class p {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 !important;
+  margin-left: 20px;
+  margin-top: -15px !important;
+  letter-spacing: 7px;
+}
+
+.nombre_special-class h1 {
+  font-weight: 200 !important;
+  margin: 0 !important;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 1614px) {
+  .container-nav_special-class {
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    align-content: flex-end;
+    justify-content: flex-end;
+  }
+
+  .nombre_special-class {
+    width: 45%;
+    display: flex;
+    margin-right: 45px;
+  }
+
+  .nombre_special-class h1 {
+    font-size: 95px;
+  }
+}
+@media only screen and (max-width: 1482px) {
+  .nombre_special-class h1 {
+    font-size: 85px;
+  }
+}
+@media only screen and (max-width: 1327px) {
+  .nombre_special-class h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 1093px) {
+  .nombre_special-class h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .menu-display_special-class {
+    background-color: white;
+    position: fixed;
+  }
+  .nombre_special-class {
+    margin-right: 60px;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nombre_special-class p {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 !important;
+    margin-left: 20px;
+    margin-top: -15px !important;
+    letter-spacing: 7px;
+  }
+
+  .nombre_special-class h1 {
+    font-weight: 200 !important;
+    margin: 0 !important;
+    font-size: 80px;
+  }
+  .section-contacto-about {
+    margin-top: 90px;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   h1 {
     font-size: 33px;
     /* text-align: end; */
     /* width: fit-content; */
   }
+  .nombre_special-class h1 {
+    font-size: 33px;
+  }
+  .nombre_special-class p {
+    margin-top: 0px !important;
+  }
+
   .nombre p {
     margin-top: 0px !important;
   }
@@ -205,6 +296,9 @@
     margin-top: 9px;
   } */
   .nombre {
+    margin-right: 40px;
+  }
+  .nombre_special-class {
     margin-right: 40px;
   }
   #menuToggle span {
@@ -219,15 +313,9 @@
   }
 }
 
-@media only screen and (max-width: 990px) {
-  .menu-display_special-class {
-    background-color: white;
-    position: fixed;
-  }
-}
-.section-contacto-about {
-  margin-top: 90px;
-}
+/* .section-contacto-about {
+  margin-top: 120px;
+} */
 
 .menu-display {
   transition: opacity 0.3s ease; /* Transición suave de opacidad */
@@ -237,7 +325,15 @@
   opacity: 1; /* Opacidad inicial */
   transition: opacity 0.3s ease; /* Transición suave de opacidad */
 }
+.nombre_special-class {
+  opacity: 1; /* Opacidad inicial */
+  transition: opacity 0.3s ease; /* Transición suave de opacidad */
+}
 
 .nombre.hidden {
-  opacity: 0; /* Opacidad cero cuando se oculta */
+  opacity: 0;
+}
+
+.nombre_special-class.hidden {
+  opacity: 0;
 }
