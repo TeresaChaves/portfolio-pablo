@@ -83,7 +83,6 @@ function Home() {
               <p className="image-text">Proyectos</p>
             </NavLink>
 
-            <NavLink to="/proyectos"></NavLink>
             <NavLink to="biografia-pablo-chaves">
               <p className="image-text">Biografía</p>
             </NavLink>
@@ -91,7 +90,7 @@ function Home() {
               <p className="image-text">Contacto</p>
             </NavLink>
           </div>
-          <NavLink to="/proyectos">
+          <NavLink to="/proyectos-pablo-chaves">
             <div className="image-display">
               <img
                 className="uno-picture"
