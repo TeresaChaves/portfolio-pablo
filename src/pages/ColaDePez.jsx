@@ -20,7 +20,7 @@ function ColaDePez() {
   };
 
   const cloudinaryBaseUrl =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/";
 
   const imagePaths = [
     "subir3_i8m8g0.jpg",
