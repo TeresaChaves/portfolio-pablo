@@ -28,6 +28,26 @@ function ColaDePez() {
     setImagenAmpliada(null);
   };
 
+  const uno =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902921/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/subir3_i8m8g0.jpg";
+  const dos =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902920/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/subir2_vv4h7v.png";
+  const tres =
+    " https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902919/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/s_uq9ike.jpg";
+  const cuatro =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902919/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/c_ohy9ba.jpg";
+  const cinco =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902918/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/b_sfjk4b.jpg";
+  const seis =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902917/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/8_u6itig.jpg";
+  const siete =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902916/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/3_pabzlu.png";
+  const ocho =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902916/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/6_ndzoxk.jpg";
+  const nueve =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/1_abwps6.png";
+  const diez =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902915/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/2_wvjq1v.jpg";
   const imagenes = [
     uno,
     dos,
