@@ -33,6 +33,31 @@ function Proyectos() {
     };
   }, []);
 
+  const nueve =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915801/PORTFOLIO%20ESCENOGRAFIA/lafortaleza/C_LA_FORTALEZA_tq3lod.jpg";
+  const ocho =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915843/PORTFOLIO%20ESCENOGRAFIA/marcela/A_marcela_lkyv4v.jpg";
+  const uno =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915916/PORTFOLIO%20ESCENOGRAFIA/perfil/uno_vcejid.jpg";
+  const doce =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915762/PORTFOLIO%20ESCENOGRAFIA/guerra/A_SOMOS_LA_GUERRA_fbjbvn.jpg";
+  const catorce =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915653/PORTFOLIO%20ESCENOGRAFIA/Domesticacion/A_LA_DOMEST_a9f6ca.jpg";
+  const trece =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg";
+  const diez =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915897/PORTFOLIO%20ESCENOGRAFIA/tablao/A_Tablao_cn5val.jpg";
+  const once =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742902837/PORTFOLIO%20ESCENOGRAFIA/PSICOSIS/A_PSICOSIS_4.48_j102mf.jpg";
+  const seis =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg";
+  const siete =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg";
+  const cinco =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg";
+  const dos =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915924/PORTFOLIO%20ESCENOGRAFIA/perfil/dos_ptpi5h.jpg";
+
   // Array de proyectos
   const proyectos = [
     {
