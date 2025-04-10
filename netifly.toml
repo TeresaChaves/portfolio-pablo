@@ -4,7 +4,7 @@
   functions = "functions"
   
 [dev]
-  functions = "functions" 
+    functions = "netlify/functions"
 
 [[redirects]]
   from = "/*"
