@@ -1,18 +1,9 @@
 import "./ColaDePez.css";
-import uno from "../assets/BuenaObra/A BUENA OBRA.jpg";
-import dos from "../assets/BuenaObra/B BUENA OBRA.jpg";
-import tres from "../assets/BuenaObra/C BUENA OBRA.jpg";
-import cuatro from "../assets/BuenaObra/D BUENA OBRA.jpg";
-import cinco from "../assets/BuenaObra/E BUENA OBRA.jpg";
-import seis from "../assets/BuenaObra/F BUENA OBRA.jpg";
-import siete from "../assets/BuenaObra/G BUENA OBRA.jpg";
-import ocho from "../assets/BuenaObra/H BUENA OBRA.jpg";
-import nueve from "../assets/BuenaObra/I BUENA OBRA.jpg";
-import diez from "../assets/BuenaObra/J BUENA OBRA.jpg";
-import once from "../assets/BuenaObra/K BUENA OBRA.jpg";
-import doce from "../assets/BuenaObra/L BUENA OBRA.jpg";
-import { Helmet } from "react-helmet";
 
+import { Helmet } from "react-helmet";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 import React, { useState } from "react";
 
 function BuenaObra() {
@@ -27,6 +18,31 @@ function BuenaObra() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
+
+  const uno =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg";
+  const dos =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917103/PORTFOLIO%20ESCENOGRAFIA/buenaobra/B_BUENA_OBRA_ed7jt8.jpg";
+  const tres =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917114/PORTFOLIO%20ESCENOGRAFIA/buenaobra/C_BUENA_OBRA_fm2erg.jpg";
+  const cuatro =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917105/PORTFOLIO%20ESCENOGRAFIA/buenaobra/D_BUENA_OBRA_mempsl.jpg";
+  const cinco =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917122/PORTFOLIO%20ESCENOGRAFIA/buenaobra/F_BUENA_OBRA_xxy50a.jpg";
+  const seis =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917116/PORTFOLIO%20ESCENOGRAFIA/buenaobra/G_BUENA_OBRA_xah6nz.jpg";
+  const siete =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917107/PORTFOLIO%20ESCENOGRAFIA/buenaobra/H_BUENA_OBRA_xcxc5f.jpg";
+  const ocho =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917109/PORTFOLIO%20ESCENOGRAFIA/buenaobra/I_BUENA_OBRA_wy7mlk.jpg";
+  const nueve =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917111/PORTFOLIO%20ESCENOGRAFIA/buenaobra/J_BUENA_OBRA_c8gd2q.jpg";
+  const diez =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917112/PORTFOLIO%20ESCENOGRAFIA/buenaobra/K_BUENA_OBRA_yf5ips.jpg";
+  const once =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917120/PORTFOLIO%20ESCENOGRAFIA/buenaobra/L_BUENA_OBRA_gqikqg.jpg";
+  const doce =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917118/PORTFOLIO%20ESCENOGRAFIA/buenaobra/E_BUENA_OBRA_ssgppt.jpg";
 
   const imagenes = [
     uno,
@@ -140,40 +156,18 @@ function BuenaObra() {
           </div>
         </div>
         <div class="grid-container">
-          <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <img src={uno} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <img src={dos} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <img src={tres} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <img src={cuatro} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <img src={cinco} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <img src={seis} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-
-          <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <img src={ocho} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <img src={nueve} alt="Imagen 3" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <img src={diez} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(9)}>
-            <img src={once} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(10)}>
-            <img src={doce} alt="Imagen La buena obra de Pablo Chaves" />
-          </div>
+          {imagenes.map((src, index) => (
+            <div
+              key={index}
+              className="grid-item"
+              onClick={() => handleImagenClick(index)}>
+              <LazyLoadImage
+                src={src}
+                alt={`Imagen La buena obra de Pablo Chaves ${index + 1}`}
+                effect="blur"
+              />
+            </div>
+          ))}
         </div>
       </div>
       <div
