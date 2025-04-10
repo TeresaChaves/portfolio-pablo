@@ -61,7 +61,7 @@ function ElBanquete() {
   }
 
   useEffect(() => {
-    const cloudinaryAPI = `https://api.cloudinary.com/v1_1/@dlt2cjtvj/resources/image/upload?folder=PORTFOLIO%20ESCENOGRAFIA/cucaracha&max_results=30`;
+    const cloudinaryAPI = `https://api.cloudinary.com/v1_1/@dlt2cjtvj/resources/image/upload?folder=cucaracha&max_results=30`;
 
     fetch(cloudinaryAPI, {
       method: "GET",
