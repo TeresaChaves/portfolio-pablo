@@ -4,9 +4,9 @@ const cloudinary = require('cloudinary').v2;
 
 // Configura tus credenciales de Cloudinary
 cloudinary.config({
-  cloud_name: 'TU_CLOUD_NAME',  // Sustituye con tu Cloud Name
-  api_key: 'TU_API_KEY',        // Sustituye con tu API Key
-  api_secret: 'TU_API_SECRET',  // Sustituye con tu API Secret
+ cloud_name: process.env.CLOUDINARY_CLOUD_NAME,  // Usa variables de entorno para mantener la seguridad
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET, // Sustituye con tu API Secret
 });
 
 exports.handler = async function(event, context) {

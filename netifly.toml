@@ -2,7 +2,8 @@
   publish = "build"
   command = "npm run build"
   functions = "functions"
-  [dev]
+  
+[dev]
   functions = "functions" 
 
 [[redirects]]
