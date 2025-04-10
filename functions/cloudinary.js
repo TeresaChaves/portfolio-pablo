@@ -4,9 +4,9 @@ const cloudinary = require('cloudinary').v2;
 
 // Configura tus credenciales de Cloudinary
 cloudinary.config({
-  cloud_name: 'TU_CLOUD_NAME',    // Sustituye con tu Cloud Name
-  api_key: 'TU_API_KEY',          // Sustituye con tu API Key
-  api_secret: 'TU_API_SECRET',    // Sustituye con tu API Secret
+  cloud_name: 'TU_CLOUD_NAME',  // Sustituye con tu Cloud Name
+  api_key: 'TU_API_KEY',        // Sustituye con tu API Key
+  api_secret: 'TU_API_SECRET',  // Sustituye con tu API Secret
 });
 
 exports.handler = async function(event, context) {
@@ -26,6 +26,11 @@ exports.handler = async function(event, context) {
 
     return {
       statusCode: 200,
+      headers: {
+        "Access-Control-Allow-Origin": "*",  // Permitir acceso desde cualquier origen
+        "Access-Control-Allow-Methods": "GET, OPTIONS",  // Métodos permitidos
+        "Access-Control-Allow-Headers": "Content-Type",  // Cabeceras permitidas
+      },
       body: JSON.stringify(urls),  // Devuelve las URLs de las imágenes
     };
   } catch (error) {

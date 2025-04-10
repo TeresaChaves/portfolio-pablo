@@ -60,9 +60,7 @@ function ElBanquete() {
   }
 
   useEffect(() => {
-    fetch(
-      "https://https://pruebaclou.netlify.app/.netlify/functions/cloudinary"
-    )
+    fetch("https://pruebaclou.netlify.app/.netlify/functions/cloudinary")
       .then((response) => response.json())
       .then((data) => {
         console.log("URLs de imágenes:", data);
