@@ -14,6 +14,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { Helmet } from "react-helmet";
+import { use } from "react";
+import { useEffect } from "react";
 
 function ElBanquete() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -56,6 +58,19 @@ function ElBanquete() {
 
     return <div className="indicadores">{puntos}</div>;
   }
+
+  useEffect(() => {
+    fetch(
+      "https://https://pruebaclou.netlify.app/.netlify/functions/cloudinary"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("URLs de imágenes:", data);
+      })
+      .catch((error) => {
+        console.error("Error al obtener las imágenes:", error);
+      });
+  });
 
   return (
     <section

@@ -12,7 +12,7 @@ cloudinary.config({
 exports.handler = async function(event, context) {
   try {
     // Nombre de la carpeta de Cloudinary
-    const folderName = 'mi_carpeta/';  // Cambia esto a tu carpeta
+    const folderName = 'PORTFOLIO ESCENOGRAFIA/';  // Cambia esto a tu carpeta
 
     // Llamada a Cloudinary para obtener los recursos (imágenes) en la carpeta
     const result = await cloudinary.api.resources({
