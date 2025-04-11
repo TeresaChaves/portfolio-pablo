@@ -5,6 +5,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import React, { useState } from "react";
+import { use } from "react";
+import { useEffect } from "react";
 
 function BuenaObra() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);

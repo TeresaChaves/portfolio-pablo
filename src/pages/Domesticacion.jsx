@@ -13,6 +13,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { Helmet } from "react-helmet";
+import imageData from "../imagenes.json";
 
 import React, { useState } from "react";
 
@@ -21,7 +22,7 @@ function Domesticacion() {
   const [imagenIndex, setImagenIndex] = useState(0);
 
   const handleImagenClick = (index) => {
-    setImagenAmpliada(imagenes[index]);
+    setImagenAmpliada(imageData.domesticacion[index]);
     setImagenIndex(index);
   };
 
@@ -29,24 +30,24 @@ function Domesticacion() {
     setImagenAmpliada(null);
   };
 
-  const imagenes = [
-    uno,
-    dos,
-    tres,
-    cuatro,
-    cinco,
-    seis,
-    siete,
-    ocho,
-    nueve,
-    diez,
-  ];
+  // const imagenes = [
+  //   uno,
+  //   dos,
+  //   tres,
+  //   cuatro,
+  //   cinco,
+  //   seis,
+  //   siete,
+  //   ocho,
+  //   nueve,
+  //   diez,
+  // ];
 
   const cambiarImagen = (direction) => {
     const newIndex =
-      (imagenIndex + direction + imagenes.length) % imagenes.length;
-    console.log("Nuevo índice de imagen:", newIndex);
-    setImagenAmpliada(imagenes[newIndex]);
+      (imagenIndex + direction + imageData.domesticacion.length) %
+      imageData.domesticacion.length;
+    setImagenAmpliada(imageData.domesticacion[newIndex]);
     setImagenIndex(newIndex);
   };
   function Indicadores({ total, actual }) {
@@ -75,7 +76,7 @@ function Domesticacion() {
         <div>
           <LazyLoadImage
             className="cover_colaPez"
-            src={imagenes[imagenIndex]}
+            src={imageData.domesticacion[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
             effect="opacity"
           />
@@ -84,7 +85,8 @@ function Domesticacion() {
             onClick={() =>
               setImagenIndex(
                 (prevIndex) =>
-                  (prevIndex - 1 + imagenes.length) % imagenes.length
+                  (prevIndex - 1 + imageData.domesticacion.length) %
+                  imageData.domesticacion.length
               )
             }>
             ❮
@@ -92,12 +94,17 @@ function Domesticacion() {
           <button
             className="button-derecha-cover"
             onClick={() =>
-              setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
+              setImagenIndex(
+                (prevIndex) => (prevIndex + 1) % imageData.domesticacion.length
+              )
             }>
             ❯
           </button>
         </div>
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
+        <Indicadores
+          total={imageData.domesticacion.length}
+          actual={imagenIndex}
+        />
       </div>
       <div class="container">
         <div className="container-ficha-centrada">
@@ -139,35 +146,19 @@ function Domesticacion() {
             </i>
           </div>
         </div>
-        <div class="grid-container">
-          <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
-          </div>
-
-          <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
-          </div>
+        <div className="grid-container">
+          {imageData.domesticacion.map((img, index) => (
+            <div
+              key={index}
+              className="grid-item"
+              onClick={() => handleImagenClick(index)}>
+              <LazyLoadImage
+                src={img}
+                alt={`Imagen ${index + 1} de domesticacion de Pablo Chaves`}
+                effect="blur"
+              />
+            </div>
+          ))}
         </div>
       </div>
       <div

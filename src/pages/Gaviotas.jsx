@@ -14,13 +14,14 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { Helmet } from "react-helmet";
+import imageData from "../imagenes.json"; // Importa la imageData.gaviotas de la carpeta
 
 function Gaviotas() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
   const handleImagenClick = (index) => {
-    setImagenAmpliada(imagenes[index]);
+    setImagenAmpliada(imageData.gaviotas[index]);
     setImagenIndex(index);
   };
 
@@ -44,9 +45,10 @@ function Gaviotas() {
   const cambiarImagen = (direction) => {
     console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
-      (imagenIndex + direction + imagenes.length) % imagenes.length;
+      (imagenIndex + direction + imageData.gaviotas.length) %
+      imageData.gaviotas.length;
     console.log("Nuevo índice de imagen:", newIndex);
-    setImagenAmpliada(imagenes[newIndex]);
+    setImagenAmpliada(imageData.gaviotas[newIndex]);
     setImagenIndex(newIndex);
   };
   function Indicadores({ total, actual }) {
@@ -75,7 +77,7 @@ function Gaviotas() {
         <div>
           <LazyLoadImage
             className="cover_colaPez"
-            src={imagenes[imagenIndex]}
+            src={imageData.gaviotas[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
             effect="opacity"
           />
@@ -84,7 +86,8 @@ function Gaviotas() {
             onClick={() =>
               setImagenIndex(
                 (prevIndex) =>
-                  (prevIndex - 1 + imagenes.length) % imagenes.length
+                  (prevIndex - 1 + imageData.gaviotas.length) %
+                  imageData.gaviotas.length
               )
             }>
             ❮
@@ -92,13 +95,15 @@ function Gaviotas() {
           <button
             className="button-derecha-cover"
             onClick={() =>
-              setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
+              setImagenIndex(
+                (prevIndex) => (prevIndex + 1) % imageData.gaviotas.length
+              )
             }>
             ❯
           </button>
         </div>
 
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
+        <Indicadores total={imageData.gaviotas.length} actual={imagenIndex} />
       </div>
       <div class="container">
         <div className="container-ficha-centrada">
@@ -125,35 +130,19 @@ function Gaviotas() {
             Prensa: <span>María Díaz</span>
           </i>{" "}
         </div>
-        <div class="grid-container">
-          <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <LazyLoadImage src={uno} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <LazyLoadImage src={dos} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <LazyLoadImage src={tres} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <LazyLoadImage src={cuatro} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <LazyLoadImage src={cinco} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <LazyLoadImage src={seis} alt="Imagen 3" effect="blur" />
-          </div>
-
-          <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <LazyLoadImage src={ocho} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <LazyLoadImage src={nueve} alt="Imagen 3" effect="blur" />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <LazyLoadImage src={diez} alt="Imagen 3" effect="blur" />
-          </div>
+        <div className="grid-container">
+          {imageData.gaviotas.map((img, index) => (
+            <div
+              key={index}
+              className="grid-item"
+              onClick={() => handleImagenClick(index)}>
+              <LazyLoadImage
+                src={img}
+                alt={`Imagen ${index + 1} de gaviotas de fondo de Pablo Chaves`}
+                effect="blur"
+              />
+            </div>
+          ))}
         </div>
       </div>
       <div
