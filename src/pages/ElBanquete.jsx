@@ -60,29 +60,6 @@ function ElBanquete() {
     return <div className="indicadores">{puntos}</div>;
   }
 
-  useEffect(() => {
-    const cloudinaryAPI = `https://api.cloudinary.com/v1_1/@dlt2cjtvj/resources/image/upload?folder=cucaracha&max_results=30`;
-
-    fetch(cloudinaryAPI, {
-      method: "GET",
-      headers: {
-        Authorization: `Basic ${btoa(
-          "425666618762119:RU0cypkA9-2hV1z-xvdnMPp4L6k"
-        )}`, // Autenticación básica
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data); // Aquí se reciben los recursos de la carpeta de Cloudinary
-        const imagenes = data.resources.map((resource) => resource.secure_url);
-        console.log(imagenes); // Lista de URLs de las imágenes
-      })
-      .catch((error) => {
-        console.error("Error al obtener imágenes:", error);
-      });
-  }, []);
-
   return (
     <section
       className="home-margin"

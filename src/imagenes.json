@@ -1,11 +1,19 @@
 {
-  "cucaracha": {
-    "una": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0320_r0wcqc.jpg",
-    "dos": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915624/PORTFOLIO%20ESCENOGRAFIA/cucaracha/10_z345rj.png",
-    "tres": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915623/PORTFOLIO%20ESCENOGRAFIA/cucaracha/9_cblxex.png",
-    "cuatro": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/8_phimfo.jpg",
-    "cinco": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/7_vvmort.jpg",
-    "seis": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0d_ucpshy.jpg",
-    "siete": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/7_vvmort.jpg"
-  }
+  "cucarachas": [
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0850_1_vkjbwm.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0724_ftftc2.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0320_r0wcqc.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915624/PORTFOLIO%20ESCENOGRAFIA/cucaracha/10_z345rj.png",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915623/PORTFOLIO%20ESCENOGRAFIA/cucaracha/9_cblxex.png",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/8_phimfo.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/7_vvmort.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915622/PORTFOLIO%20ESCENOGRAFIA/cucaracha/6_z5rh7c.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/3_zbjugc.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0d_ucpshy.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/1_o9t8ca.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0b_jt4hwr.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0c_wqvhwp.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0850_bhax4g.jpg"
+  ]
 }

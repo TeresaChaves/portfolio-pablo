@@ -1,20 +1,11 @@
 import "./ColaDePez.css";
-import uno from "../assets/cucaracha/0.jpg";
-import dos from "../assets/cucaracha/0b.jpg";
-import tres from "../assets/cucaracha/0c.jpg";
-import cuatro from "../assets/cucaracha/0d.jpg";
-import cinco from "../assets/cucaracha/1.jpg";
-import seis from "../assets/cucaracha/3.jpg";
-import siete from "../assets/cucaracha/6.jpg";
-import ocho from "../assets/cucaracha/7.jpg";
-import nueve from "../assets/cucaracha/8.jpg";
-import diez from "../assets/cucaracha/9.png";
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import imageData from "../imagenes.json"; // Importa la imagenes de la carpeta
 
 function Cucaracha() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -35,7 +26,7 @@ function Cucaracha() {
   }, []);
 
   const handleImagenClick = (index) => {
-    setImagenAmpliada(imagenes[index]);
+    setImagenAmpliada(imageData.cucarachas[index]);
     setImagenIndex(index);
   };
 
@@ -43,27 +34,14 @@ function Cucaracha() {
     setImagenAmpliada(null);
   };
 
-  const imagenes = [
-    uno,
-    dos,
-    tres,
-    cuatro,
-    cinco,
-    seis,
-    siete,
-    ocho,
-    nueve,
-    diez,
-  ];
-
   const cambiarImagen = (direction) => {
-    console.log("ImagenIndex antes del cambio:", imagenIndex);
     const newIndex =
-      (imagenIndex + direction + imagenes.length) % imagenes.length;
-    console.log("Nuevo índice de imagen:", newIndex);
-    setImagenAmpliada(imagenes[newIndex]);
+      (imagenIndex + direction + imageData.cucarachas.length) %
+      imageData.cucarachas.length;
+    setImagenAmpliada(imageData.cucarachas[newIndex]);
     setImagenIndex(newIndex);
   };
+
   function Indicadores({ total, actual }) {
     const puntos = Array.from({ length: total }, (_, index) => (
       <span key={index} className={index === actual ? "activo" : ""} />
@@ -90,7 +68,7 @@ function Cucaracha() {
         <div>
           <LazyLoadImage
             className="cover_colaPez"
-            src={imagenes[imagenIndex]}
+            src={imageData.cucarachas[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
             effect="opacity"
           />
@@ -99,7 +77,8 @@ function Cucaracha() {
             onClick={() =>
               setImagenIndex(
                 (prevIndex) =>
-                  (prevIndex - 1 + imagenes.length) % imagenes.length
+                  (prevIndex - 1 + imageData.cucarachas.length) %
+                  imageData.cucarachas.length
               )
             }>
             ❮
@@ -107,13 +86,15 @@ function Cucaracha() {
           <button
             className="button-derecha-cover"
             onClick={() =>
-              setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
+              setImagenIndex(
+                (prevIndex) => (prevIndex + 1) % imageData.cucarachas.length
+              )
             }>
             ❯
           </button>
         </div>
 
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
+        <Indicadores total={imageData.cucarachas.length} actual={imagenIndex} />
       </div>
       <div class="container">
         {isMobile ? (
@@ -189,71 +170,21 @@ function Cucaracha() {
           </div>
         )}
 
-        <div class="grid-container">
-          <div className="grid-item" onClick={() => handleImagenClick(0)}>
-            <LazyLoadImage
-              src={uno}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(1)}>
-            <LazyLoadImage
-              src={dos}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(2)}>
-            <LazyLoadImage
-              src={tres}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(3)}>
-            <LazyLoadImage
-              src={cuatro}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(4)}>
-            <LazyLoadImage
-              src={cinco}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(5)}>
-            <LazyLoadImage
-              src={seis}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-
-          <div className="grid-item" onClick={() => handleImagenClick(6)}>
-            <LazyLoadImage
-              src={ocho}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(7)}>
-            <LazyLoadImage
-              src={nueve}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
-          <div className="grid-item" onClick={() => handleImagenClick(8)}>
-            <LazyLoadImage
-              src={diez}
-              alt="Imagen de Cucaracha con paisaje de fondo de Pablo Chaves"
-              effect="blur"
-            />
-          </div>
+        <div className="grid-container">
+          {imageData.cucarachas.map((img, index) => (
+            <div
+              key={index}
+              className="grid-item"
+              onClick={() => handleImagenClick(index)}>
+              <LazyLoadImage
+                src={img}
+                alt={`Imagen ${
+                  index + 1
+                } de Cucaracha con paisaje de fondo de Pablo Chaves`}
+                effect="blur"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
