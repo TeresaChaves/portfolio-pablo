@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Proyectos.css";
-import uno from "../assets/uno.jpeg";
-import dos from "../assets/dos.jpeg";
-import cinco from "../assets/cucaracha/0.jpg";
-import seis from "../assets/gaviotas/subir3.jpg";
-import siete from "../assets/elbanquete/0.jpg";
-import ocho from "../assets/prueba/A marcela.jpg";
-import nueve from "../assets/la-fortaleza/C LA FORTALEZA.jpeg";
-import diez from "../assets/tablao/A Tablao.jpg";
-import once from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
-import doce from "../assets/guerra/A SOMOS LA GUERRA.jpg";
-import trece from "../assets/BuenaObra/A BUENA OBRA.jpg";
-import catorce from "../assets/Domesticacion/A LA DOMEST.jpg";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";

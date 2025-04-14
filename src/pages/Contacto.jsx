@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contacto.css";
-import pablo from "../assets/elbanquete/IMG_1069.JPG";
 import avion from "../assets/avion-de-papel.png";
 import phone2 from "../assets/phone2.svg";
 import insta from "../assets/instagram.svg";
@@ -21,7 +20,7 @@ function Contacto() {
         <div className="container-foto-contacto">
           <img
             className="img-contacto-contacto"
-            src={pablo}
+            src="https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915708/PORTFOLIO%20ESCENOGRAFIA/elbanquete/IMG_1069_agecdj.jpg"
             alt="Pablo Chaves escenógrafo en España, contacto"
           />
         </div>

@@ -1,20 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/tablao/A Tablao.jpg";
-import dos from "../assets/tablao/B Tablao.jpg";
-import tres from "../assets/tablao/C Tablao.jpg";
-import cuatro from "../assets/tablao/D Tablao.jpg";
-import cinco from "../assets/tablao/E Tablao.png";
-import seis from "../assets/tablao/F Tablao.png";
-import siete from "../assets/tablao/G Tablao.png";
-import ocho from "../assets/tablao/H Tablao.jpg";
-import nueve from "../assets/tablao/I Tablao.jpg";
-import diez from "../assets/tablao/J Tablao.jpg";
-import once from "../assets/tablao/K Tablao.jpg";
-import doce from "../assets/tablao/L Tablao.jpg";
-import trece from "../assets/tablao/M Tablao.jpg";
-import catorce from "../assets/tablao/N Tablao.jpg";
-import quince from "../assets/tablao/O Tablao.png";
-import dieciseis from "../assets/tablao/P Tablao.png";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";

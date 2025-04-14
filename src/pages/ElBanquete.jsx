@@ -1,14 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/elbanquete/1.jpg";
-import dos from "../assets/elbanquete/3.jpg";
-import tres from "../assets/elbanquete/5.jpg";
-import cuatro from "../assets/elbanquete/6.JPG";
-import cinco from "../assets/elbanquete/8.JPG";
-import seis from "../assets/elbanquete/b.JPG";
-import siete from "../assets/elbanquete/c.JPG";
-import ocho from "../assets/elbanquete/s.JPG";
-import nueve from "../assets/elbanquete/subir2.JPG";
-import diez from "../assets/elbanquete/subir3.JPG";
+
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -28,19 +19,6 @@ function ElBanquete() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  // const imagenes = [
-  //   uno,
-  //   dos,
-  //   tres,
-  //   cuatro,
-  //   cinco,
-  //   seis,
-  //   siete,
-  //   ocho,
-  //   nueve,
-  //   diez,
-  // ];
 
   const cambiarImagen = (direction) => {
     console.log("ImagenIndex antes del cambio:", imagenIndex);

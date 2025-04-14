@@ -1,24 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/la-fortaleza/A LA FORTALEZA.jpeg";
-import dos from "../assets/la-fortaleza/A2 LA FORTALEZA.jpeg";
-import tres from "../assets/la-fortaleza/B LA FORTALEZA.jpg";
-import cuatro from "../assets/la-fortaleza/C LA FORTALEZA.jpeg";
-import cinco from "../assets/la-fortaleza/D LA FORTALEZA.jpg";
 
-import seis from "../assets/la-fortaleza/F LA FORTALEZA.jpeg";
-import siete from "../assets/la-fortaleza/G LA FORTALEZA.jpg";
-import ocho from "../assets/la-fortaleza/H LA FORTALEZA.jpg";
-import nueve from "../assets/la-fortaleza/I LA FORTALEZA.jpg";
-import diez from "../assets/la-fortaleza/J LA FORTALEZA.jpg";
-import once from "../assets/la-fortaleza/K LA FORTALEZA.jpg";
-import doce from "../assets/la-fortaleza/L LA FORTALEZA.jpeg";
-import trece from "../assets/la-fortaleza/M LA FORTALEZA.jpeg";
-import catorce from "../assets/la-fortaleza/N LA FORTALEZA.jpeg";
-import quince from "../assets/la-fortaleza/E LA FORTALEZA.jpeg";
-import dieciseis from "../assets/la-fortaleza/O LA FORTALEZA.jpg";
-import diecisiete from "../assets/la-fortaleza/P LA FORTALEZA.jpg";
-import dieciocho from "../assets/la-fortaleza/Q LA FORTALEZA.png";
-import diecinueve from "../assets/la-fortaleza/R LA FORTALEZA.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
@@ -52,28 +33,6 @@ function Fortaleza() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  const imagenes = [
-    uno,
-    dos,
-    tres,
-    cuatro,
-    cinco,
-    seis,
-    siete,
-    ocho,
-    nueve,
-    diez,
-    once,
-    doce,
-    trece,
-    catorce,
-    quince,
-    dieciseis,
-    diecisiete,
-    dieciocho,
-    diecinueve,
-  ];
 
   const cambiarImagen = (direction) => {
     const newIndex =

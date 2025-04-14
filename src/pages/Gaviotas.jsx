@@ -1,14 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/gaviotas/cover-gaviotas.jpg";
-import dos from "../assets/gaviotas/subir2.jpg";
-import tres from "../assets/gaviotas/subir3.jpg";
-import cuatro from "../assets/gaviotas/subir5.jpg";
-import cinco from "../assets/gaviotas/subir6.2.jpg";
-import seis from "../assets/gaviotas/subir6.jpg";
-import siete from "../assets/gaviotas/subir7.jpg";
-import ocho from "../assets/gaviotas/subir8.png";
-import nueve from "../assets/gaviotas/subir10.jpg";
-import diez from "../assets/gaviotas/uno.png";
+
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -28,19 +19,6 @@ function Gaviotas() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  const imagenes = [
-    uno,
-    dos,
-    tres,
-    cuatro,
-    cinco,
-    seis,
-    siete,
-    ocho,
-    nueve,
-    diez,
-  ];
 
   const cambiarImagen = (direction) => {
     console.log("ImagenIndex antes del cambio:", imagenIndex);

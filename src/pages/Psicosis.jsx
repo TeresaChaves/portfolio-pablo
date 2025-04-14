@@ -1,16 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/psicosis/A PSICOSIS 4.48.jpeg";
-import dos from "../assets/psicosis/B PSICOSIS 4.48.jpeg";
-import tres from "../assets/psicosis/C PSICOSIS 4.48.jpg";
-import cuatro from "../assets/psicosis/D PSICOSIS 4.48.jpeg";
-import cinco from "../assets/psicosis/E PSICOSIS 4.48.jpeg";
-import seis from "../assets/psicosis/F PSICOSIS 4.48.jpeg";
-import siete from "../assets/psicosis/G PSICOSIS 4.48.jpg";
-import ocho from "../assets/psicosis/H PSICOSIS 4.48.jpg";
-import nueve from "../assets/psicosis/I PSICOSIS 4.48.jpg";
-import diez from "../assets/psicosis/J PSICOSIS 4.48.jpg";
-import once from "../assets/psicosis/K PSICOSIS 4.48.jpg";
-import doce from "../assets/psicosis/L PSICOSIS 4.48.jpg";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";

@@ -1,14 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/prueba/A marcela.jpg";
-import dos from "../assets/prueba/B Marcela.jpg";
-import tres from "../assets/prueba/C Marcela.jpg";
-import cuatro from "../assets/prueba/C Marcela.jpg";
-import cinco from "../assets/prueba/D Marcela.jpg";
-import seis from "../assets/prueba/F Marcela.jpg";
-import siete from "../assets/prueba/G Marcela.jpg";
-import ocho from "../assets/prueba/H Marcela.jpg";
-import nueve from "../assets/prueba/I Marcela.jpg";
-import diez from "../assets/prueba/J Marcela.jpg";
+
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -16,7 +7,6 @@ import "react-lazy-load-image-component/src/effects/opacity.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import imageData from "../imagenes.json"; // Importa la imageData.marcela de la carpeta
-// Importa la imageData.marcela de la carpeta
 
 function Marcela() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -43,19 +33,6 @@ function Marcela() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  const imagenes = [
-    uno,
-    dos,
-    tres,
-    cuatro,
-    cinco,
-    seis,
-    siete,
-    ocho,
-    nueve,
-    diez,
-  ];
 
   const cambiarImagen = (direction) => {
     console.log("ImagenIndex antes del cambio:", imagenIndex);

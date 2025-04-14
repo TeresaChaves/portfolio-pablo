@@ -5,13 +5,14 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import { Helmet } from "react-helmet";
+import imageData from "../imagenes.json"; // Importa la imageData.coladepez de la carpeta
 
 function ColaDePez() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
   const [imagenIndex, setImagenIndex] = useState(0);
 
   const handleImagenClick = (index) => {
-    setImagenAmpliada(imagenes[index]);
+    setImagenAmpliada(imageData.coladepez[index]);
     setImagenIndex(index);
   };
 
@@ -19,28 +20,11 @@ function ColaDePez() {
     setImagenAmpliada(null);
   };
 
-  const cloudinaryBaseUrl =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/";
-
-  const imagePaths = [
-    "subir3_i8m8g0.jpg",
-    "subir2_vv4h7v.png",
-    "s_uq9ike.jpg",
-    "c_ohy9ba.jpg",
-    "b_sfjk4b.jpg",
-    "8_u6itig.jpg",
-    "3_pabzlu.png",
-    "6_ndzoxk.jpg",
-    "1_abwps6.png",
-    "2_wvjq1v.jpg",
-  ];
-
-  const imagenes = imagePaths.map((path) => `${cloudinaryBaseUrl}${path}`);
-
   const cambiarImagen = (direction) => {
     const newIndex =
-      (imagenIndex + direction + imagenes.length) % imagenes.length;
-    setImagenAmpliada(imagenes[newIndex]);
+      (imagenIndex + direction + imageData.coladepez.length) %
+      imageData.coladepez.length;
+    setImagenAmpliada(imageData.coladepez[newIndex]);
     setImagenIndex(newIndex);
   };
   function Indicadores({ total, actual }) {
@@ -69,7 +53,7 @@ function ColaDePez() {
         <div>
           <LazyLoadImage
             className="cover_colaPez"
-            src={imagenes[imagenIndex]}
+            src={imageData.coladepez[imagenIndex]}
             alt={`Imagen ${imagenIndex + 1}`}
             effect="opacity" // Esto añadirá el efecto de desenfoque mientras la imagen carga
           />
@@ -78,7 +62,8 @@ function ColaDePez() {
             onClick={() =>
               setImagenIndex(
                 (prevIndex) =>
-                  (prevIndex - 1 + imagenes.length) % imagenes.length
+                  (prevIndex - 1 + imageData.coladepez.length) %
+                  imageData.coladepez.length
               )
             }>
             ❮
@@ -86,15 +71,17 @@ function ColaDePez() {
           <button
             className="button-derecha-cover"
             onClick={() =>
-              setImagenIndex((prevIndex) => (prevIndex + 1) % imagenes.length)
+              setImagenIndex(
+                (prevIndex) => (prevIndex + 1) % imageData.coladepez.length
+              )
             }>
             ❯
           </button>
         </div>
-        <Indicadores total={imagenes.length} actual={imagenIndex} />
+        <Indicadores total={imageData.coladepez.length} actual={imagenIndex} />
       </div>
       <div className="grid-container">
-        {imagenes.map((src, index) => (
+        {imageData.coladepez.map((src, index) => (
           <div
             key={index}
             className="grid-item"

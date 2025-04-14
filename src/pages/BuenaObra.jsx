@@ -5,8 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import React, { useState } from "react";
-import { use } from "react";
-import { useEffect } from "react";
 
 function BuenaObra() {
   const [imagenAmpliada, setImagenAmpliada] = useState(null);
@@ -22,29 +20,29 @@ function BuenaObra() {
   };
 
   const uno =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg";
   const dos =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917103/PORTFOLIO%20ESCENOGRAFIA/buenaobra/B_BUENA_OBRA_ed7jt8.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917103/PORTFOLIO%20ESCENOGRAFIA/buenaobra/B_BUENA_OBRA_ed7jt8.jpg";
   const tres =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917114/PORTFOLIO%20ESCENOGRAFIA/buenaobra/C_BUENA_OBRA_fm2erg.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917114/PORTFOLIO%20ESCENOGRAFIA/buenaobra/C_BUENA_OBRA_fm2erg.jpg";
   const cuatro =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917105/PORTFOLIO%20ESCENOGRAFIA/buenaobra/D_BUENA_OBRA_mempsl.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917105/PORTFOLIO%20ESCENOGRAFIA/buenaobra/D_BUENA_OBRA_mempsl.jpg";
   const cinco =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917122/PORTFOLIO%20ESCENOGRAFIA/buenaobra/F_BUENA_OBRA_xxy50a.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917122/PORTFOLIO%20ESCENOGRAFIA/buenaobra/F_BUENA_OBRA_xxy50a.jpg";
   const seis =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917116/PORTFOLIO%20ESCENOGRAFIA/buenaobra/G_BUENA_OBRA_xah6nz.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917116/PORTFOLIO%20ESCENOGRAFIA/buenaobra/G_BUENA_OBRA_xah6nz.jpg";
   const siete =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917107/PORTFOLIO%20ESCENOGRAFIA/buenaobra/H_BUENA_OBRA_xcxc5f.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917107/PORTFOLIO%20ESCENOGRAFIA/buenaobra/H_BUENA_OBRA_xcxc5f.jpg";
   const ocho =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917109/PORTFOLIO%20ESCENOGRAFIA/buenaobra/I_BUENA_OBRA_wy7mlk.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917109/PORTFOLIO%20ESCENOGRAFIA/buenaobra/I_BUENA_OBRA_wy7mlk.jpg";
   const nueve =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917111/PORTFOLIO%20ESCENOGRAFIA/buenaobra/J_BUENA_OBRA_c8gd2q.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917111/PORTFOLIO%20ESCENOGRAFIA/buenaobra/J_BUENA_OBRA_c8gd2q.jpg";
   const diez =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917112/PORTFOLIO%20ESCENOGRAFIA/buenaobra/K_BUENA_OBRA_yf5ips.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917112/PORTFOLIO%20ESCENOGRAFIA/buenaobra/K_BUENA_OBRA_yf5ips.jpg";
   const once =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917120/PORTFOLIO%20ESCENOGRAFIA/buenaobra/L_BUENA_OBRA_gqikqg.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917120/PORTFOLIO%20ESCENOGRAFIA/buenaobra/L_BUENA_OBRA_gqikqg.jpg";
   const doce =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1200,q_auto/v1742917118/PORTFOLIO%20ESCENOGRAFIA/buenaobra/E_BUENA_OBRA_ssgppt.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917118/PORTFOLIO%20ESCENOGRAFIA/buenaobra/E_BUENA_OBRA_ssgppt.jpg";
 
   const imagenes = [
     uno,

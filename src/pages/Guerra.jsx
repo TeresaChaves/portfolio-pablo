@@ -1,16 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/guerra/A SOMOS LA GUERRA.jpg";
-import dos from "../assets/guerra/B SOMOS LA GUERRA.jpg";
-import tres from "../assets/guerra/C SOMOS LA GUERRA.jpg";
-import cuatro from "../assets/guerra/D SOMOS LA GUERRA.jpg";
 
-import cinco from "../assets/guerra/E SOMOS LA GUERRA.jpg";
-import seis from "../assets/guerra/F SOMOS LA GUERRA.jpg";
-import siete from "../assets/guerra/G SOMOS LA GUERRA.jpg";
-import ocho from "../assets/guerra/H SOMOS LA GUERRA.jpg";
-import nueve from "../assets/guerra/I SOMOS LA GUERRA.jpg";
-import diez from "../assets/guerra/J SOMOS LA GUERRA.jpg";
-import once from "../assets/guerra/K SOMOS LA GUERRA.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
@@ -31,20 +20,6 @@ function Guerra() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  // const imagenes = [
-  //   uno,
-  //   dos,
-  //   tres,
-  //   cuatro,
-  //   cinco,
-  //   seis,
-  //   siete,
-  //   ocho,
-  //   nueve,
-  //   diez,
-  //   once,
-  // ];
 
   const cambiarImagen = (direction) => {
     const newIndex =

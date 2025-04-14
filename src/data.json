@@ -1,0 +1,18 @@
+{
+  "gaviotas": {
+    "titulo": "Gaviotas",
+    "slug": "gaviotas",
+    "descripcion": "Proyecto Gaviotas escenografía de Pablo Chaves",
+    "ficha": {
+      "estreno": "Exlímite y Nave 73",
+      "direccion": "Amanda Recacha y Rodolfo Sacristán",
+      "escenografia_vestuario": "Pablo Chaves Maza",
+      "autoria": "Adaptación libre por Gritadero Teatro",
+      "produccion": "Gritadero Teatro",
+      "iluminacion": "Antonio Colomo Gragera",
+      "cartel": "Emiliano Cano",
+      "fotografia": "Luz Soria",
+      "prensa": "María Díaz"
+    }
+  }
+}

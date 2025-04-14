@@ -1,14 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/nofrente/1.jpg";
-import dos from "../assets/nofrente/2.jpg";
-import tres from "../assets/nofrente/3.jpg";
-import cuatro from "../assets/nofrente/4.jpg";
-import cinco from "../assets/nofrente/11.jpg";
-import seis from "../assets/nofrente/6.jpg";
-import siete from "../assets/nofrente/7.jpg";
-import ocho from "../assets/nofrente/8.jpg";
-import nueve from "../assets/nofrente/9.jpg";
-import diez from "../assets/nofrente/10.jpg";
+
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";

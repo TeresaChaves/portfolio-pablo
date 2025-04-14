@@ -1,14 +1,5 @@
 import "./ColaDePez.css";
-import uno from "../assets/Domesticacion/A LA DOMEST.jpg";
-import dos from "../assets/Domesticacion/B LA DOMEST.jpg";
-import tres from "../assets/Domesticacion/C LA DOMEST.jpg";
-import cuatro from "../assets/Domesticacion/D LA DOMEST.jpg";
-import cinco from "../assets/Domesticacion/E LA DOMEST.jpg";
-import seis from "../assets/Domesticacion/F LA DOMEST.jpg";
-import siete from "../assets/Domesticacion/G LA DOMEST.jpg";
-import ocho from "../assets/Domesticacion/H LA DOMEST.jpg";
-import nueve from "../assets/Domesticacion/I LA DOMEST.jpg";
-import diez from "../assets/Domesticacion/J LA DOMEST.jpg";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
@@ -29,19 +20,6 @@ function Domesticacion() {
   const cerrarImagenAmpliada = () => {
     setImagenAmpliada(null);
   };
-
-  // const imagenes = [
-  //   uno,
-  //   dos,
-  //   tres,
-  //   cuatro,
-  //   cinco,
-  //   seis,
-  //   siete,
-  //   ocho,
-  //   nueve,
-  //   diez,
-  // ];
 
   const cambiarImagen = (direction) => {
     const newIndex =

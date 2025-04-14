@@ -1,10 +1,6 @@
-import uno from "../assets/A marcela.jpg";
-import dos from "../assets/dos.jpeg";
-import tres from "../assets/elbanquete/0.jpg";
 import "../pages/Home.css";
 import { useEffect } from "react";
-import cuatro from "../assets/cucaracha/0.jpg";
-import cinco from "../assets/gaviotas/subir3.jpg";
+
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -42,8 +38,20 @@ function Home() {
     };
   }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [uno, dos, tres, cuatro, cinco]; // Agrega más imágenes según sea necesario
-  const intervalDuration = 5000; // Cambia esto para ajustar la velocidad del carrusel
+
+  const uno =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915843/PORTFOLIO%20ESCENOGRAFIA/marcela/A_marcela_lkyv4v.jpg",
+    dos =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1744358844/PORTFOLIO%20ESCENOGRAFIA/nofrente/2_wyxih6.jpg",
+    tres =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg",
+    cuatro =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
+    cinco =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg";
+
+  const images = [uno, dos, tres, cuatro, cinco];
+  const intervalDuration = 5000;
 
   useEffect(() => {
     const intervalId = setInterval(() => {
