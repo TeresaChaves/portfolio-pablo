@@ -80,6 +80,45 @@ function ColaDePez() {
         </div>
         <Indicadores total={imageData.coladepez.length} actual={imagenIndex} />
       </div>
+
+      <div class="container">
+        <div className="container-ficha-centrada">
+          <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
+          <div className="container-ficha-centrada">
+            <i>
+              Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
+              <span>Pablo Chaves</span>
+            </i>
+            <i>
+              Intérprete: <span>Egoitz Sánchez</span>
+            </i>
+            <i>
+              Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
+              iluminación: <span>Elena Alejandre</span>
+            </i>{" "}
+            <i>
+              Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
+              sonido:
+              <span>Pablo Martínez</span>
+            </i>{" "}
+            <i>
+              Directora de producción: <span>Milena Suárez</span> / Ayudante de
+              producción: <span>Paula Pina</span>
+            </i>
+            <i>
+              Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
+              Edición de visuales: <span>Ana Caro</span>
+            </i>
+            <i>
+              Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
+              <span>Celia Freijeiro</span>
+            </i>
+            <i>Una producción de la Sociedad Cervantina</i>
+            <i>con el apoyo de INAEM y Fundación La Caixa</i>
+          </div>
+        </div>
+      </div>
+
       <div className="grid-container">
         {imageData.coladepez.map((src, index) => (
           <div
