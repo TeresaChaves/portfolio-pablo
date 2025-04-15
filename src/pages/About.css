@@ -112,8 +112,8 @@ hr {
 
 @media only screen and (max-width: 1633px) {
   .img-contacto-about {
-    width: 35%;
-    height: 550px;
+    width: 45%;
+    height: 400px;
     object-fit: cover;
     border-radius: 0px 500px 500px 0px;
     object-position: 50% 10%;
@@ -132,10 +132,10 @@ hr {
     padding-right: 34px;
   }
 }
-@media only screen and (max-width: 1314px) {
+@media only screen and (max-width: 1420px) {
   .img-contacto-about {
-    width: 45%;
-    height: 550px;
+    width: 47%;
+    height: 420px;
     object-fit: cover;
     border-radius: 0px 500px 500px 0px;
     object-position: 60% 10%;
