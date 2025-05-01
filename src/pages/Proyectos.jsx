@@ -54,7 +54,7 @@ function Proyectos() {
       imgSrc: nueve,
       direccion: "Lucía Carballal",
       lugar: "Teatro de la Comedia",
-      link: "/fortaleza",
+      link: "/laFortaleza",
     },
 
     {
@@ -83,7 +83,7 @@ function Proyectos() {
       imgSrc: catorce,
       direccion: "Luz Arcas",
       lugar: "Teatro del Canal",
-      link: "/domesticacion",
+      link: "/laDomesticacion",
     },
     {
       title: "La trilogía: La Buena Obra",
