@@ -28,11 +28,11 @@ function NavBar() {
   useEffect(() => {
     // Lógica para determinar el nombre basándose en la ruta actual
     const path = location.pathname;
-    if (path === "/cola-de-pez") {
+    if (path === "/colaDePez") {
       setNombre("Cola de Pez");
     } else if (path === "/elbanquete") {
       setNombre("El Banquete");
-    } else if (path === "/no-estoy-de-frente") {
+    } else if (path === "/noEstoyDeFrente") {
       setNombre("No estoy de frente");
     } else if (path === "/cucaracha") {
       setNombre("Cucaracha con paisaje de fondo");
@@ -42,17 +42,17 @@ function NavBar() {
       setNombre("El Banquete");
     } else if (path === "/marcela") {
       setNombre("Marcela:Una canción de Cervantes");
-    } else if (path === "/fortaleza") {
+    } else if (path === "/laFortaleza") {
       setNombre("La Fortaleza");
     } else if (path === "/tablao") {
       setNombre("Tablao");
     } else if (path === "/psicosis") {
       setNombre("Psicosis 4.48");
-    } else if (path === "/somos-la-guerra") {
+    } else if (path === "/somosLaGuerra") {
       setNombre("Somos la guerra");
-    } else if (path === "/buena-obra") {
+    } else if (path === "/buenaobra") {
       setNombre("Buena obra");
-    } else if (path === "/domesticacion") {
+    } else if (path === "/laDomesticacion") {
       setNombre("Domesticación");
     } else {
       setNombre("PABLO CHAVES");

@@ -1,5 +1,5 @@
 {
-  "cucarachas": [
+  "cucaracha": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0850_1_vkjbwm.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0724_ftftc2.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915625/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0320_r0wcqc.jpg",
@@ -13,24 +13,23 @@
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/1_o9t8ca.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0b_jt4hwr.jpg",
-
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/20220618_cucacaracha_0850_bhax4g.jpg"
   ],
   "buenaobra": [
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/v1742917122/PORTFOLIO%20ESCENOGRAFIA/buenaobra/F_BUENA_OBRA_xxy50a.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917120/PORTFOLIO%20ESCENOGRAFIA/buenaobra/L_BUENA_OBRA_gqikqg.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917118/PORTFOLIO%20ESCENOGRAFIA/buenaobra/E_BUENA_OBRA_ssgppt.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917116/PORTFOLIO%20ESCENOGRAFIA/buenaobra/G_BUENA_OBRA_xah6nz.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917114/PORTFOLIO%20ESCENOGRAFIA/buenaobra/C_BUENA_OBRA_fm2erg.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917112/PORTFOLIO%20ESCENOGRAFIA/buenaobra/K_BUENA_OBRA_yf5ips.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917111/PORTFOLIO%20ESCENOGRAFIA/buenaobra/J_BUENA_OBRA_c8gd2q.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917109/PORTFOLIO%20ESCENOGRAFIA/buenaobra/I_BUENA_OBRA_wy7mlk.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917107/PORTFOLIO%20ESCENOGRAFIA/buenaobra/H_BUENA_OBRA_xcxc5f.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917105/PORTFOLIO%20ESCENOGRAFIA/buenaobra/D_BUENA_OBRA_mempsl.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917103/PORTFOLIO%20ESCENOGRAFIA/buenaobra/B_BUENA_OBRA_ed7jt8.jpg",
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917102/PORTFOLIO%20ESCENOGRAFIA/buenaobra/A_BUENA_OBRA_vy6qgk.jpg"
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917114/PORTFOLIO%20ESCENOGRAFIA/buenaobra/C_BUENA_OBRA_fm2erg.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917105/PORTFOLIO%20ESCENOGRAFIA/buenaobra/D_BUENA_OBRA_mempsl.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917118/PORTFOLIO%20ESCENOGRAFIA/buenaobra/E_BUENA_OBRA_ssgppt.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/q_auto,w_1800/v1742917122/PORTFOLIO%20ESCENOGRAFIA/buenaobra/F_BUENA_OBRA_xxy50a.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917116/PORTFOLIO%20ESCENOGRAFIA/buenaobra/G_BUENA_OBRA_xah6nz.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917107/PORTFOLIO%20ESCENOGRAFIA/buenaobra/H_BUENA_OBRA_xcxc5f.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917109/PORTFOLIO%20ESCENOGRAFIA/buenaobra/I_BUENA_OBRA_wy7mlk.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917111/PORTFOLIO%20ESCENOGRAFIA/buenaobra/J_BUENA_OBRA_c8gd2q.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917112/PORTFOLIO%20ESCENOGRAFIA/buenaobra/K_BUENA_OBRA_yf5ips.jpg",
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742917120/PORTFOLIO%20ESCENOGRAFIA/buenaobra/L_BUENA_OBRA_gqikqg.jpg"
   ],
-  "domesticacion": [
+  "laDomesticacion": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915653/PORTFOLIO%20ESCENOGRAFIA/Domesticacion/A_LA_DOMEST_a9f6ca.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915653/PORTFOLIO%20ESCENOGRAFIA/Domesticacion/B_LA_DOMEST_umht9s.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915654/PORTFOLIO%20ESCENOGRAFIA/Domesticacion/C_LA_DOMEST_hcd9s7.jpg",
@@ -68,7 +67,7 @@
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915727/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir10_fia34f.png",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915728/PORTFOLIO%20ESCENOGRAFIA/gaviotas/uno_pua3ny.png"
   ],
-  "somoslaguerra": [
+  "somosLaGuerra": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915762/PORTFOLIO%20ESCENOGRAFIA/guerra/A_SOMOS_LA_GUERRA_fbjbvn.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915763/PORTFOLIO%20ESCENOGRAFIA/guerra/B_SOMOS_LA_GUERRA_eby1hr.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915764/PORTFOLIO%20ESCENOGRAFIA/guerra/C_SOMOS_LA_GUERRA_ngwnf8.jpg",
@@ -81,7 +80,7 @@
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915760/PORTFOLIO%20ESCENOGRAFIA/guerra/J_SOMOS_LA_GUERRA_ir21pl.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915761/PORTFOLIO%20ESCENOGRAFIA/guerra/K_SOMOS_LA_GUERRA_fw6kbb.jpg"
   ],
-  "lafortaleza": [
+  "laFortaleza": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915797/PORTFOLIO%20ESCENOGRAFIA/lafortaleza/A_LA_FORTALEZA_acsqzw.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915798/PORTFOLIO%20ESCENOGRAFIA/lafortaleza/A2_LA_FORTALEZA_vkf04d.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto/f_auto,w_1800/v1742915799/PORTFOLIO%20ESCENOGRAFIA/lafortaleza/B_LA_FORTALEZA_z8imbi.jpg",
@@ -116,7 +115,7 @@
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915841/PORTFOLIO%20ESCENOGRAFIA/marcela/I_Marcela_qvyn4k.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915842/PORTFOLIO%20ESCENOGRAFIA/marcela/J_Marcela_iltxyb.jpg"
   ],
-  "coladepez": [
+  "colaDePez": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/1_abwps6.png",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902915/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/2_wvjq1v.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902916/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/3_pabzlu.png",
@@ -128,7 +127,7 @@
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902920/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/subir2_vv4h7v.png",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902921/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/subir3_i8m8g0.jpg"
   ],
-  "nofrente": [
+  "noEstoyDeFrente": [
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1744358843/PORTFOLIO%20ESCENOGRAFIA/nofrente/1_o9idxg.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1744358844/PORTFOLIO%20ESCENOGRAFIA/nofrente/2_wyxih6.jpg",
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1744358845/PORTFOLIO%20ESCENOGRAFIA/nofrente/3_lletea.jpg",

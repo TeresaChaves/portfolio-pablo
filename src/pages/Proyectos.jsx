@@ -69,14 +69,14 @@ function Proyectos() {
       imgSrc: uno,
       direccion: "Natalia Huerte y Javier Lara",
       lugar: "Bastero Kulturgunea",
-      link: "/cola-de-pez",
+      link: "/colaDePez",
     },
     {
       title: "La trilogía: Somos la guerra",
       imgSrc: doce,
       direccion: "Luz Arcas",
       lugar: "Teatro del Canal",
-      link: "/somos-la-guerra",
+      link: "/somosLaGuerra",
     },
     {
       title: " La trilogía: La Domesticación",
@@ -90,7 +90,7 @@ function Proyectos() {
       imgSrc: trece,
       direccion: "Luz Arcas",
       lugar: "Teatro del Canal",
-      link: "/buena-obra",
+      link: "/buenaobra",
     },
     {
       title: "Tablao",
@@ -132,7 +132,7 @@ function Proyectos() {
       imgSrc: dos,
       direccion: "Paco León",
       lugar: "Sala Exlímite",
-      link: "/no-estoy-de-frente",
+      link: "/noEstoyDeFrente",
     },
   ];
 
