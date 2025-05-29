@@ -505,14 +505,12 @@ function About() {
               <h3 className="year-title">2017</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
-                  <b>Los bolsillos de Óscar M. </b>
-                  Teatro Párraga, Murcia. Dirección: Lope Mayoral. Texto: Jorge
-                  Navarro de Lemus.
+                  <b>Los bolsillos</b> de Óscar M. Teatro Párraga, Murcia.
+                  Dirección: Lope Mayoral. Texto: Jorge Navarro de Lemus.
                 </p>
                 <p className="parrafo-contacto-about">
-                  <b>Días estupendos de AlfredoSanzol. </b>
-                  Festival internacional de teatro de Rabat. Dirección: Antonia
-                  García.
+                  <b>Días estupendos </b> de AlfredoSanzol. Festival
+                  internacional de teatro de Rabat. Dirección: Antonia García.
                 </p>
                 <p className="parrafo-contacto-about">
                   <b>Kvetch deStevenBerkoff. </b>
@@ -532,11 +530,7 @@ function About() {
                   <b>Our TowndeThorntonWilder. </b>
                   Sala García Lorca. RESAD, Madrid. Dirección: Yolanda Porras.
                 </p>
-                <p className="parrafo-contacto-about">
-                  <b>Días estupendos de AlfredoSanzol. </b>
-                  Festival internacional de teatro de Rabat. Dirección: Antonia
-                  García.
-                </p>
+
                 <p className="parrafo-contacto-about">
                   <b>NocturnosdeStephenSondheim. </b>
                   Festival internacional de teatro de Spoleto, Italia.
