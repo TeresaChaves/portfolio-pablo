@@ -878,41 +878,42 @@ export function useObraData() {
           </i>
           <div className="container-ficha-centrada">
             <i>
-              Texto y dirección: <span>Lucía Carballal</span> Con{" "}
-              <span>Natalia Huarte</span>
+              Texto y dirección: <span>Lucía Carballal</span>
             </i>
             <i>
               Diseño de escenografía: <span>Pablo Chaves Maza</span>
             </i>
             <i>
-              Diseño de iluminación <span>Pilar Valdelvira AAI/ </span> Diseño
-              de vestuario: <span>Sandra Espinosa / </span> Composicion musical
-              y coach vocal: <span>Irene Novoa/ </span>
+              Diseño de iluminación: <span>Pilar Valdelvira AAI</span> / Diseño
+              de vestuario: <span>Sandra Espinosa</span>
             </i>
             <i>
-              Diseño de sonido <span>Benigno Moreno / </span> Coreografía y
-              asesoría de movimiento:
-              <span>Belén Martí Lluch / </span>
-            </i>{" "}
-            <i>
-              Asesoría sefardí:<span>Eva Chocrón</span>/ Ayudante de dirección:{" "}
-              <span>Javier L. Patiño / </span>
+              Composición musical y coach vocal: <span>Irene Novoa</span> /
+              Diseño de sonido: <span>Benigno Moreno</span>
             </i>
             <i>
-              Ayudante de escenografía:<span>Amalia Elorza Izaguirre</span> /
-              Ayudante de iluminación:<span>Marina Cabrero /</span>
+              Coreografía y asesoría de movimiento:{" "}
+              <span>Belén Martí Lluch</span> / Asesoría sefardí:{" "}
+              <span>Eva Chocrón</span>
             </i>
             <i>
-              Ayudante de vestuario:<span>Igone Teso AAPEE</span> / Tráiler y
-              fotografía :<span>Bárbara Sánchez Palomero /</span>
+              Ayudante de dirección: <span>Javier L. Patiño</span> / Ayudante de
+              escenografía: <span>Amalia Elorza Izaguirre</span>
             </i>
             <i>
-              Realización de escenografía :
+              Ayudante de iluminación: <span>Marina Cabrero</span> / Ayudante de
+              vestuario: <span>Igone Teso AAPEE</span>
+            </i>
+            <i>
+              Tráiler y fotografía: <span>Bárbara Sánchez Palomero</span>
+            </i>
+            <i>
+              Realización de escenografía:{" "}
               <span>May Servicios, Ricardo Vergne, Scnik Movil y Fermisa</span>
             </i>
             <i>
-              Producción Centro Dramático Nacional y Teatre Nacional de
-              Catalunya{" "}
+              Producción: <span>Centro Dramático Nacional</span> y{" "}
+              <span>Teatre Nacional de Catalunya</span>
             </i>
           </div>
         </div>
@@ -925,41 +926,42 @@ export function useObraData() {
           </i>
           <div className="container-ficha-centrada">
             <i>
-              Texto y dirección: <span>Lucía Carballal</span> Con{" "}
-              <span>Natalia Huarte</span>
+              Texto y dirección: <span>Lucía Carballal</span>
             </i>
             <i>
               Diseño de escenografía: <span>Pablo Chaves Maza</span>
             </i>
             <i>
-              Diseño de iluminación <span>Pilar Valdelvira AAI/ </span> Diseño
-              de vestuario: <span>Sandra Espinosa / </span> Composicion musical
-              y coach vocal: <span>Irene Novoa/ </span>
+              Diseño de iluminación: <span>Pilar Valdelvira AAI</span> / Diseño
+              de vestuario: <span>Sandra Espinosa</span>
             </i>
             <i>
-              Diseño de sonido <span>Benigno Moreno / </span> Coreografía y
-              asesoría de movimiento:
-              <span>Belén Martí Lluch / </span>
-            </i>{" "}
-            <i>
-              Asesoría sefardí:<span>Eva Chocrón</span>/ Ayudante de dirección:{" "}
-              <span>Javier L. Patiño / </span>
+              Composición musical y coach vocal: <span>Irene Novoa</span> /
+              Diseño de sonido: <span>Benigno Moreno</span>
             </i>
             <i>
-              Ayudante de escenografía:<span>Amalia Elorza Izaguirre</span> /
-              Ayudante de iluminación:<span>Marina Cabrero /</span>
+              Coreografía y asesoría de movimiento:{" "}
+              <span>Belén Martí Lluch</span> / Asesoría sefardí:{" "}
+              <span>Eva Chocrón</span>
             </i>
             <i>
-              Ayudante de vestuario:<span>Igone Teso AAPEE</span> / Tráiler y
-              fotografía :<span>Bárbara Sánchez Palomero /</span>
+              Ayudante de dirección: <span>Javier L. Patiño</span> / Ayudante de
+              escenografía: <span>Amalia Elorza Izaguirre</span>
             </i>
             <i>
-              Realización de escenografía :
+              Ayudante de iluminación: <span>Marina Cabrero</span> / Ayudante de
+              vestuario: <span>Igone Teso AAPEE</span>
+            </i>
+            <i>
+              Tráiler y fotografía: <span>Bárbara Sánchez Palomero</span>
+            </i>
+            <i>
+              Realización de escenografía:{" "}
               <span>May Servicios, Ricardo Vergne, Scnik Movil y Fermisa</span>
             </i>
             <i>
-              Producción Centro Dramático Nacional y Teatre Nacional de
-              Catalunya{" "}
+              Producción: <span>Centro Dramático Nacional</span> y{" "}
+              <span>Teatre Nacional de Catalunya</span>
             </i>
           </div>
         </div>
