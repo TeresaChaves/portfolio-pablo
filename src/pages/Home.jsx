@@ -39,18 +39,20 @@ function Home() {
   }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const uno =
+  const tres =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915843/PORTFOLIO%20ESCENOGRAFIA/marcela/A_marcela_lkyv4v.jpg",
-    dos =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1744358844/PORTFOLIO%20ESCENOGRAFIA/nofrente/2_wyxih6.jpg",
-    tres =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg",
+    uno =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204260/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/A_Los_nuestos_nkgylc.jpg",
     cuatro =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg",
+    seis =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     cinco =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg";
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg",
+    dos =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749210188/PORTFOLIO%20ESCENOGRAFIA/2LasApariciones/A_Apariciones_1_2_-min_isz5if.png";
 
-  const images = [uno, dos, tres, cuatro, cinco];
+  const images = [uno, dos, tres, cuatro, cinco, seis];
   const intervalDuration = 5000;
 
   useEffect(() => {

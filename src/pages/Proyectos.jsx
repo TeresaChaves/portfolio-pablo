@@ -46,9 +46,38 @@ function Proyectos() {
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg";
   const dos =
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/w_1200,f_auto/v1742915924/PORTFOLIO%20ESCENOGRAFIA/perfil/dos_ptpi5h.jpg";
-
+  const quince =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749204260/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/A_Los_nuestos_nkgylc.jpg";
+  const dieciseis =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749210188/PORTFOLIO%20ESCENOGRAFIA/2LasApariciones/A_Apariciones_1_2_-min_isz5if.png";
+  const diecisiete =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749229117/PORTFOLIO%20ESCENOGRAFIA/3Peque%C3%B1oCUmulo/A_Peque%C3%B1o_c%C3%BAmulo-min_io7ip6.jpg";
+  const dieciocho =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749230588/PORTFOLIO%20ESCENOGRAFIA/4Matrimonio%20Blanco/A_Matrimonio_blanco-min_vn9tuv.jpg";
   // Array de proyectos
   const proyectos = [
+    {
+      title: "Los Nuestros",
+      imgSrc: quince,
+      direccion: "Lucía Carballal",
+      lugar: "Centro Dramático Nacional",
+      link: "/losNuestros",
+    },
+    {
+      title: "Las Apariciones",
+      imgSrc: dieciseis,
+      direccion: "Juan Ceacero",
+      lugar: "Centro Dramatico Nacional en la Sala de la Princesa",
+      link: "/lasApariciones",
+    },
+    {
+      title: "Pequeño Cúmulo de Circunstacias",
+      imgSrc: diecisiete,
+      direccion: "Cris Blanco",
+      lugar: "Teatro María Guerrero-sala Princesa",
+      link: "/pequenoCumuloDeCircunstancias",
+    },
+
     {
       title: "La Fortaleza",
       imgSrc: nueve,
@@ -133,6 +162,13 @@ function Proyectos() {
       direccion: "Paco León",
       lugar: "Sala Exlímite",
       link: "/noEstoyDeFrente",
+    },
+    {
+      title: "Matrimonio Blanco",
+      imgSrc: dieciocho,
+      direccion: "Flavia Forni y Icíar Ventepan",
+      lugar: "Sala Réplika",
+      link: "/matrimonioBlanco",
     },
   ];
 

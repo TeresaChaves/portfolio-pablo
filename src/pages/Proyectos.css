@@ -81,8 +81,8 @@
   flex-wrap: wrap;
   gap: 5px;
 }
-.texto-proyectos-name p {
-  font-size: 22px;
+.texto-proyectos-name p span {
+  font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 300;

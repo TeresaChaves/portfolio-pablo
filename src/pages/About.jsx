@@ -39,8 +39,8 @@ function About() {
             de otros proyectos de Marta Pazos para museos (’’Conversatorio’’
             para ARCO, ’’Contemplación’’ para el CGAC, ’’Matria’’ en la PQ23,
             ’’Campo de figos’’ en la Ciudad de la Cultura). También trabaja para
-            otros escenógrafos como Max Glaenzel, Blanca Agnon y José Novoa
-            entre otros.
+            otros escenógrafos como Max Glaenzel, Blanca Añon y José Novoa entre
+            otros.
           </p>
 
           <p className="parrafo-contacto-about">
