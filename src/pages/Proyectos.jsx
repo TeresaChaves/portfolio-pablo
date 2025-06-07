@@ -74,7 +74,7 @@ function Proyectos() {
       title: "Pequeño Cúmulo de Abismos",
       imgSrc: diecisiete,
       direccion: "Cris Blanco",
-      lugar: "Teatro María Guerrero-sala Princesa",
+      lugar: "Teatro María Guerrero",
       link: "/pequenoCumuloDeAbismos",
     },
 
