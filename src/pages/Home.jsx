@@ -42,7 +42,7 @@ function Home() {
   const tres =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915843/PORTFOLIO%20ESCENOGRAFIA/marcela/A_marcela_lkyv4v.jpg",
     uno =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204260/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/A_Los_nuestos_nkgylc.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204257/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/BB_Los_nuestos_axwyyo.jpg",
     cuatro =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg",
     seis =

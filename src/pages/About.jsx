@@ -63,6 +63,27 @@ function About() {
           <div className="category-professional">
             <h2 className="titulo-proyecto-charge">ESCENOGRAFÍA Y VESTUARIO</h2>
             <div className="año-desplegable">
+              <h3 className="year-title">2025</h3>
+              <div className="content">
+                <p className="parrafo-contacto-about">
+                  <b>Las apariciones. </b> Diseño de espacio escénico. Estrenada
+                  en Centro Dramático Nacional, sala de la Princesa. Dirigida
+                  por Juan Ceacero para la compañía Exlímite.
+                </p>
+                <p className="parrafo-contacto-about">
+                  <b>Los nuestros.</b>Diseño de espacio escénico. Estreno en el
+                  Centro Dramático Nacional, en el Teatro Valle Inclán. Gira en
+                  el Teatre Nacional de Catalunya. Dirigido y escrito por Lucía
+                  Carballal.
+                </p>
+                <p className="parrafo-contacto-about">
+                  <b>Matrimonio Blanco.</b> Diseño de espacio escénico. Estreno
+                  en Replica. Dirigido por Flavia Forni e Icíar Ventepan para la
+                  compañía La peatonal.
+                </p>
+              </div>
+            </div>
+            <div className="año-desplegable">
               <h3 className="year-title">2024</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
@@ -387,6 +408,16 @@ function About() {
           <div className="category-professional">
             <h2 className="titulo-proyecto-charge">ACTOR EN TEATRO</h2>
             <div className="año-desplegable">
+              <h3 className="year-title">2025</h3>
+              <div className="content">
+                <p className="parrafo-contacto-about">
+                  <b>Las apariciones. </b>
+                  Estrenada en Centro Dramático Nacional, sala de la Princesa.
+                  Dirigida por Juan Ceacero para la compañía Exlímite.
+                </p>
+              </div>
+            </div>
+            <div className="año-desplegable">
               <h3 className="year-title">2024</h3>
               <div className="content">
                 <p className="parrafo-contacto-about">
@@ -557,6 +588,15 @@ function About() {
           </div>
           <div className="category-professional">
             <h2 className="titulo-proyecto-charge">ACTOR EN AUDIOVISUAL</h2>
+            <div className="año-desplegable">
+              <h3 className="year-title">2025</h3>
+              <div className="content">
+                <p className="parrafo-contacto-about">
+                  <b>El ser querido. </b>
+                  Dirigida por Rodrigo Sorogoyen. Producida por Caballo Films.
+                </p>
+              </div>
+            </div>
             <div className="año-desplegable">
               <h3 className="year-title">2023</h3>
               <div className="content">
