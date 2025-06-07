@@ -10,74 +10,74 @@ export function useObraData() {
         "Obra 'Cucaracha' de Pablo Chaves, una reflexión escénica intensa.",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en Teatro Español y Quique San Francisco
-          </i>
-          <i>
+          </p>
+          <p>
             Dramaturgia y dirección: <span>Javier Ballesteros</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Reparto:
             <span>
               Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
               Matilde Gimeno, María Jáimez y June Velayos
             </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Ayte. dirección: <span>Víctor Nacarino</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Música: <span>Isabel Arranz</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Coor. producción: <span>Raúl de la Torre</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Ayudante de producción: <span>Juan Seade</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Producción: <span>Mujer en obras</span>
-          </i>
+          </p>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en Teatro Español y Quique San Francisco
-          </i>
-          <i>
+          </p>
+          <p>
             Dramaturgia y dirección: <span>Javier Ballesteros </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Reparto:
             <span>
               Laura Barceló, Pablo Chaves, Eva Chocrón, Virginia de la Cruz,
               Matilde Gimeno, María Jáimez y June Velayos{" "}
             </span>{" "}
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Ayte. dirección <span>Víctor Nacarino </span> /Música:
             <span>Isabel Arranz </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Coor. producción: <span>Raúl de la Torre</span> / Ayudante de
             producción: <span>Juan Seade </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Cartelería: <span>Alejandra Sánchez-Mateos</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Producción: <span>Mujer en obras</span>
-          </i>
+          </p>
         </div>
       ),
     },
@@ -87,54 +87,54 @@ export function useObraData() {
         "Obra 'Gaviotas' de Pablo Chaves, explorando la libertad y el mar.",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             {" "}
-            <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
-          </i>
-          <i>
+            <p className="name-ficha">Estrenada en Exlímite y Nave 73</p>
+          </p>
+          <p>
             Dirección: <span>Amanda Recacha y Rodolfo Sacristán / </span> /
             Escenografía y vestuario: <span>Pablo Chaves Maza</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Autoría: <span>Adaptación libre por Gritadero Teatro / </span>
             Producción:<span>Gritadero Teatro </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Iluminación: <span>Antonio Colomo Gragera</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Diseño de cartel: <span>Emiliano Cano / </span> Fotografía
             <span>Luz Soria</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Prensa: <span>María Díaz</span>
-          </i>{" "}
+          </p>{" "}
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             {" "}
-            <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
-          </i>
-          <i>
+            <p className="name-ficha">Estrenada en Exlímite y Nave 73</p>
+          </p>
+          <p>
             Dirección: <span>Amanda Recacha y Rodolfo Sacristán / </span> /
             Escenografía y vestuario: <span>Pablo Chaves Maza</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Autoría: <span>Adaptación libre por Gritadero Teatro / </span>
             Producción:<span>Gritadero Teatro </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Iluminación: <span>Antonio Colomo Gragera</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Diseño de cartel: <span>Emiliano Cano / </span> Fotografía
             <span>Luz Soria</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Prensa: <span>María Díaz</span>
-          </i>{" "}
+          </p>{" "}
         </div>
       ),
     },
@@ -145,69 +145,69 @@ export function useObraData() {
       ficha: (
         <div className="container-ficha-centrada">
           {" "}
-          <i className="name-ficha">Estrenada en la Sala Cervantina.</i>
-          <i>
+          <p className="name-ficha">Estrenada en la Sala Cervantina.</p>
+          <p>
             Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
             <span>María Folguera</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño espacio escénico <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
             iluminación: <span>Elena Alejandre</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
             <span>Pablo Martínez</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Directora de producción: <span>Milena Suárez</span> / Ayudante de
             producción: <span>Paula Pina</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
             Edición de visuales: <span>Ana Caro</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
             <span>Celia Freijeiro</span>
-          </i>
-          <i>Una producción de la Sociedad Cervantina</i>
-          <i>con el apoyo de INAEM y Fundación La Caixa</i>
+          </p>
+          <p>Una producción de la Sociedad Cervantina</p>
+          <p>con el apoyo de INAEM y Fundación La Caixa</p>
         </div>
       ),
 
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en la Sala Cervantina.</i>
-          <i>
+          <p className="name-ficha">Estrenada en la Sala Cervantina.</p>
+          <p>
             Dirección: <span>Leticia Dolera / </span> Dramaturgia:{" "}
             <span>María Folguera</span>/ Diseño espacio escénico{" "}
             <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
             iluminación: <span>Elena Alejandre</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Diseño de vestuario: <span>Marta Murillo</span> / Diseño de sonido:
             <span>Pablo Martínez</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Directora de producción: <span>Milena Suárez</span> / Ayudante de
             producción: <span>Paula Pina</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
             Edición de visuales: <span>Ana Caro</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
             <span>Celia Freijeiro</span>
-          </i>
-          <i>Una producción de la Sociedad Cervantina</i>
-          <i>con el apoyo de INAEM y Fundación La Caixa</i>
+          </p>
+          <p>Una producción de la Sociedad Cervantina</p>
+          <p>con el apoyo de INAEM y Fundación La Caixa</p>
         </div>
       ),
     },
@@ -218,75 +218,75 @@ export function useObraData() {
         "Proyecto Cola de Pez de Pablo Chaves en Bastero Kulturgunea.",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
+          <p className="name-ficha">Estrenada en Bastero Kulturgunea.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
               <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Intérprete: <span>Egoitz Sánchez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
               iluminación: <span>Elena Alejandre</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
               sonido:
               <span>Pablo Martínez</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Directora de producción: <span>Milena Suárez</span> / Ayudante de
               producción: <span>Paula Pina</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
               Edición de visuales: <span>Ana Caro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
               <span>Celia Freijeiro</span>
-            </i>
-            <i>Una producción de la Sociedad Cervantina</i>
-            <i>con el apoyo de INAEM y Fundación La Caixa</i>
+            </p>
+            <p>Una producción de la Sociedad Cervantina</p>
+            <p>con el apoyo de INAEM y Fundación La Caixa</p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Bastero Kulturgunea.</i>
+          <p className="name-ficha">Estrenada en Bastero Kulturgunea.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Javier Lara</span> / Espacio escénico:{" "}
               <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Intérprete: <span>Egoitz Sánchez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de iluminación:<span>Lola Barroso </span> / Ayudante de
               iluminación: <span>Elena Alejandre</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Diseño de vestuario: <span>Marta Murillo</span> / Diseño de
               sonido:
               <span>Pablo Martínez</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Directora de producción: <span>Milena Suárez</span> / Ayudante de
               producción: <span>Paula Pina</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Equipo S. Cervantina: <span>Ana Carrera, Jaime Saavedra</span> /
               Edición de visuales: <span>Ana Caro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño gráfico: <span>Jesús Bosqued </span>/Interpretación:{" "}
               <span>Celia Freijeiro</span>
-            </i>
-            <i>Una producción de la Sociedad Cervantina</i>
-            <i>con el apoyo de INAEM y Fundación La Caixa</i>
+            </p>
+            <p>Una producción de la Sociedad Cervantina</p>
+            <p>con el apoyo de INAEM y Fundación La Caixa</p>
           </div>
         </div>
       ),
@@ -296,45 +296,45 @@ export function useObraData() {
       description: "Proyecto No estoy de frente escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
+          <p className="name-ficha">Estrenada en La Fundición de Sevilla.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Chiqui Carabante y Paco León </span> /
               Escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Autoría: <span>MariPaz Sayago y Chiqui Carabante</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Intérprete: <span>MariPaz Sayago </span> / Música:{" "}
               <span>Depipio</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Iluminación: <span>Irene Cantero</span> / Fotografía:
               <span>María Artiaga y Concha de la Rosa / </span>
-            </i>{" "}
+            </p>{" "}
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en La Fundición de Sevilla.</i>
+          <p className="name-ficha">Estrenada en La Fundición de Sevilla.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Chiqui Carabante y Paco León </span> /
               Escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Autoría: <span>MariPaz Sayago y Chiqui Carabante</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Intérprete: <span>MariPaz Sayago </span> / Música:{" "}
               <span>Depipio</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Iluminación: <span>Irene Cantero</span> / Fotografía:
               <span>María Artiaga y Concha de la Rosa / </span>
-            </i>{" "}
+            </p>{" "}
           </div>
         </div>
       ),
@@ -344,60 +344,60 @@ export function useObraData() {
       description: "Proyecto La Fortaleza de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i>
+          <p>
             Texto y dirección: <span>Lucía Carballal</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Escenografía y vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Iluminación: <span>Pilar Valdelvira / </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
             <span>Elvira Ruiz Zurita / </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
             dirección
             <span>Aitana Sar</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Agradecimientos:{" "}
             <span>
               Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
               Retes, Aurelia González Y Sergio Adillo
             </span>{" "}
-          </i>
-          <i>Producción: Compañía Nacional de Teatro Clásico </i>
+          </p>
+          <p>Producción: Compañía Nacional de Teatro Clásico </p>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i>
+          <p>
             Texto y dirección: <span>Lucía Carballal</span> Escenografía y
             vestuario: <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Iluminación: <span>Pilar Valdelvira / </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño de sonido<span>Benigno Moreno </span> Vídeoescena:{" "}
             <span>Elvira Ruiz Zurita / </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             texto vídeoescena: <span>: Pablo Carballal</span> Ayudante de
             dirección
             <span>Aitana Sar</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Agradecimientos:{" "}
             <span>
               Lola Luengo, Luis Sorolla, Marc Domingo Carulla, Fernando de
               Retes, Aurelia González Y Sergio Adillo
             </span>{" "}
-          </i>
-          <i>Producción: Compañía Nacional de Teatro Clásico </i>
+          </p>
+          <p>Producción: Compañía Nacional de Teatro Clásico </p>
         </div>
       ),
     },
@@ -406,78 +406,78 @@ export function useObraData() {
       description: "Proyecto La Domesticación de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i>
+          <p>
             Dirección artística, coreografía, dramaturgia, espacio escénico:
             <span>: Luz Arcas</span> Espacio escénico:{" "}
             <span>: Luz Arcas y Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Acompañamiento artístico y dramatúrgico{" "}
             <span>Victoria Aimé y Rafael SM Paniagua </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Música: <span>Le Parody / </span> Iluminación:{" "}
             <span>Jorge Colomer / </span>Espacio sonoro:{" "}
             <span>Pablo Contreras</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
             <span>
               Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
             </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
             gráfico: <span>María Peinado</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño y coordinación de producción:{" "}
             <span>Alex Foulkes y Alberto Núñez</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-          </i>
+          </p>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i>
+          <p>
             Dirección artística, coreografía, dramaturgia, espacio escénico:
             <span>: Luz Arcas</span> Espacio escénico:{" "}
             <span>: Luz Arcas y Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Acompañamiento artístico y dramatúrgico{" "}
             <span>Victoria Aimé y Rafael SM Paniagua </span>
-          </i>
-          <i>
+          </p>
+          <p>
             Música: <span>Le Parody / </span> Iluminación:{" "}
             <span>Jorge Colomer / </span>Espacio sonoro:{" "}
             <span>Pablo Contreras</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
             <span>
               Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
             </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
             gráfico: <span>María Peinado</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-          </i>
-          <i>
+          </p>
+          <p>
             Diseño y coordinación de producción:{" "}
             <span>Alex Foulkes y Alberto Núñez</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-          </i>
+          </p>
         </div>
       ),
     },
@@ -487,83 +487,83 @@ export function useObraData() {
         "Proyecto Domesticación de Pablo Chaves estrenada en los Teatros del Canal",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en los Teatros del Canal</i>
+          <p className="name-ficha">Estrenada en los Teatros del Canal</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección artística, coreografía, dramaturgia, espacio escénico:
               <span>Luz Arcas</span> Espacio escénico:{" "}
               <span>: Luz Arcas y Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Acompañamiento artístico y dramatúrgico{" "}
               <span>Victoria Aimé y Rafael SM Paniagua </span>
-            </i>
-            <i>
+            </p>
+            <p>
               Música: <span>Le Parody / </span> Iluminación:{" "}
               <span>Jorge Colomer / </span>Espacio sonoro:{" "}
               <span>Pablo Contreras</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
               <span>
                 Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
               </span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
               gráfico: <span>María Peinado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño y coordinación de producción:{" "}
               <span>Alex Foulkes y Alberto Núñez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en los Teatros del Canal</i>
+          <p className="name-ficha">Estrenada en los Teatros del Canal</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección artística, coreografía, dramaturgia, espacio escénico:
               <span>Luz Arcas</span> Espacio escénico:{" "}
               <span>: Luz Arcas y Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Acompañamiento artístico y dramatúrgico{" "}
               <span>Victoria Aimé y Rafael SM Paniagua </span>
-            </i>
-            <i>
+            </p>
+            <p>
               Música: <span>Le Parody / </span> Iluminación:{" "}
               <span>Jorge Colomer / </span>Espacio sonoro:{" "}
               <span>Pablo Contreras</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
               <span>
                 Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
               </span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
               gráfico: <span>María Peinado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño y coordinación de producción:{" "}
               <span>Alex Foulkes y Alberto Núñez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-            </i>
+            </p>
           </div>
         </div>
       ),
@@ -574,62 +574,62 @@ export function useObraData() {
         "Proyecto El Banquete escenografía de Pablo Chaves estrenada en Exlímite y Nave 73",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
-          <i>
+          <p className="name-ficha">Estrenada en Exlímite y Nave 73</p>
+          <p>
             Dirección: <span>Adrián Pulido</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Escenografía y vestuario <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Texto: <span>Tony Galán</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Mundo sonoro: :
             <span>Adrián Pulido, Pablo Sánchez y Juan Sánchez </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Dirección de movimiento: <span>Juando Martínez Montiel / </span>
             Diseño de Luces
             <span>Alvaro Guisado Garavito</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Ayudantía de dirección: <span>: Iñaki Danta </span> /Fotografía y
             cartel: <span>Xose Roi Martínez</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Comunicación y prensa: <span>de Amanda H C - Proyecto Duas</span>
-          </i>
+          </p>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Exlímite y Nave 73</i>
-          <i>
+          <p className="name-ficha">Estrenada en Exlímite y Nave 73</p>
+          <p>
             Dirección: <span>Adrián Pulido</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Escenografía y vestuario <span>Pablo Chaves</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Texto: <span>Tony Galán</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Mundo sonoro: :
             <span>Adrián Pulido, Pablo Sánchez y Juan Sánchez </span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Dirección de movimiento: <span>Juando Martínez Montiel / </span>
             Diseño de Luces
             <span>Alvaro Guisado Garavito</span>
-          </i>{" "}
-          <i>
+          </p>{" "}
+          <p>
             Ayudantía de dirección: <span>: Iñaki Danta </span> /Fotografía y
             cartel: <span>Xose Roi Martínez</span>
-          </i>
-          <i>
+          </p>
+          <p>
             Comunicación y prensa: <span>de Amanda H C - Proyecto Duas</span>
-          </i>
+          </p>
         </div>
       ),
     },
@@ -638,161 +638,161 @@ export function useObraData() {
       description: "Proyecto Tablao escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Ca2m y Condeduque.</i>
+          <p className="name-ficha">Estrenada en Ca2m y Condeduque.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Creado por <span>Ernesto Artillo </span> Arquitecto del proyecto{" "}
               <span>Pablo Chaves</span>/Asesoría científica{" "}
               <span>Alicia Navarro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Formación:- Guitarra <span>Yerai Cortés </span> - Cante{" "}
               <span>Niño de Elche </span>- Baile{" "}
               <span>Andrés Marín y Rocío Molina</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Distribución y coordinación de producción{" "}
               <span>Cal Producciones</span> Ayudante de dirección
               <span>Aitana Sar</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Coordinación técnica <span>Txisco Velasco /</span> Diseño
               iluminación <span>Antonio Valiente AAI</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Sonido <span>Víctor Tomé / </span> Maquinaria{" "}
               <span>Jorge Limosnita </span> Asistencia en iluminación{" "}
               <span>Suh- Güein</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Una producción <span>del Museo Ca2m</span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Con el apoyo de <span>Corral de La Morería</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Ca2m y Condeduque.</i>
+          <p className="name-ficha">Estrenada en Ca2m y Condeduque.</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Creado por <span>Ernesto Artillo </span> Arquitecto del proyecto{" "}
               <span>Pablo Chaves</span>/Asesoría científica{" "}
               <span>Alicia Navarro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Formación:- Guitarra <span>Yerai Cortés </span> - Cante{" "}
               <span>Niño de Elche </span>- Baile{" "}
               <span>Andrés Marín y Rocío Molina</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Distribución y coordinación de producción{" "}
               <span>Cal Producciones</span> Ayudante de dirección
               <span>Aitana Sar</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Coordinación técnica <span>Txisco Velasco /</span> Diseño
               iluminación <span>Antonio Valiente AAI</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Sonido <span>Víctor Tomé / </span> Maquinaria{" "}
               <span>Jorge Limosnita </span> Asistencia en iluminación{" "}
               <span>Suh- Güein</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Una producción <span>del Museo Ca2m</span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Con el apoyo de <span>Corral de La Morería</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
     },
-    guerra: {
+    somosLaGuerra: {
       ficha: "Somos la Guerra || Pablo Chaves",
       description: "Proyecto Somos la Guerra escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en los Teatros del Canal</i>
+          <p className="name-ficha">Estrenada en los Teatros del Canal</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección artística, coreografía, dramaturgia, espacio escénico:
               <span>Luz Arcas</span> Espacio escénico:{" "}
               <span>: Luz Arcas y Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Acompañamiento artístico y dramatúrgico{" "}
               <span>Victoria Aimé y Rafael SM Paniagua </span>
-            </i>
-            <i>
+            </p>
+            <p>
               Música: <span>Le Parody / </span> Iluminación:{" "}
               <span>Jorge Colomer / </span>Espacio sonoro:{" "}
               <span>Pablo Contreras</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
               <span>
                 Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
               </span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
               gráfico: <span>María Peinado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño y coordinación de producción:{" "}
               <span>Alex Foulkes y Alberto Núñez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en los Teatros del Canal</i>
+          <p className="name-ficha">Estrenada en los Teatros del Canal</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección artística, coreografía, dramaturgia, espacio escénico:
               <span>Luz Arcas</span> Espacio escénico:{" "}
               <span>: Luz Arcas y Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Acompañamiento artístico y dramatúrgico{" "}
               <span>Victoria Aimé y Rafael SM Paniagua </span>
-            </i>
-            <i>
+            </p>
+            <p>
               Música: <span>Le Parody / </span> Iluminación:{" "}
               <span>Jorge Colomer / </span>Espacio sonoro:{" "}
               <span>Pablo Contreras</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Texto: <span>:Luz Arcas y Abraham Gragera / </span> Vestuario:
               <span>
                 Luz Arcas, Victoria Aime, Rafael SM Panigua Roberto Martínez
               </span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Foto y vídeo promocional: <span>Virginia Rota /</span> Diseño
               gráfico: <span>María Peinado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección técnica: <span>Cristina L. Bolívar </span>{" "}
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño y coordinación de producción:{" "}
               <span>Alex Foulkes y Alberto Núñez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción ejecutiva: <span>Fernando Jariego</span>{" "}
-            </i>
+            </p>
           </div>
         </div>
       ),
@@ -802,67 +802,67 @@ export function useObraData() {
       description: "Proyecto Psicosis 4.48 escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en el Teatro Español</i>
+          <p className="name-ficha">Estrenada en el Teatro Español</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Luz Arcas - La Phármaco</span> Con{" "}
               <span>Natalia Huarte</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Jorge Colomer / </span> Diseño de
               vestuario: <span>Luz Arcas / </span> Composición música original:{" "}
               <span>Adrián Foulkes</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de espacio sonoro: <span>Pablo Contreras / </span>{" "}
               Asistencia artística:
               <span>Victoria Aime</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Colaboración artística: <span>Sebastián Vogler </span>/ Mirada
               externa: <span>Teresa Casas</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de dirección: <span>Javier L. Patiño </span> / Residente
               de ayudantía de dirección<span>Cristina Hermida</span>
-            </i>
-            <i>Una coproducción del Teatro Español y La Phármaco</i>
+            </p>
+            <p>Una coproducción del Teatro Español y La Phármaco</p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en el Teatro Español</i>
+          <p className="name-ficha">Estrenada en el Teatro Español</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Luz Arcas - La Phármaco</span> Con{" "}
               <span>Natalia Huarte</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Jorge Colomer / </span> Diseño de
               vestuario: <span>Luz Arcas / </span> Composición música original:{" "}
               <span>Adrián Foulkes</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de espacio sonoro: <span>Pablo Contreras / </span>{" "}
               Asistencia artística:
               <span>Victoria Aime</span>
-            </i>{" "}
-            <i>
+            </p>{" "}
+            <p>
               Colaboración artística: <span>Sebastián Vogler </span>/ Mirada
               externa: <span>Teresa Casas</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de dirección: <span>Javier L. Patiño </span> / Residente
               de ayudantía de dirección<span>Cristina Hermida</span>
-            </i>
-            <i>Una coproducción del Teatro Español y La Phármaco</i>
+            </p>
+            <p>Una coproducción del Teatro Español y La Phármaco</p>
           </div>
         </div>
       ),
@@ -872,97 +872,97 @@ export function useObraData() {
       description: "Proyecto Los Nuestros escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Teatro Valle Inclán, en el Centro Dramático Nacional
             y Teatre Nacional de Catalunya.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Texto y dirección: <span>Lucía Carballal</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Pablo Chaves Maza</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de iluminación: <span>Pilar Valdelvira AAI</span> / Diseño
               de vestuario: <span>Sandra Espinosa</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Composición musical y coach vocal: <span>Irene Novoa</span> /
               Diseño de sonido: <span>Benigno Moreno</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Coreografía y asesoría de movimiento:{" "}
               <span>Belén Martí Lluch</span> / Asesoría sefardí:{" "}
               <span>Eva Chocrón</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de dirección: <span>Javier L. Patiño</span> / Ayudante de
               escenografía: <span>Amalia Elorza Izaguirre</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de iluminación: <span>Marina Cabrero</span> / Ayudante de
               vestuario: <span>Igone Teso AAPEE</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Tráiler y fotografía: <span>Bárbara Sánchez Palomero</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Realización de escenografía:{" "}
               <span>May Servicios, Ricardo Vergne, Scnik Movil y Fermisa</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span> y{" "}
               <span>Teatre Nacional de Catalunya</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Teatro Valle Inclán, en el Centro Dramático Nacional
             y Teatre Nacional de Catalunya.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Texto y dirección: <span>Lucía Carballal</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de escenografía: <span>Pablo Chaves Maza</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño de iluminación: <span>Pilar Valdelvira AAI</span> / Diseño
               de vestuario: <span>Sandra Espinosa</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Composición musical y coach vocal: <span>Irene Novoa</span> /
               Diseño de sonido: <span>Benigno Moreno</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Coreografía y asesoría de movimiento:{" "}
               <span>Belén Martí Lluch</span> / Asesoría sefardí:{" "}
               <span>Eva Chocrón</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de dirección: <span>Javier L. Patiño</span> / Ayudante de
               escenografía: <span>Amalia Elorza Izaguirre</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Ayudante de iluminación: <span>Marina Cabrero</span> / Ayudante de
               vestuario: <span>Igone Teso AAPEE</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Tráiler y fotografía: <span>Bárbara Sánchez Palomero</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Realización de escenografía:{" "}
               <span>May Servicios, Ricardo Vergne, Scnik Movil y Fermisa</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span> y{" "}
               <span>Teatre Nacional de Catalunya</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
@@ -972,136 +972,136 @@ export function useObraData() {
       description: "Proyecto Las Apariciones escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Centro Dramático Nacional, en la sala Princesa.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Juan Ceacero</span> / Dramaturgia:{" "}
               <span>Fernando Delgado-Hierro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span> / Iluminación:{" "}
               <span>Rodrigo Ortega</span> / Vestuario:{" "}
               <span>Paola de Diego</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño sonoro: <span>Daniel Jumillas</span> / Ayudante de
               dirección: <span>María Martínez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Reparto: <span>Pablo Chaves</span> y{" "}
               <span>Fernando Delgado-Hierro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span> y{" "}
               <span>Compañía Exlímite</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Centro Dramático Nacional, en la sala Princesa.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Juan Ceacero</span> / Dramaturgia:{" "}
               <span>Fernando Delgado-Hierro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span> / Iluminación:{" "}
               <span>Rodrigo Ortega</span> / Vestuario:{" "}
               <span>Paola de Diego</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño sonoro: <span>Daniel Jumillas</span> / Ayudante de
               dirección: <span>María Martínez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Reparto: <span>Pablo Chaves</span> y{" "}
               <span>Fernando Delgado-Hierro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span> y{" "}
               <span>Compañía Exlímite</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
     },
-    pequenoCumuloDeCircunstancias: {
-      ficha: "Pequeño Cúmulo de Circunstancias || Pablo Chaves",
+    pequenoCumuloDeAbismos: {
+      ficha: "Pequeño Cúmulo de Abismos || Pablo Chaves",
       description:
-        "Proyecto Pequeño Cúmulo de Circunstancias  escenografía de Pablo Chaves",
+        "Proyecto Pequeño Cúmulo de Abismos  escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Centro Dramático Nacional, en la sala Princesa.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Cris Blanco</span> / Dramaturgia:{" "}
               <span>Rocío Bello</span>, <span>Cris Blanco</span>,{" "}
               <span>Óscar Bueno</span>, <span>Anto Rodríguez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span> / Iluminación:{" "}
               <span>Miguel Ruz Velasco</span> / Vestuario:{" "}
               <span>Jorge Dutor</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño sonoro: <span>Carlos Parra</span> / Ayudante de dirección:{" "}
               <span>Marta Orozco</span> / Ayudante de escenografía:{" "}
               <span>Lia González Álvarez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Reparto: <span>Oihana Altube</span>, <span>Rocío Bello</span>,{" "}
               <span>Cris Blanco</span> e <span>Íñigo Rodríguez-Claro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Fotografía: <span>Geraldine Leloutre</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span>,{" "}
               <span>Cris Blanco</span> y <span>Festival Grec de Barcelona</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">
+          <p className="name-ficha">
             Estrenada en el Centro Dramático Nacional, en la sala Princesa.
-          </i>
+          </p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Dirección: <span>Cris Blanco</span> / Dramaturgia:{" "}
               <span>Rocío Bello</span>, <span>Cris Blanco</span>,{" "}
               <span>Óscar Bueno</span>, <span>Anto Rodríguez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span> / Iluminación:{" "}
               <span>Miguel Ruz Velasco</span> / Vestuario:{" "}
               <span>Jorge Dutor</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Diseño sonoro: <span>Carlos Parra</span> / Ayudante de dirección:{" "}
               <span>Marta Orozco</span> / Ayudante de escenografía:{" "}
               <span>Lia González Álvarez</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Reparto: <span>Oihana Altube</span>, <span>Rocío Bello</span>,{" "}
               <span>Cris Blanco</span> e <span>Íñigo Rodríguez-Claro</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Fotografía: <span>Geraldine Leloutre</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Centro Dramático Nacional</span>,{" "}
               <span>Cris Blanco</span> y <span>Festival Grec de Barcelona</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
@@ -1111,63 +1111,63 @@ export function useObraData() {
       description: "Proyecto Matrimonio Blanco  escenografía de Pablo Chaves",
       ficha: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Réplika</i>
+          <p className="name-ficha">Estrenada en Réplika</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Texto original: <span>Tadeusz Rozewicz</span> / Versión:{" "}
               <span>Iciar Ventepan</span> y <span>Flavia Forni</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección: <span>Flavia Forni</span>, <span>Iciar Ventepan</span>{" "}
               y <span>Jaime Cano</span> / Ayudante de dirección:{" "}
               <span>Ander Alvarado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Vestuario: <span>Teresa Julián</span> / Diseño de iluminación:{" "}
               <span>George Marinov</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Imagen de cartel: <span>Isabel Méndez</span> / Diseño de cartel:{" "}
               <span>Jaime Cano</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Cía. La Peatonal</span> con la ayuda del{" "}
               <span>Instituto Polaco de Cultura</span>
-            </i>
+            </p>
           </div>
         </div>
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <i className="name-ficha">Estrenada en Réplika</i>
+          <p className="name-ficha">Estrenada en Réplika</p>
           <div className="container-ficha-centrada">
-            <i>
+            <p>
               Texto original: <span>Tadeusz Rozewicz</span> / Versión:{" "}
               <span>Iciar Ventepan</span> y <span>Flavia Forni</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Dirección: <span>Flavia Forni</span>, <span>Iciar Ventepan</span>{" "}
               y <span>Jaime Cano</span> / Ayudante de dirección:{" "}
               <span>Ander Alvarado</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Escenografía: <span>Pablo Chaves</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Vestuario: <span>Teresa Julián</span> / Diseño de iluminación:{" "}
               <span>George Marinov</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Imagen de cartel: <span>Isabel Méndez</span> / Diseño de cartel:{" "}
               <span>Jaime Cano</span>
-            </i>
-            <i>
+            </p>
+            <p>
               Producción: <span>Cía. La Peatonal</span> con la ayuda del{" "}
               <span>Instituto Polaco de Cultura</span>
-            </i>
+            </p>
           </div>
         </div>
       ),

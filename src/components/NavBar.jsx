@@ -52,8 +52,8 @@ function NavBar() {
       setNombre("Somos la guerra");
     } else if (path === "/buenaobra") {
       setNombre("Buena obra");
-    } else if (path === "/pequenoCumuloDeCircunstancias") {
-      setNombre("Pequeño Cúmulo de Circunstacia");
+    } else if (path === "/pequenoCumuloDeAbismos") {
+      setNombre("Pequeño Cúmulo de Abismos");
     } else if (path === "/laDomesticacion") {
       setNombre("Domesticación");
     } else if (path === "/losNuestros") {

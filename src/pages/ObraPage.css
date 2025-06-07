@@ -54,6 +54,9 @@
   margin-bottom: 10px;
   font-weight: 300;
 }
+.container-ficha-centrada p {
+  margin: 0px;
+}
 .container-ficha-centrada span {
   font-weight: 400;
 }

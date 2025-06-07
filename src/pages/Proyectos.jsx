@@ -67,15 +67,15 @@ function Proyectos() {
       title: "Las Apariciones",
       imgSrc: dieciseis,
       direccion: "Juan Ceacero",
-      lugar: "Centro Dramatico Nacional en la Sala de la Princesa",
+      lugar: "Centro Dramatico Nacional",
       link: "/lasApariciones",
     },
     {
-      title: "Pequeño Cúmulo de Circunstacias",
+      title: "Pequeño Cúmulo de Abismos",
       imgSrc: diecisiete,
       direccion: "Cris Blanco",
       lugar: "Teatro María Guerrero-sala Princesa",
-      link: "/pequenoCumuloDeCircunstancias",
+      link: "/pequenoCumuloDeAbismos",
     },
 
     {
@@ -104,21 +104,21 @@ function Proyectos() {
       title: "La trilogía: Somos la guerra",
       imgSrc: doce,
       direccion: "Luz Arcas",
-      lugar: "Teatro del Canal",
+      lugar: "Teatros del Canal",
       link: "/somosLaGuerra",
     },
     {
       title: " La trilogía: La Domesticación",
       imgSrc: catorce,
       direccion: "Luz Arcas",
-      lugar: "Teatro del Canal",
+      lugar: "Teatros del Canal",
       link: "/laDomesticacion",
     },
     {
       title: "La trilogía: La Buena Obra",
       imgSrc: trece,
       direccion: "Luz Arcas",
-      lugar: "Teatro del Canal",
+      lugar: "Teatros del Canal",
       link: "/buenaobra",
     },
     {
