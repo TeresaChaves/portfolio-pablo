@@ -38,21 +38,40 @@ function Home() {
     };
   }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1038);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const tres =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1800/v1742915843/PORTFOLIO%20ESCENOGRAFIA/marcela/A_marcela_lkyv4v.jpg",
     uno =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204257/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/BB_Los_nuestos_axwyyo.jpg",
     cuatro =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749637472/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1luma_lckjjs.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749640061/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1luma03_ltgurt.jpg",
+    cuatroMobile =
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749639892/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1luma03web_xps7jm.jpg", // ejemplo: reemplaza con la URL real si es distinta
     seis =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/f_auto,q_auto,w_1400/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     cinco =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg",
     dos =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/1_abwps6.png";
 
-  const images = [uno, dos, tres, cuatro, cinco, seis];
+  const images = [
+    uno,
+    dos,
+    tres,
+    isMobile ? cuatroMobile : cuatro, // cambio aquí
+    cinco,
+    seis,
+  ];
+
   const intervalDuration = 5000;
 
   useEffect(() => {
