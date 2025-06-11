@@ -44,7 +44,7 @@ function Home() {
     uno =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204257/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/BB_Los_nuestos_axwyyo.jpg",
     cuatro =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749636302/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1_irxqwp.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749637472/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1luma_lckjjs.jpg",
     seis =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     cinco =
