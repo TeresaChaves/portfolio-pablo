@@ -44,13 +44,13 @@ function Home() {
     uno =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749204257/PORTFOLIO%20ESCENOGRAFIA/1Los_Nuestros/BB_Los_nuestos_axwyyo.jpg",
     cuatro =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915702/PORTFOLIO%20ESCENOGRAFIA/elbanquete/0_krmgfm.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749636302/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1_irxqwp.jpg",
     seis =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     cinco =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg",
     dos =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749210188/PORTFOLIO%20ESCENOGRAFIA/2LasApariciones/A_Apariciones_1_2_-min_isz5if.png";
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/1_abwps6.png";
 
   const images = [uno, dos, tres, cuatro, cinco, seis];
   const intervalDuration = 5000;

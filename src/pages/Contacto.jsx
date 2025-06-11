@@ -20,7 +20,7 @@ function Contacto() {
         <div className="container-foto-contacto">
           <img
             className="img-contacto-contacto"
-            src="https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915708/PORTFOLIO%20ESCENOGRAFIA/elbanquete/IMG_1069_agecdj.jpg"
+            src="https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_800/v1742915708/PORTFOLIO%20ESCENOGRAFIA/elbanquete/IMG_1069_agecdj.jpg"
             alt="Pablo Chaves escenógrafo en España, contacto"
           />
         </div>

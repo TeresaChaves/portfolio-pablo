@@ -37,9 +37,9 @@
 }
 
 .uno-picture {
- border-radius: 500px 0px 0px 500px;
-    width: 80vw;
-    height: 62vh;
+  border-radius: 500px 0px 0px 500px;
+  width: 80vw;
+  height: 62vh;
 
   flex-shrink: 0;
   object-fit: cover;
@@ -140,13 +140,13 @@ h1 {
   flex-wrap: wrap;
 }
 .display-picture-home p {
-font-size: 20px;
-    font-weight: 300;
-    margin: 0;
-    padding: 4px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+  padding: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .animation-default {
@@ -189,19 +189,13 @@ font-size: 20px;
   transform-origin: bottom right;
 }
 
-
-
-
 @media only screen and (max-width: 1060px) {
-
   .uno-picture {
     width: 70vw;
     height: 52vh;
   }
- 
 }
 @media only screen and (max-width: 705px) {
-
   .display-picture-home {
     display: flex;
     justify-content: space-between;
@@ -239,6 +233,3 @@ font-size: 20px;
     margin-top: 30px;
   }
 }
-
-
-
