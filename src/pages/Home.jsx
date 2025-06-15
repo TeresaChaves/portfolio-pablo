@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Home() {
   useEffect(() => {
@@ -28,7 +29,6 @@ function Home() {
 
   useEffect(() => {
     const handleMouseMove = () => {
-      // Puedes ajustar el tiempo que la flecha permanece visible después de un movimiento del ratón
       setTimeout(() => {}, 2000); // 2000 milisegundos (2 segundos) en este ejemplo
     };
     window.addEventListener("mousemove", handleMouseMove);
@@ -57,9 +57,9 @@ function Home() {
     cuatroMobile =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1749639892/PORTFOLIO%20ESCENOGRAFIA/elbanquete/p1luma03web_xps7jm.jpg", // ejemplo: reemplaza con la URL real si es distinta
     seis =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/f_auto,q_auto,w_1400/upload/v1742915621/PORTFOLIO%20ESCENOGRAFIA/cucaracha/0_kies0u.jpg",
     cinco =
-      "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg",
+      "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1742915733/PORTFOLIO%20ESCENOGRAFIA/gaviotas/subir3_hqontk.jpg",
     dos =
       "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1742902914/PORTFOLIO%20ESCENOGRAFIA/ColaDePez/1_abwps6.png";
 
@@ -72,11 +72,9 @@ function Home() {
     seis,
   ];
 
-  // Agrega más imágenes según sea necesario
-  const intervalDuration = 5000; // Cambia esto para ajustar la velocidad del carrusel
+  const intervalDuration = 5000;
 
   useEffect(() => {
-    console.log("Efecto carrusel ejecutado");
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
@@ -84,29 +82,44 @@ function Home() {
     }, intervalDuration);
 
     return () => {
-      console.log("Limpiando intervalo");
       clearInterval(intervalId);
     };
   }, [images.length, intervalDuration]);
 
   return (
     <div style={{ fontFamily: "Lato, sans-serif" }}>
-      <section className="home-margin">
+      <Helmet>
+        <title>Pablo Chaves - Escenógrafo</title>
+        <meta
+          name="description"
+          content="Pablo Chaves Maza es un escenógrafo con formación en arquitectura y escenografía. Con experiencia en los principales teatros de España, ha trabajado en producciones destacadas, aportando su visión innovadora y técnica al diseño escénico."
+        />
+      </Helmet>
+      <h1
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          width: "1px",
+          height: "1px",
+          overflow: "hidden",
+        }}>
+        Pablo Chaves
+      </h1>
+      <section className="home-margin-home">
         <article className="display-picture-home">
           <div className="texto-foto">
-            <NavLink to="/proyectos">
+            <NavLink to="/proyectos-pablo-chaves">
               <p className="image-text">Proyectos</p>
             </NavLink>
 
-            <NavLink to="/proyectos"></NavLink>
-            <NavLink to="/biografia">
+            <NavLink to="biografia-pablo-chaves">
               <p className="image-text">Biografía</p>
             </NavLink>
-            <NavLink to="/contacto">
+            <NavLink to="/contacto-pablo-chaves">
               <p className="image-text">Contacto</p>
             </NavLink>
           </div>
-          <NavLink to="/proyectos">
+          <NavLink to="/proyectos-pablo-chaves">
             <div className="image-display">
               <img
                 className="uno-picture"
