@@ -122,7 +122,9 @@ function NavBar() {
             <h1 className={`text-navbar ${isTextVisible ? "visible" : ""}`}>
               {nombre}
             </h1>
-            {nombre === "PABLO CHAVES" && <p>escenógrafo</p>}
+            {nombre === "PABLO CHAVES" && (
+              <p className="header_subname">espacio escénico</p>
+            )}
           </a>
         </div>
       </div>
