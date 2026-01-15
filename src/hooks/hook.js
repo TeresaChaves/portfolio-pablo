@@ -1188,15 +1188,15 @@ export function useObraData() {
             </p>
             <p>
               Texto: <span>Aurora Parrilla </span> / Coreografía:{" "}
-              <span>Alba Blanco </span>
-            </p>{" "}
-            Espacio sonoro y composición <span>Kevin Dornan</span>
+              <span>Alba Blanco</span>
+            </p>
+            Espacio sonoro y composición:<span>Kevin Dornan</span>
             <p>
               Iluminación: <span>David Picazo / </span> Vestuario:{" "}
               <span>Paola de Diego </span>
             </p>
             <p>
-              Audiovisuales: : <span>Elvira Ruiz</span> Producción:{" "}
+              Audiovisuales:<span>Elvira Ruiz</span> Producción:{" "}
               <span>CDN</span>
             </p>
           </div>
