@@ -55,7 +55,7 @@ function Proyectos() {
   const dieciocho =
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749230587/PORTFOLIO%20ESCENOGRAFIA/4Matrimonio%20Blanco/B_Matrimonio_blanco-min_w9mcfd.jpg";
   const diecinueve =
-    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1768383984/PORTFOLIO%20ESCENOGRAFIA/4%C2%BA%20parte%20Historia%20de%20una%20maestra/L1047196_lym6kp.jpg";
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1768383980/PORTFOLIO%20ESCENOGRAFIA/4%C2%BA%20parte%20Historia%20de%20una%20maestra/1_bm1ojt.jpg";
   // Array de proyectos
   const proyectos = [
     {
