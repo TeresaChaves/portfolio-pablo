@@ -60,6 +60,8 @@ function NavBar() {
       setNombre("Los Nuestros");
     } else if (path === "/matrimonioBlanco") {
       setNombre("Matromonio Blanco");
+    } else if (path === "/historiaDeUnaMaestra") {
+      setNombre("Historia de una Maestra");
     } else {
       setNombre("PABLO CHAVES");
     }

@@ -1172,6 +1172,64 @@ export function useObraData() {
         </div>
       ),
     },
+    historiaDeUnaMaestra: {
+      ficha: "Historia de una Maestra || Pablo Chaves",
+      description: "Proyecto Matrimonio Blanco  escenografía de Pablo Chaves",
+      ficha: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">Estrenada en CDN en Teatro Valle Inclán</p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>Raquel Alarcón </span>y{" "}
+              <span>Laura Ortega </span>
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Aurora Parrilla </span> / Coreografía:{" "}
+              <span>Alba Blanco </span>
+            </p>{" "}
+            Espacio sonoro y composición <span>Kevin Dornan</span>
+            <p>
+              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
+              <span>Paola de Diego </span>
+            </p>
+            <p>
+              Audiovisuales: : <span>Elvira Ruiz</span> Producción:{" "}
+              <span>CDN</span>
+            </p>
+          </div>
+        </div>
+      ),
+      fichaMobile: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">Estrenada en CDN en Teatro Valle Inclán</p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>Raquel Alarcón </span>y{" "}
+              <span>Laura Ortega </span>
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Aurora Parrilla </span> / Coreografía:{" "}
+              <span>Alba Blanco </span>
+            </p>{" "}
+            Espacio sonoro y composición:<span>Kevin Dornan</span>
+            <p>
+              Iluminación: <span>David Picazo</span>/ Vestuario:{" "}
+              <span>Paola de Diego </span>
+            </p>
+            <p>
+              Audiovisuales: : <span>Elvira Ruiz</span> Producción:{" "}
+              <span>CDN</span>
+            </p>
+          </div>
+        </div>
+      ),
+    },
 
     default: {
       title: "Obra || Pablo Chaves",
