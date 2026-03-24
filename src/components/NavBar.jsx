@@ -62,6 +62,8 @@ function NavBar() {
       setNombre("Matromonio Blanco");
     } else if (path === "/historiaDeUnaMaestra") {
       setNombre("Historia de una Maestra");
+    } else if (path === "/tresNochesEnItaca") {
+      setNombre("Tres Noches en Ítaca");
     } else {
       setNombre("PABLO CHAVES");
     }

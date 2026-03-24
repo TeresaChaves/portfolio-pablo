@@ -1230,6 +1230,58 @@ export function useObraData() {
         </div>
       ),
     },
+    tresNochesEnItaca: {
+      ficha: "Tres Noches en Ítaca || Pablo Chaves",
+      description: "Proyecto Tres Noches en Ítaca escenografía de Pablo Chaves",
+      ficha: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">Estrenada en Nave 10, Matadero</p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>María Goiricelaya </span>{" "}
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Alberto Conejero </span>
+            </p>
+            Espacio sonoro y composición:<span>Kevin Dornan</span>
+            <p>
+              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
+              <span>Pablo Chaves </span>
+            </p>
+            <p>
+              Producción: <span>Nave 10 y Octubre producciones</span>
+            </p>
+          </div>
+        </div>
+      ),
+      fichaMobile: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">Estrenada en Nave 10, Matadero</p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>María Goiricelaya </span>{" "}
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Alberto Conejero </span>
+            </p>
+            Espacio sonoro y composición:<span>Kevin Dornan</span>
+            <p>
+              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
+              <span>Pablo Chaves </span>
+            </p>
+            <p>
+              Producción: <span>Nave 10 y Octubre producciones</span>
+            </p>
+          </div>
+        </div>
+      ),
+    },
 
     default: {
       title: "Obra || Pablo Chaves",

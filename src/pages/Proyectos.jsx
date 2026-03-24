@@ -56,8 +56,18 @@ function Proyectos() {
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1749230587/PORTFOLIO%20ESCENOGRAFIA/4Matrimonio%20Blanco/B_Matrimonio_blanco-min_w9mcfd.jpg";
   const diecinueve =
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1768383980/PORTFOLIO%20ESCENOGRAFIA/4%C2%BA%20parte%20Historia%20de%20una%20maestra/1_bm1ojt.jpg";
+  const veinte =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1774341969/PORTFOLIO%20ESCENOGRAFIA/tresNochesEnItaca/A_llzmyx.jpg";
+
   // Array de proyectos
   const proyectos = [
+    {
+      title: "Tres Noches en Ítaca",
+      imgSrc: veinte,
+      direccion: "María Goiricelaya",
+      lugar: "Nave 10, Matadero",
+      link: "/tresNochesEnItaca",
+    },
     {
       title: "Historia de una Maestra",
       imgSrc: diecinueve,
