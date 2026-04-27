@@ -533,7 +533,7 @@ export function useObraData() {
             <p>
               Dirección artística, coreografía, dramaturgia, espacio escénico:
               <span>Luz Arcas</span> Espacio escénico:{" "}
-              <span>: Luz Arcas y Pablo Chaves</span>
+              <span> Luz Arcas y Pablo Chaves</span>
             </p>
             <p>
               Acompañamiento artístico y dramatúrgico{" "}
@@ -1282,7 +1282,125 @@ export function useObraData() {
         </div>
       ),
     },
-
+    casiNingunaVerdad: {
+      ficha: "Casi Ninguna Verdad || Pablo Chaves",
+      description: "Proyecto Tres Noches en Ítaca escenografía de Pablo Chaves",
+      ficha: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">
+            Estrenada en CDN en Teatro Valle Inclán sala Nieva
+          </p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>Cris Blanco </span>{" "}
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Cris Blanco, Anto Rodríguez y Óscar Bueno </span>
+            </p>
+            <p>
+              Coreografía: <span>Maria Cabeza de Vaca </span>
+            </p>
+            Espacio sonoro y composición:<span>Óscar Bueno</span>
+            <p>
+              Iluminación: <span> CubeZ </span> Vestuario:{" "}
+              <span>Marta Orozco </span>
+            </p>
+            <p>
+              Producción: <span>CDN</span>
+            </p>
+          </div>
+        </div>
+      ),
+      fichaMobile: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">Estrenada en Nave 10, Matadero</p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>María Goiricelaya </span>{" "}
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Alberto Conejero </span>
+            </p>
+            Espacio sonoro y composición:<span>Kevin Dornan</span>
+            <p>
+              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
+              <span>Pablo Chaves </span>
+            </p>
+            <p>
+              Producción: <span>Nave 10 y Octubre producciones</span>
+            </p>
+          </div>
+        </div>
+      ),
+    },
+    laFlautaMagica: {
+      ficha: "Casi Ninguna Verdad || Pablo Chaves",
+      description: "Proyecto Tres Noches en Ítaca escenografía de Pablo Chaves",
+      ficha: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">
+            Estrenada en CDN en Teatro Valle Inclán sala Nieva
+          </p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>Raquel Alarcón </span>{" "}
+            </p>
+            <p>
+              Espacio escénico, vestuario y audiovisuales:{" "}
+              <span>Pablo Chaves</span>
+            </p>
+            <p>Música de Wolfgang A. Mozart (1756-1791)</p>
+            <p>
+              Producción del Real Teatro de Retiro, Teatro de la Maestranza de
+              Sevilla y el Teatro Principal de Ourense
+            </p>
+            Transcripción y elaboración musical: <span>Bruno Dozza</span>
+            <p>
+              Traducción y versión al español: <span>Susana Gómez</span>{" "}
+              Dirección musical: <span>Alexis Delgado</span>
+            </p>
+            <p>
+              Iluminación: <span>Pilar Valdelvira</span>
+            </p>
+          </div>
+        </div>
+      ),
+      fichaMobile: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">
+            Estrenada en CDN en Teatro Valle Inclán sala Nieva
+          </p>
+          <div className="container-ficha-centrada">
+            <p>
+              Dirección: <span>Cris Blanco </span>{" "}
+            </p>
+            <p>
+              Espacio escénico: <span>Pablo Chaves</span>
+            </p>
+            <p>
+              Texto: <span>Cris Blanco, Anto Rodríguez y Óscar Bueno </span>
+            </p>
+            <p>
+              Coreografía: <span>Maria Cabeza de Vaca </span>
+            </p>
+            Espacio sonoro y composición:<span>Óscar Bueno</span>
+            <p>
+              Iluminación: <span> CubeZ </span> Vestuario:{" "}
+              <span>Marta Orozco </span>
+            </p>
+            <p>
+              Producción: <span>CDN</span>
+            </p>
+          </div>
+        </div>
+      ),
+    },
     default: {
       title: "Obra || Pablo Chaves",
       description:

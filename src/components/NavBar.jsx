@@ -64,6 +64,10 @@ function NavBar() {
       setNombre("Historia de una Maestra");
     } else if (path === "/tresNochesEnItaca") {
       setNombre("Tres Noches en Ítaca");
+    } else if (path === "/casiNingunaVerdad") {
+      setNombre("Casi Ninguna Verdad");
+    } else if (path === "/laFlautaMagica") {
+      setNombre("La Flauta Mágica");
     } else {
       setNombre("PABLO CHAVES");
     }

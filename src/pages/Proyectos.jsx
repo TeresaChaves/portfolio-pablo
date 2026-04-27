@@ -58,9 +58,27 @@ function Proyectos() {
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1768383980/PORTFOLIO%20ESCENOGRAFIA/4%C2%BA%20parte%20Historia%20de%20una%20maestra/1_bm1ojt.jpg";
   const veinte =
     "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1774341969/PORTFOLIO%20ESCENOGRAFIA/tresNochesEnItaca/A_llzmyx.jpg";
+  const veintiuno =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1774361095/PORTFOLIO%20ESCENOGRAFIA/Casi%20Ninguna%20Verdad/Bok2_mfqzo9.jpg";
+  const veintidos =
+    "https://res.cloudinary.com/dlt2cjtvj/image/upload/f_auto,q_auto,w_1400/v1777298587/PORTFOLIO%20ESCENOGRAFIA/LaFlautaMagica/A1_kuy7oc.jpg";
 
   // Array de proyectos
   const proyectos = [
+    {
+      title: "La Flauta Mágica",
+      imgSrc: veintidos,
+      direccion: "Cris Blanco",
+      lugar: "Teatro Valle Inclán sala Nieva",
+      link: "/laFlautaMagica",
+    },
+    {
+      title: "Casi Ninguna Verdad",
+      imgSrc: veintiuno,
+      direccion: "Cris Blanco",
+      lugar: "Teatro Valle Inclán sala Nieva",
+      link: "/casiNingunaVerdad",
+    },
     {
       title: "Tres Noches en Ítaca",
       imgSrc: veinte,
