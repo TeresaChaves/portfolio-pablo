@@ -1316,63 +1316,6 @@ export function useObraData() {
       ),
       fichaMobile: (
         <div className="container-ficha-centrada">
-          <p className="name-ficha">Estrenada en Nave 10, Matadero</p>
-          <div className="container-ficha-centrada">
-            <p>
-              Dirección: <span>María Goiricelaya </span>{" "}
-            </p>
-            <p>
-              Espacio escénico: <span>Pablo Chaves</span>
-            </p>
-            <p>
-              Texto: <span>Alberto Conejero </span>
-            </p>
-            Espacio sonoro y composición:<span>Kevin Dornan</span>
-            <p>
-              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
-              <span>Pablo Chaves </span>
-            </p>
-            <p>
-              Producción: <span>Nave 10 y Octubre producciones</span>
-            </p>
-          </div>
-        </div>
-      ),
-    },
-    laFlautaMagica: {
-      ficha: "Casi Ninguna Verdad || Pablo Chaves",
-      description: "Proyecto Tres Noches en Ítaca escenografía de Pablo Chaves",
-      ficha: (
-        <div className="container-ficha-centrada">
-          <p className="name-ficha">
-            Estrenada en CDN en Teatro Valle Inclán sala Nieva
-          </p>
-          <div className="container-ficha-centrada">
-            <p>
-              Dirección: <span>Raquel Alarcón </span>{" "}
-            </p>
-            <p>
-              Espacio escénico, vestuario y audiovisuales:{" "}
-              <span>Pablo Chaves</span>
-            </p>
-            <p>Música de Wolfgang A. Mozart (1756-1791)</p>
-            <p>
-              Producción del Real Teatro de Retiro, Teatro de la Maestranza de
-              Sevilla y el Teatro Principal de Ourense
-            </p>
-            Transcripción y elaboración musical: <span>Bruno Dozza</span>
-            <p>
-              Traducción y versión al español: <span>Susana Gómez</span>{" "}
-              Dirección musical: <span>Alexis Delgado</span>
-            </p>
-            <p>
-              Iluminación: <span>Pilar Valdelvira</span>
-            </p>
-          </div>
-        </div>
-      ),
-      fichaMobile: (
-        <div className="container-ficha-centrada">
           <p className="name-ficha">
             Estrenada en CDN en Teatro Valle Inclán sala Nieva
           </p>
@@ -1398,6 +1341,62 @@ export function useObraData() {
               Producción: <span>CDN</span>
             </p>
           </div>
+        </div>
+      ),
+    },
+    laFlautaMagica: {
+      ficha: "Casi Ninguna Verdad || Pablo Chaves",
+      description: "Proyecto Tres Noches en Ítaca escenografía de Pablo Chaves",
+      ficha: (
+        <div className="container-ficha-centrada">
+          <p className="name-ficha">
+            <div className="container-ficha-centrada">
+              <p>
+                Dirección: <span>Raquel Alarcón </span>{" "}
+              </p>
+              <p>
+                Espacio escénico, vestuario y audiovisuales:{" "}
+                <span>Pablo Chaves</span>
+              </p>
+              <p>Música de Wolfgang A. Mozart (1756-1791)</p>
+              <p>
+                Producción del Real Teatro de Retiro, Teatro de la Maestranza de
+                Sevilla y el Teatro Principal de Ourense
+              </p>
+              Transcripción y elaboración musical: <span>Bruno Dozza</span>
+              <p>
+                Traducción y versión al español: <span>Susana Gómez</span>{" "}
+                Dirección musical: <span>Alexis Delgado</span>
+              </p>
+              <p>
+                Iluminación: <span>Pilar Valdelvira</span>
+              </p>
+            </div>
+          </p>
+        </div>
+      ),
+      fichaMobile: (
+        <div className="container-ficha-centrada">
+          <p>
+            Dirección: <span>Raquel Alarcón </span>{" "}
+          </p>
+          <p>
+            Espacio escénico, vestuario y audiovisuales:{" "}
+            <span>Pablo Chaves</span>
+          </p>
+          <p>Música de Wolfgang A. Mozart (1756-1791)</p>
+          <p>
+            Producción del Real Teatro de Retiro, Teatro de la Maestranza de
+            Sevilla y el Teatro Principal de Ourense
+          </p>
+          Transcripción y elaboración musical: <span>Bruno Dozza</span>
+          <p>
+            Traducción y versión al español: <span>Susana Gómez</span> Dirección
+            musical: <span>Alexis Delgado</span>
+          </p>
+          <p>
+            Iluminación: <span>Pilar Valdelvira</span>
+          </p>
         </div>
       ),
     },
