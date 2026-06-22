@@ -68,8 +68,8 @@ function Proyectos() {
     {
       title: "La Flauta Mágica",
       imgSrc: veintidos,
-      direccion: "Cris Blanco",
-      lugar: "Teatro Valle Inclán sala Nieva",
+      direccion: "Raquel Alarcón",
+      lugar: "Teatro Real Retiro",
       link: "/laFlautaMagica",
     },
     {
@@ -97,7 +97,7 @@ function Proyectos() {
       title: "Los Nuestros",
       imgSrc: quince,
       direccion: "Lucía Carballal",
-      lugar: "Centro Dramático Nacional",
+      lugar: "CDN Teatro Valle Inclán",
       link: "/losNuestros",
     },
     {

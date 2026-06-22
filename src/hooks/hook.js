@@ -1246,10 +1246,9 @@ export function useObraData() {
             <p>
               Texto: <span>Alberto Conejero </span>
             </p>
-            Espacio sonoro y composición:<span>Kevin Dornan</span>
+
             <p>
-              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
-              <span>Pablo Chaves </span>
+              Vestuario: <span>Pablo Chaves </span>
             </p>
             <p>
               Producción: <span>Nave 10 y Octubre producciones</span>
@@ -1270,10 +1269,9 @@ export function useObraData() {
             <p>
               Texto: <span>Alberto Conejero </span>
             </p>
-            Espacio sonoro y composición:<span>Kevin Dornan</span>
+
             <p>
-              Iluminación: <span>David Picazo / </span> Vestuario:{" "}
-              <span>Pablo Chaves </span>
+              Vestuario: <span>Pablo Chaves </span>
             </p>
             <p>
               Producción: <span>Nave 10 y Octubre producciones</span>
